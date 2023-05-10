@@ -1,0 +1,2 @@
+# Enviornment awareness
+
