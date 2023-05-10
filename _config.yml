@@ -5,13 +5,15 @@ copyright: "2023 (CC-BY-NC except where otherwise stated)"
 
 repository:
   url: https://github.com/UNISvalbard/Geo-AUV
+  branch: main
+
 
 html:
   use_issues_button: true
-  use_repository_button: false
+  use_repository_button: true
   extra_navbar: ""
   use_edit_page_button: true
-  announcement: 'Found this tutorial helpful? Please participate in the survey (<a href="https://unisvalbard.github.io/AG222/content/survey.html">click here</a>) & Star me!        <iframe src="https://ghbtns.com/github-btn.html?user=UNISvalbard&repo=AG222&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
+  announcement: 'Found this tutorial helpful? Please participate in the survey (<a href="https://unisvalbard.github.io/Geo-UAV/content/survey.html">click here</a>) & Star me!        <iframe src="https://ghbtns.com/github-btn.html?user=UNISvalbard&repo=Geo-UAV&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>'
   home_page_in_navbar: Sign up for the <a href="https://www.unis.no/course/ag-222-integrated-geological-methods-from-outcrop-to-geomodel/">UNIS AG222 course</a>
 
 launch_buttons:
