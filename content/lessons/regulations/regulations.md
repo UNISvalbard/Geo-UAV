@@ -82,9 +82,16 @@ Execution Regulation (EU) 2019/947 defines two standard scenarios in which certa
 
 European Standard Scenarios:
 - STS-01: VLOS over a controlled ground area in a populated environment.
-- STS-02: BVLOS with Airspace Observers over a controlled.
+- STS-02: BVLOS operations with airspace observers over a controlled area on ground in a sparsely populated environment.
 
 #### STS-01
-
+```{admonition} Under construction!
+:class: warning
+The Geo-UAV Questionnaire is still under construction.
+```
 
 #### STS-02
+```{admonition} Under construction!
+:class: warning
+The Geo-UAV Questionnaire is still under construction.
+```
