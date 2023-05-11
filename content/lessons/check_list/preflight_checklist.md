@@ -1,9 +1,8 @@
 # AUV pre-flight check list
-The pre-flight check list, is made to ensure safe, legal and effective UAV operations. It can be the difference between a successful opearation and a failed campaign. Therefore, it is essential to run it before each flight.
-The pre-flight check list includes from physical equipment checks to validation of required documents that AUV pilots need before the AUV takes flight. This helps reduce the risk and uncertainty of physical damage of property, injuries, flyaways, and costly lawsuits, or simply a failed acquisition campaign.
+To ensure safe and successful UAV operations, it is crucial to run a pre-flight check list before each flight. This list covers physical equipment checks and validation of required documents that AUV pilots need. By following this checklist, the risk of physical damage to property, injuries, flyaways, costly lawsuits, and failed acquisition campaigns can be reduced. Neglecting to follow the pre-flight check list could mean the difference between a successful operation and a failed campaign.
 
 ## 6-point AUV pre-flight check guide for pilots
-AUV regulations require pilots to conduct AUV pre-flight checks to ensure that the equipment and the flying conditions are in the ideal state. The list will also include common problems and preventative measures you should be taking to ensure you are doing everything you can to mitigate risk and streamline your flight process.
+Before flying an AUV, pilots must conduct pre-flight checks to comply with regulations and ensure that the equipment and flying conditions are optimal. The checklist will also outline potential issues and steps to minimize risk and make the flight process more efficient.
 
 Here we suggest a 5-point guide AUV pilots can refer to for conducting effective AUV pre-flight checks:
 1. Flying conditions
@@ -14,13 +13,11 @@ Here we suggest a 5-point guide AUV pilots can refer to for conducting effective
 6. Pre-launch check
 
 #### 1. Check the flying conditions and the itinerary
-It is important to check the weather. The forecast can help, but in places such as Svalbard the weather can be unpredictable and highly problematic for drone operations, so you have to assess the proper conditions once in the field.
+Checking the weather is crucial, especially in areas with unpredictable weather like Svalbard. Before flying AUVs, it is important to assess the conditions on site. Avoid flying in high winds, very low temperatures, low clouds, fog, or precipitation. Visibility should be consistent throughout the expected range of operation and pilot certificate. 
 
-High winds, very low temperature, low clouds, fog or precipitation are not suitable conditions for flying AUVs. The  visibility has to be consistent throughout the expected range of operation and pilot certificate.
+Discuss the flight plan with your co-pilot and have a clear plan in place. You will be limited by the number of batteries, battery life of the controller, memory card space, etc. Therefore, having a predefined flight plan is crucial for efficiency and ensuring complete coverage of the area. 
 
-Discuss with your co-pilot and have a clear plan of the flight plan. Once in the field you will be limited by the number of batteries, battery life of the controler, space in the memmory card, etc. Therefore, it is important to have a clear predefined flight plan to be efficient and do not leave areas uncovered.
-
-If the weather changes suddenly and it disrupts your AUV operation, land the AUV as soon as possible to minimize risks.
+If the weather suddenly changes and disrupts AUV operations, land the AUV as soon as possible to minimize risks.
 
 ```{admonition} Certificate regulations
 :class: warning
@@ -36,13 +33,13 @@ Never fly over stadiums, crowds, near emergency response efforts, and within the
 ```
 
 #### 2. Secure the necessary documentation before AUV operation
-Always have your AUV pilot certificate with you and keep it during the AUV operation. You have to be able to show it in case of an inspection.
+To ensure compliance during AUV operations, it's important to keep your AUV pilot certificate and identification tag with you at all times. You have to be able to show it in case of an inspection.
 
 The operating UAV needs an identification tag and has to be insured.
 
 Clear records of flight objectives are important for compliance, and a process which factors in this information can lead to useful datasets further down the line.
 
-If you apply for a specific flying permit, you can only perform the flight operation if the permission is granted. You need to have waiver or document of authorization with you at all times.
+If you're applying for a specific flying permit, you'll need to have a waiver or document of authorization with you at all times, and you can only perform the flight operation if permission is granted.
 
 ```{admonition} Commercial use
 :class: note
@@ -51,28 +48,27 @@ Pilots operating UAVs for commercial use should secure a commercial UAV license 
 
 ```{admonition} Pre-flight template
 :class: tip
-If you use a pre-flight template, make sure to state: Flight purpose, Dates of flight
+If you use a pre-flight template, make sure to state: Pilot name, Registration number, Date of flight, Location, Drone model, Drone ID number, Flight purpose, Additional authorisations (if required)
 ```
 
 #### 3. Know and comply with specific AUV operation laws in the area you are flying
-Airspace authorizations allow you to fly in otherwise restricted areas, like those governed by Air Traffic Control (ATC) regulations or other operations.
-Research the specific set of AUV laws in the area you intend to fly your AUV in and make sure to comply with them. 
+To fly in restricted areas governed by Air Traffic Control (ATC) regulations or other operations, you need to obtain airspace authorizations. It's important to research the specific AUV laws in the area where you plan to fly and comply with them.
 
 When flying in [Longyearbyen](https://unisvalbard.github.io/Geo-UAV/content/lessons/environment/longyearbyen.html) you have to be aware of certain rules that apply around town.
 
 #### 4. Ensure that the AUV is fit for flight
-Carefully go through the AUV pre-flight checklist and check every part of the AUV to see any signs of damage or obstruction. Structural damage can appear anywhere on the drone unit in the form of small cracks or dings. Inspect every component (chassis, propellers, motors, gimbal, indicator lights, screws, batteries, etc.) carefully for visual damage and check off each one as you go. After the whole unit has been inspected, make a note if anything needs to be replaced or repaired.
+Before launching the AUV, it is essential to carefully inspect every component for any signs of damage or obstruction. This includes checking the chassis, propellers, motors, gimbal, indicator lights, screws, batteries, and other parts for cracks, dings, or other visual damage. After inspecting the entire unit, make a note of anything that needs to be repaired or replaced.
 
-Dirt and debris can cause parts of your system to malfunction or behave unexpectedly. Checking and careful cleaning of specific areas should be performed after structural damage inspections.
+Dirt and debris can cause malfunctions, so it is important to clean specific areas carefully after the structural damage inspections.
 
-Ensure that batteries are adequately charged. Maintaining a minimum of 75% charge per battery should help to reduce power-critical mission failure, and spares should be on hand for each unit to reduce time lost to charging. Be sure to ensure all battery packs are securely fixed into position before launch.
+To avoid power-critical mission failure, ensure that the batteries are adequately charged with a minimum of 75% charge per battery. It is also recommended to have spare batteries on hand for each unit to reduce time lost to charging. Make sure that all battery packs are securely fixed into position before launching.
 
-Check camera settings and make sure that the memory card has enough space.
+Finally, check the camera settings and ensure that the memory card has enough space for the mission.
 
 #### 5. AUV Calibration
 
 ##### 5.1. Check and update firmware
-It is essential to upgrade the firmware to ensure that your drone is always calibrated in terms of connectivity, navigation, and behavior. Drone firmware is also important to ensure that your drone complies with no-fly zone requirements.
+To keep your drone connected, navigate correctly, and behave properly, it's crucial to update its firmware regularly. Plus, firmware updates help ensure your drone follows no-fly zone regulations.
 
 ```{admonition} Internet connection
 :class: note
@@ -80,14 +76,14 @@ It is very important to check the AUV firmware in a place with Internet connecti
 ```
 
 ##### 5.2. Calibration
-Especially when changing locations, interference can cause problems with your compass. Calibrating your compass is often as easy as accessing an in-app command and waiting for the software to do its job. Make sure you consult your model-specific manual for the exact process.
+If you're changing locations, your compass may experience interference and cause problems. Luckily, calibrating it is usually a breeze - just access the in-app command and let the software do its thing. Be sure to check your model-specific manual for the exact steps.
 
-Your drone's Inertial Measurement Unit (IMU) is a system which uses a combination of accelerometers and gyroscopes, sometimes also magnetometers, to calculate angular velocity and linear acceleration. Calibrating your IMU is simple, despite the complexity of these instruments, calibration is all done by software running on your drone or control station modules.
+Your drone's Inertial Measurement Unit (IMU) is a complex system that calculates angular velocity and linear acceleration using accelerometers, gyroscopes, and sometimes magnetometers. Despite its complexity, calibrating the IMU is a simple process that can be done using software on your drone or control station modules.
 
 ```{figure} assets/XXXXX/XXXXX.gif
 :name: Example of AUV calibration in the field
 
-This is an example of AUV calibration in the field, also called _Drone Dance!_. Select the "Calibration" option in the controller and follow the instructions that appear in the screen. First rotate the AUV in a horizontal plane and afterwards move the AUV 90 degrees and continue rotating it in the sample plane.
+This is an example of AUV calibration in the field, also called _Drone Dance!_. To begin, select the "Calibration" option on the controller and follow the instructions that appear on the screen. Start by rotating the AUV horizontally, then move it 90 degrees and continue rotating it in the same plane until the controller indicates that the calibration is complete.
 ```
 
 ```{admonition} Instruments calibration
@@ -96,8 +92,8 @@ Instruments should not be re-calibrated unless specifically observed to be worki
 ```
 
 #### 6. Pre-launch check
-Now that almost everything has been checked, it's important to observe the launch area and locate the most suitable launch site.
+After completing all necessary checks, it is crucial to carefully survey the launch area and select the optimal spot for takeoff.
 
-Ideally, the drone will want to be set on an even surface, with nothing obstructing the area immediately above or around it.
+The drone should ideally be placed on a level surface, with no obstructions in the surrounding area.
 
-If the weather is not good enough to safely perform the AUV operation, some documentation is missing, or any of the points of the pre-flight check list are not in accordance to the flying regulations, you will need to schedule a flight.
+In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to schedule a flight.
