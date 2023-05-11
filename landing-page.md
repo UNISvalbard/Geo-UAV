@@ -6,13 +6,15 @@ This course is designed for students, as well as scientific and technical staff 
 ### About Geo-AUV
 [Geo-AUV](https://unisvalbard.github.io/Geo-AUV/landing-page.html) is an open-source reference work for the AUV-based data acquisition in the field.
 
+Unmanned Aerial Vehicles, also known as UAVs, are being used extensively for recreational, commercial, academic, and government purposes. They are particularly useful in geosciences to survey large areas accurately and efficiently. This course offers guidelines on how to acquire scientifically publishable data using UAVs in a safe and legal manner.
+
 The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).
 
 ### Course content
 Geo-AUV course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.
 - [Flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html)
-- [Pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/check_list.html)
-- [How to fly an AUV (manual and auto)](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
+- [Pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)
+- [How to fly an AUV](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
 - [Design of a flight plan](https://unisvalbard.github.io/Geo-UAV/content/lessons/flightplan/flightplan.html)
 - [Data acquisition](https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html)
 - [Questionnaire](https://unisvalbard.github.io/Geo-UAV/content/survey.html)

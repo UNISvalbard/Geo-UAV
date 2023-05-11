@@ -1,2 +1,2 @@
-# Enviornment awareness
+# Data acquisition
 

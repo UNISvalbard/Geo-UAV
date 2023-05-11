@@ -1,13 +1,15 @@
 # UAV flight regulations
 The flying regulations in the European Union are established by EASA ([European Union Aviation Safety Agency](https://www.easa.europa.eu/en)). Norway follows the same regulations as the rest of the EU state members.
 
+```{admonition} Data source
+:class: warning
+This is a compilation of the standarised rules published by [European Union Aviation Safety Agency](https://www.easa.europa.eu/en/light/topics/drones).
+```
+
 ## UAV operation categories
-**OPEN**
-Low risk operation. No need of authorisation nor declaration.
-**SPECIFIC**
-Higher risk. Need to declare the Standard Scenarios (STS) or authorization.
-**CERTIFIED**
-High risk. Similar regulations to manned aviation.
+- OPEN: Low risk operation. No need of authorisation nor declaration.
+- SPECIFIC: Higher risk. Need to declare the Standard Scenarios (STS) or authorization.
+- CERTIFIED: High risk. Similar regulations to manned aviation.
 
 ### Open Category
 The open category has three subcategories: A1, A2 and A3. In A1 you can fly small UAVs, which can be used above and near individuals. In A2 you can fly medium-sized UAVs with a defined distance from individuals and crowds. Larger UAVs in the open category are flown in subcategory A3 and away from people, buildings and recreational areas.
@@ -87,11 +89,11 @@ European Standard Scenarios:
 #### STS-01
 ```{admonition} Under construction!
 :class: warning
-The Geo-UAV Questionnaire is still under construction.
+The Geo-UAV STS-01 module is still under construction.
 ```
 
 #### STS-02
 ```{admonition} Under construction!
 :class: warning
-The Geo-UAV Questionnaire is still under construction.
+The STS-02 module is still under construction.
 ```
