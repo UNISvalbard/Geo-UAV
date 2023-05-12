@@ -10,6 +10,7 @@ parts:
 - caption: SESSION 2
   chapters:
   - file: content/lessons/check_list/preflight_checklist.md
+  - file: content/lessons/check_list/postflight_checklist.md
 
 - caption: SESSION 3
   chapters:
@@ -21,6 +22,7 @@ parts:
   - file: content/lessons/flightplan/flightplan.md
   - file: content/lessons/environment/environment.md
   - file: content/lessons/environment/longyearbyen.md
+  - file: content/lessons/sora/sora.md
 
 - caption: SESSION 5
   chapters:

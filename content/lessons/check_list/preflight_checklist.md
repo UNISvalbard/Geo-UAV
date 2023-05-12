@@ -12,7 +12,7 @@ Here we suggest a 5-point guide UAV pilots can refer to for conducting effective
 5. UAV Calibration
 6. Pre-launch check
 
-#### 1. Check the flying conditions and the itinerary
+### 1. Check the flying conditions and the itinerary
 Checking the weather is crucial, especially in areas with unpredictable weather like Svalbard. Before flying UAVs, it is important to assess the conditions on site. Avoid flying in high winds, very low temperatures, low clouds, fog, or precipitation. Visibility should be consistent throughout the expected range of operation and pilot certificate. 
 
 Discuss the flight plan with your co-pilot and have a clear plan in place. You will be limited by the number of batteries, battery life of the controller, memory card space, etc. Therefore, having a predefined flight plan is crucial for efficiency and ensuring complete coverage of the area. 
@@ -32,7 +32,7 @@ Never fly over stadiums, crowds, near emergency response efforts, and within the
 3. Is precipitation within an acceptable range?
 ```
 
-#### 2. Secure the necessary documentation before UAV operation
+### 2. Secure the necessary documentation before UAV operation
 To ensure compliance during UAV operations, it's important to keep your UAV pilot certificate and identification tag with you at all times. You have to be able to show it in case of an inspection.
 
 The operating UAV needs an identification tag and has to be insured.
@@ -51,12 +51,12 @@ Pilots operating UAVs for commercial use should secure a commercial UAV license 
 If you use a pre-flight template, make sure to state: Pilot name, Registration number, Date of flight, Location, Drone model, Drone ID number, Flight purpose, Additional authorisations (if required)
 ```
 
-#### 3. Know and comply with specific UAV operation laws in the area you are flying
+### 3. Know and comply with specific UAV operation laws in the area you are flying
 To fly in restricted areas governed by Air Traffic Control (ATC) regulations or other operations, you need to obtain airspace authorizations. It's important to research the specific UAV laws in the area where you plan to fly and comply with them.
 
 When flying in [Longyearbyen](https://unisvalbard.github.io/Geo-UAV/content/lessons/environment/longyearbyen.html) you have to be aware of certain rules that apply around town.
 
-#### 4. Ensure that the UAV is fit for flight
+### 4. Ensure that the UAV is fit for flight
 Before launching the UAV, it is essential to carefully inspect every component for any signs of damage or obstruction. This includes checking the chassis, propellers, motors, gimbal, indicator lights, screws, batteries, and other parts for cracks, dings, or other visual damage. After inspecting the entire unit, make a note of anything that needs to be repaired or replaced.
 
 Dirt and debris can cause malfunctions, so it is important to clean specific areas carefully after the structural damage inspections.
@@ -65,9 +65,9 @@ To avoid power-critical mission failure, ensure that the batteries are adequatel
 
 Finally, check the camera settings and ensure that the memory card has enough space for the mission.
 
-#### 5. UAV Calibration
+### 5. UAV Calibration
 
-##### 5.1. Check and update firmware
+#### 5.1. Check and update firmware
 To keep your drone connected, navigate correctly, and behave properly, it's crucial to update its firmware regularly. Plus, firmware updates help ensure your drone follows no-fly zone regulations.
 
 ```{admonition} Internet connection
@@ -75,13 +75,13 @@ To keep your drone connected, navigate correctly, and behave properly, it's cruc
 It is very important to check the UAV firmware in a place with Internet connection to be able to download and istall the proper software upgrades. Not checking this in advance could result on not being able to take-off in the field and cancelling the whole UAV data acquisition campaign.
 ```
 
-##### 5.2. Calibration
+#### 5.2. Calibration
 If you're changing locations, your compass may experience interference and cause problems. Luckily, calibrating it is usually a breeze - just access the in-app command and let the software do its thing. Be sure to check your model-specific manual for the exact steps.
 
 Your drone's Inertial Measurement Unit (IMU) is a complex system that calculates angular velocity and linear acceleration using accelerometers, gyroscopes, and sometimes magnetometers. Despite its complexity, calibrating the IMU is a simple process that can be done using software on your drone or control station modules.
 
-```{figure} assets/XXXXX/XXXXX.gif
-:name: Example of UAV calibration in the field
+```{video} assets/dronedance.mp4
+:name: dronedance
 
 This is an example of UAV calibration in the field, also called _Drone Dance!_. To begin, select the "Calibration" option on the controller and follow the instructions that appear on the screen. Start by rotating the UAV horizontally, then move it 90 degrees and continue rotating it in the same plane until the controller indicates that the calibration is complete.
 ```
@@ -91,7 +91,7 @@ This is an example of UAV calibration in the field, also called _Drone Dance!_. 
 Instruments should not be re-calibrated unless specifically observed to be working incorrectly. This is to reduce human error and likelihood of an improper re-calibration.
 ```
 
-#### 6. Pre-launch check
+### 6. Pre-launch check
 After completing all necessary checks, it is crucial to carefully survey the launch area and select the optimal spot for takeoff.
 
 The drone should ideally be placed on a level surface, with no obstructions in the surrounding area.
