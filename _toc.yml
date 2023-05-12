@@ -2,6 +2,10 @@ format: jb-book
 root: landing-page.md
 
 parts:
+- caption: INTRODUCTION
+  chapters:
+  - file: content/lessons/intro/intro.md
+
 - caption: SESSION 1
   chapters:
   - file: content/lessons/regulations/regulations.md
