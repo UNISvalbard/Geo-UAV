@@ -80,10 +80,11 @@ If you're changing locations, your compass may experience interference and cause
 
 Your drone's Inertial Measurement Unit (IMU) is a complex system that calculates angular velocity and linear acceleration using accelerometers, gyroscopes, and sometimes magnetometers. Despite its complexity, calibrating the IMU is a simple process that can be done using software on your drone or control station modules.
 
-```{video} assets/dronedance.mp4
-:name: dronedance
 
-This is an example of UAV calibration in the field, also called _Drone Dance!_. To begin, select the "Calibration" option on the controller and follow the instructions that appear on the screen. Start by rotating the UAV horizontally, then move it 90 degrees and continue rotating it in the same plane until the controller indicates that the calibration is complete.
+```{admonition} Drone Dance!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l4xhdfJWr3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+_This is an example of a DJI UAV calibration in the field, also called _Drone Dance!_. To begin, select the "Calibration" option on the controller and follow the instructions that appear on the screen. Start by rotating the UAV horizontally, then move it 90 degrees and continue rotating it in the same plane until the controller indicates that the calibration is complete._
 ```
 
 ```{admonition} Instruments calibration
