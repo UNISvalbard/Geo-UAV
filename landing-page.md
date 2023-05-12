@@ -11,7 +11,7 @@ Unmanned Aerial Vehicles, also known as UAVs, are being used extensively for rec
 The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).
 
 ### Course content
-Geo-UAV course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.
+Geo-UAV course is split in several sessions, consisting of interactive lectures walkthroughs, and exercises.
 - [Flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html)
 - [Pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)
 - [How to fly an UAV](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
