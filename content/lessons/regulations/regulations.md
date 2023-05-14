@@ -11,6 +11,13 @@ This is a compilation of the standarised rules published by [European Union Avia
 - SPECIFIC: Higher risk. Need to declare the Standard Scenarios (STS) or authorization.
 - CERTIFIED: High risk. Similar regulations to manned aviation.
 
+```{figure} assets/dronecategories.png
+:name: dronecategories
+
+A visual representation of the adopted three categories of UAV operations. Figure published by Konert et al., 2020.
+```
+
+
 ### Open Category
 The open category has three subcategories: A1, A2 and A3. In A1 you can fly small UAVs, which can be used above and near individuals. In A2 you can fly medium-sized UAVs with a defined distance from individuals and crowds. Larger UAVs in the open category are flown in subcategory A3 and away from people, buildings and recreational areas.
 

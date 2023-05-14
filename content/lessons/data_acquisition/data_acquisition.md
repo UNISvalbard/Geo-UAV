@@ -15,6 +15,11 @@ The principle of the triangle suggests that of the three points, you can only ha
 
 The data acquisition stage also contains processes during which we collect additional data, for example, [Ground Control Points (GCPs)](https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html).
 
+```{admonition} Learn how to fly
+:class: warning
+In order to collect virtual outcrop data, it's important to have expertise in operating a UAV, or in other words, that you know how to fly. Don't rely on the availability of automated mapping software to do this for you.
+```
+
 ## Types of UAV
 
 ```{admonition} Data source
@@ -22,22 +27,21 @@ The data acquisition stage also contains processes during which we collect addit
 Most of the pieces of information in this section have been published by Howell et al., 2021.
 ```
 
-There is a wide range of UAVs available on the market, with a spectrum of features and pricings covering hobbyists through to professional and scientific niches. Whilst high end UAVs which can carry full-frame single lens reflex (SLR) cameras may be necessary in certain cases, most people starting out in virtual outcrop modelling will probably do so with multirotors in the spectum of the DJI Mavic series or DJI Phantom series (Howell et al., 2021).
-
-Fixed wing drones have also been used to good effect in some cases with horizontal outcrops and they have the advantage of covering large areas rapidly. However, they are limited by having only a nadir (down-facing) camera, are commonly expensive and require mission planning and execution which is not always ideal for fieldwork (Howell et al., 2021). 
+The market offers a wide selection of UAVs, each with different features and price ranges suitable for hobbyists, professionals, and scientific purposes. When it comes to virtual outcrop modelling, multirotors like the DJI Mavic series or DJI Phantom series are ideal for beginners. While fixed wing drones are useful for horizontal outcrops and can cover large areas quickly, they come with a few limitations such as having only a downward-facing camera, being expensive, and requiring mission planning that may not always be suitable for fieldwork.
 
 ```{admonition} DJI Mavic Series
 :class: note
 This module focusses on DJI Mavic Series. However, it is applicable to other brands and multirotor UAVs with small technical differences.
 ```
 
-The basic requirements for a UAV for photogrammetric modelling of geological outcrops are:
-1. The UAV can be piloted manually with a live camera feed.
-2. The UAV should be stable in the wind and have satellite (e.g. Global Positioning System; GPS) assisted positioning -some much cheaper units are mainly suitable for flying indoors and lack this.
-3. The UAV should have a range of at least 500 m. The max distance for line of sight flying in most countries is 500 m, but the unit should be able to achieve this comfortably. 
-4. The camera should be of good quality with a range of controls (speed, aperture, etc). The DJI Phantom 4 Pro and Mavic Pro 2 havea 20mb 1-inch sensor that produces excellent results. Good results can also be obtained from the slightly smaller, 12mb sensor on the smaller Mavics and older Phantoms. 
-5. The camera needs a timelapse function (intervalometer) which allows you to take photos at preset intervals (normally 3 to 5 seconds). 
-6. The camera needs to be linked to the navigation system, such that the position of the UAV is recorded when each photo is taken.
+To effectively use a UAV for photogrammetric modelling of geological outcrops, there are certain requirements that need to be met. These include:
+
+1. The UAV should have the ability to be piloted manually while providing a live camera feed.
+2. The UAV should be stable in windy conditions and have satellite-assisted positioning. Cheaper units that lack these features are only suitable for indoor flying.
+3. The UAV should have a range of at least 500 meters, which is the maximum distance for line of sight flying in most countries. The unit should be capable of achieving this comfortably.
+4. The camera should be of good quality and have various controls like speed, aperture, etc. The DJI Phantom 4 Pro and Mavic Pro 2 have a 20-megapixel 1-inch sensor that produces excellent results. Good results can also be achieved with slightly smaller sensors like the 12-megapixel sensor on smaller Mavics and older Phantoms.
+5. The camera must have a timelapse function (intervalometer) that allows for taking photos at preset intervals (normally 3 to 5 seconds).
+6. The camera should be linked to the navigation system so that the UAV's position is recorded when each photo is taken.
 
 ### Limitations of UAV systems
 
