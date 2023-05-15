@@ -2,29 +2,39 @@ format: jb-book
 root: landing-page.md
 
 parts:
-- caption: Flight regulations
+- caption: INTRODUCTION
+  chapters:
+  - file: content/lessons/intro/intro.md
+
+- caption: SESSION 1
   chapters:
   - file: content/lessons/regulations/regulations.md
+  - file: content/lessons/regulations/operator_registration.md
 
-- caption: Pre-flight check list
+- caption: SESSION 2
   chapters:
-  - file: content/lessons/check_list/check_list.md
+  - file: content/lessons/check_list/preflight_checklist.md
+  - file: content/lessons/check_list/postflight_checklist.md
 
-- caption: How to fly an UAV (manual and auto)
+- caption: SESSION 3
   chapters:
   - file: content/lessons/howto_fly/howto_fly.md
   - file: content/lessons/flight_simulator/flight_simulator.md
+#   - file: content/lessons/howto_fly/howto_fly_fixwing.md
+#   - file: content/lessons/howto_fly/howto_fly_vtol.md
 
-- caption: Desing your flight plan
+- caption: SESSION 4
   chapters:
   - file: content/lessons/flightplan/flightplan.md
   - file: content/lessons/environment/environment.md
+  - file: content/lessons/environment/longyearbyen.md
+  - file: content/lessons/sora/sora.md
 
-- caption: Data acquisition
+- caption: SESSION 5
   chapters:
   - file: content/lessons/data_acquisition/data_acquisition.md
 
-- caption: Questionnaire
+- caption: QUESTIONNAIRE
   chapters:
   - file: content/survey.md
 
