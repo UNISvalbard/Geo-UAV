@@ -21,6 +21,7 @@ parts:
   - file: content/lessons/howto_fly/howto_fly.md
   - file: content/lessons/flight_simulator/flight_simulator.md
 #   - file: content/lessons/howto_fly/howto_fly_fixwing.md
+#   - file: content/lessons/howto_fly/howto_fly_vtol.md
 
 - caption: SESSION 4
   chapters:
