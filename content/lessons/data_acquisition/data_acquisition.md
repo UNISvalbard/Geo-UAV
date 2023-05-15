@@ -3,7 +3,7 @@ The initial phase of UAV-based photogrammetry is data acquisition, which involve
 
 When acquiring data in the field, it's crucial to consider the requirements for acquisition. Like any project, there's a connection between time, quality, and costs. Time refers to the available period for data collection, cost represents the necessary resources, and quality represents the resolution and fit-to-purpose that we want for our DEM or 3D model.
 
-Let's exemplify it. If you want a very high-resolution model, you will have to spend significant time acquiring good-quality data, and you will need many resources such as a high-quality camera and UAV, batteries for your UAV and controller, images in your memory card, etc. Suppose you have very little time to properly acquire data. In that case, the quality of the model will be very poor unless you use extremely expensive resources such as multiple multirotors flying simultaneously or predefined flights with a vertical take-off and landing (VTOL) UAV containing a very high-resolution camera. If you are limited by the resources, let's say, by only having one battery for your UAV, the time you will be able to spend acquiring data will be low, and you will either not cover the entire area that you want or collect general images ending up having a low-resolution model.
+Let's exemplify it. If you want a very high-resolution model of an outcrop, you will have to spend significant time acquiring good-quality data, and you will need many resources such as a high-quality camera and UAV, batteries for your UAV and controller, images in your memory card, etc. Suppose you have very little time to properly acquire data. In that case, the quality of the model will be very poor unless you use extremely expensive resources such as multiple multirotors flying simultaneously or predefined flights with a vertical take-off and landing (VTOL) UAV containing a very high-resolution camera. If you are limited by the resources, let's say, by only having one battery for your UAV, the time you will be able to spend acquiring data will be low, and you will either not cover the entire area that you want or collect general images ending up having a low-resolution model.
 
 Therefore, when collecting data in the field, it's vital to assess the resolution you need, the resources you have, and the time you can invest in flying to achieve the best possible data.
 
@@ -47,9 +47,47 @@ To effectively use a UAV for photogrammetric modelling of geological outcrops, t
 
 ## Types of Cameras
 
+
+
 ### Shutter used
 
 ### Camera calibration
+
+## Choice of outcrop
+To be a valuable resource for studying, an ideal outcrop should be geologically interesting.Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later.
+
+For those who are new to acquisition campaigns, it is recommended to start with a small and compact outcrop for the first flights and gradually work up to more challenging locations. A reasonable size to begin with is around 200-300 meters long and up to 30 meters high. This way, you can always fly within line of sight and never exceed 120 meters in height.
+
+```{admonition} Safety first!
+:class: warning
+Safety is crucial when using a UAV, so it is essential to ensure that the outcrop can be flown safely.
+```
+
+## Survey design
+When planning to collect a virtual outcrop, it is important to ensure that it is legally and safely feasible (see [SESSION 1 - UAV flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html) and [SESSION 2  - UAV pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)).
+The next step is to design the survey, which can be done either in the field or in the lab. The purpose of the data being collected will determine the size of the area covered and the expected resolution of the virtual outcrop. 
+
+#### Digital outcrop resolution
+The resolution of the virtual outcrop is dependent on the camera's sensor resolution and the proximity of the photographs to the cliff. 
+
+For instance, DJI Mavic Series or DJI Phantom Series cameras have a 94 degree lens equivalent to 20mm on a standard SLR. Therefore, the height of the image in landscape format is roughly equal to the distance of the camera from the cliffs. 
+
+This means that as a rule of thumb, if you want to obtain a resolution of less than 1 cm per pixel, photographs should be taken at a distance of approximately 30 meters from the outcrop.
+
+```{admonition} GSD Calculator
+:class: tip
+To estimate outcrop resolution, you can use the online app [GSD Calculator](https://www.propelleraero.com/gsd-calculator/). However, this estimate is only a guide since the surface may not be completely flat, making it difficult to maintain a consistent distance and causing the GSD to vary based on the terrain complexity.
+```
+
+#### Light and shadows
+When planning your UAV acquisition survey, it is crucial to consider outcrop orientation and lighting. Bad light on your pictures will require strong post-processing and likely result in a bad model.
+
+Smooth outcrops in direct sunlight will produce excellent results, but rough outcrops and harsh lighting can create shadows in the model. 
+
+To get the best surveying results, it's recommended to do so on a bright, overcast day with even lighting. This helps to minimize shadows and provide ample light for your outcrop. Contrary to popular belief, a sunny day with clear blue skies is not ideal for surveying. The strong sunlight can create excessive shadows, which may cause issues with camera exposure and focus. This can lead to issues like flare and details being obscured by shadow, especially when the sun is directly behind or above the cliffs.
+
+Although it may be necessary to collect data in these conditions, it is crucial to avoid them whenever possible by planning ahead. If time and weather permit, it would be beneficial to collect data at different times of day to optimize lighting.
+
 
 ## Flight pattern
 

@@ -1,5 +1,5 @@
 # UAV flight regulations
-The flying regulations in the European Union are established by EASA ([European Union Aviation Safety Agency](https://www.easa.europa.eu/en)). Norway follows the same regulations as the rest of the EU state members.
+The flying regulations in the European Union are established by EASA ([European Union Aviation Safety Agency](https://www.easa.europa.eu/en)). Norway is a EASA Member State, and follows the same regulations as the rest of the EU state members.
 
 ```{admonition} Data source
 :class: warning
