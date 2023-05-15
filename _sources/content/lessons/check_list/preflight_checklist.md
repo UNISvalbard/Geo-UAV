@@ -89,7 +89,7 @@ _This is an example of a DJI UAV calibration in the field, also called _Drone Da
 
 ```{admonition} Instruments calibration
 :class: note
-Instruments should not be re-calibrated unless specifically observed to be working incorrectly. This is to reduce human error and likelihood of an improper re-calibration.
+Instruments must be re-calibratied when observed to be working incorrectly. Instruments may also be re-calibrated prior to every flight to reduce the propagation of small errors over time.
 ```
 
 ### 6. Pre-launch check
