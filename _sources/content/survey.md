@@ -1,4 +1,4 @@
-# Questionnaire
+# Compendium Questionnaire
 
 ```{admonition} Under construction!
 :class: warning
