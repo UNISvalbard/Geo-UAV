@@ -1,10 +1,15 @@
 # UAV flight regulations
 The flying regulations in the European Union are established by EASA ([European Union Aviation Safety Agency](https://www.easa.europa.eu/en)). Norway is a EASA Member State, and follows the same regulations as the rest of the EU state members.
 
-```{admonition} Data source
+````{admonition} Data source
 :class: warning
 This is a compilation of the standarised rules published by [European Union Aviation Safety Agency](https://www.easa.europa.eu/en/light/topics/drones).
+
+```{figure} assets/easa.png
+:name: easa
+
 ```
+````
 
 ## UAV operation categories
 - OPEN: Low risk operation. No need of authorisation nor declaration.

@@ -13,3 +13,9 @@ Typically, birds prefer to build their nests on cliffs and vertical outcrops. If
 Review your planned takeoff and landing locations. Ensure that there's enough space available in case of an emergency landing.
 
 Check for any potential hazards that may not have been identified during your initial safety review and adjust your flight plan accordingly.
+
+```{figure} assets/fly1.jpg
+:name: fly1
+
+Flying drones in the field.
+```
