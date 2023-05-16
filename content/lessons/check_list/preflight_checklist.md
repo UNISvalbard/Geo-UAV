@@ -65,6 +65,17 @@ To avoid power-critical mission failure, ensure that the batteries are adequatel
 
 Finally, check the camera settings and ensure that the memory card has enough space for the mission.
 
+```{admonition} Spare components
+:class: tip
+It is recommended to have spare components always with you in case of damage or malfunctions. Our recommended list includes: 
+
+1. Spare batteries. A battery lasts typically 20-30 minutes (15-20 minutes in cold conditions). We recommend taking between 3 and 10 to the field, depending on how much flying is anticipated.
+2. Memory cards. In addition to having enough storage space, recommended to change cards after flights to prevent loss of data collected earlier in the day in the event of a crash or flyaway.
+3. Spare propellers.
+4. Spare joysticks.
+5. An external battery pack with a cable to charge the controller/phone/tablet.
+```
+
 ### 5. UAV Calibration
 
 #### 5.1. Check and update firmware
