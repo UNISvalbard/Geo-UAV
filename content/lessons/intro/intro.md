@@ -2,7 +2,7 @@
 
 [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
 
-Unmanned Aerial Vehicles, also known as UAVs, are being used extensively for recreational, commercial, academic, and government purposes. They are particularly useful in geosciences to survey large areas accurately and efficiently. This course offers guidelines on how to acquire scientifically publishable data using UAVs in a safe and legal manner.
+Unmanned Aerial Vehicles, also known as UAVs, are being used extensively for recreational, commercial, academic, and government purposes. They are particularly useful to survey large areas accurately and efficiently. Together with structure-from-motion photogrammetry, it is possible to make virtual outcrops, which have become a common tool used by geoscientists. They have many applications, including research, teaching, outreach, and more. Geo-UAV provides guidelines on how to acquire scientifically publishable data using UAVs in a safe and legal manner.
 
 ````{margin}
 ```{admonition} Data source

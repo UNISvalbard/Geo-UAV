@@ -45,16 +45,9 @@ To effectively use a UAV for photogrammetric modelling of geological outcrops, t
 
 ### Limitations of UAV systems
 
-## Types of Cameras
-
-
-
-### Shutter used
-
-### Camera calibration
 
 ## Choice of outcrop
-To be a valuable resource for studying, an ideal outcrop should be geologically interesting.Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later.
+To be a valuable resource for studying, an ideal outcrop should be geologically interesting. Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later.
 
 For those who are new to acquisition campaigns, it is recommended to start with a small and compact outcrop for the first flights and gradually work up to more challenging locations. A reasonable size to begin with is around 200-300 meters long and up to 30 meters high. This way, you can always fly within line of sight and never exceed 120 meters in height.
 
@@ -88,10 +81,44 @@ To get the best surveying results, it's recommended to do so on a bright, overca
 
 Although it may be necessary to collect data in these conditions, it is crucial to avoid them whenever possible by planning ahead. If time and weather permit, it would be beneficial to collect data at different times of day to optimize lighting.
 
+## Camera set-up and calibration
+Proper camera setup is crucial in creating a high-quality 3D model. Before every flight, make sure to adjust the camera settings according to the light conditions to ensure optimal data collection.
+
+### Image format
+With the DJI UAVs you have the possibility to switch the image file format to either RAW or JPG.
+
+If you're wondering which image file format to use, we suggest choosing JPG. In most cases, it's best to go with JPG since RAW files are much larger and require processing before they can be used, which can be a problem when dealing with hundreds or even thousands of images. Unless you're dealing with challenging or fluctuating lighting conditions, shooting in RAW isn't necessary. However, if you do encounter such situations, RAW images will give you more flexibility to adjust exposure stops later on.
+
+For your first models, we suggest sticking with JPG format.
+
+### Shutter speed and camera aperture
+When taking photographs, it is important to balance the aperture and shutter speed. The aperture controls the depth of field, while the shutter speed prevents blurry images.
+
+For uniform lighting and non-backlit subjects, auto exposure will suffice. However, for better modeling, a small aperture with a high F-number and depth of field is recommended. If the subject is well-lit, choose Aperture Priority and select F/11 or higher. This will reduce the shutter speed, but a fast shutter speed of 1/250 or faster is necessary to compensate for the movement of the UAV.
+
+To determine the appropriate shutter speed for your selected aperture, use spot metering by pointing the camera at the darkest part of the subject. Adjust the ISO to compensate, but keep it as low as possible to minimize sensor noise. Using DJI Phantom Series and DJI Mavic Series cameras, an ISO of up to 800 or even 1600 is still acceptable.
+
+### White balance
+For consistent photo quality, it's important to manually set the White Balance (WB) to either sunny or cloudy depending on the lighting conditions, instead of leaving it on auto. This will prevent color variations in your survey photos.
+
+### Timelapse
+The frequency of the camera timelapse depends on the data being collected and the speed at which the UAV is flying. 
+
+- Three seconds works well for detailed outcrops flown in Tripod Mode (max speed of 1 m/s).
+- Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s)
+- Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s)
+
+```{admonition} Do not overtake images
+:class: tip
+At the beginning of this session, it was emphasized that finding a balance between time, resources and resolution is crucial. Gathering sufficient data to avoid gaps in the model and obtaining a satisfactory resolution without overwhelming images is key. If there is an excessive amount of data, the model may be difficult to process on your computer.
+```
+
+### Focus
+We recommend using the camera's auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the camera button on the upper-right of the controller's backside.
+
 ## Flight pattern
-
-
-
+### Vertical outcrops
+To get the best data from a flight, making three passes along each section of the outcrop is recommended. The UAV should be flown sideways, facing directly at the cliff. As you fly, ensure that there's at least a 70% overlap between adjacent photos. If the outcrop is curved or concave, adjust your flight path accordingly to capture all angles. You can take as many photos as needed, and sort them later during processing. The first pass should be low, with the camera pointing horizontally and tilted at a 10-degree angle. The second pass should be done from a higher altitude and with the camera tilted at a 30-40 degree angle. Finally, the third pass should be done from an even higher altitude, with the camera tilted at an 80-degree angle. Collecting overview photos taken from further back can be useful as a reference in the model-building process.
 
 ```{figure} assets/howelletal1.png
 :name: howelletal1
@@ -99,6 +126,19 @@ Although it may be necessary to collect data in these conditions, it is crucial 
 Figure published by Howell et al., 2021. Fly three transects to ensure complete coverage of the cliff section.
 ```
 
+For larger outcrops or lower-resolution models, two flight passes might be enough. In this case, the UAV should be flown further away from the outcrop to fit the entire height in each photo. The first pass should be done with the camera facing downward at a 5-15 degree angle, and the second pass should be done with the camera tilted up at a 20-40 degree angle and the UAV flying higher.
+
+When flying with an A1/A3 pilot license, you can only fly within your line of sight. This should be sufficient for capturing a few hundred meters of lateral outcrop coverage. To capture longer cliff lines, simply move along the cliff and capture further sections from different take-off sites. It's important to maintain overlap between flights for model registration purposes, and to stay organized and keep track of what you've done. The DJI controller has a map that retains previous flight paths, making it easy to track progress and ensure full coverage.
+
+For high outcrops, the same procedure of multiple flight passes per section should be followed. The tilt angle of the camera can be adjusted to comply with flying regulations and ensure that the drone never flies more than 120 meters above ground. It's often helpful to fly at the same height twice, once with the camera looking semi-horizontal and once tilted a few degrees to provide context around the outcrop area.
+
+```{admonition} Start with easy outcrops
+:class: tip
+If you're new to this, we suggest starting with smaller outcrops and working your way up to more complex sites.
+```
+
+### Horizontal outcrops
+To map planar surfaces like wave-cut platforms, you don't need to make three passes. Instead, you can fly a grid with the camera facing downwards. This can be easily done with a mission planning app. Alternatively, you can use the map function and fly around the perimeter of the area you want to record. Then, move in from one of the sides until you achieve a view with a 70% overlap. Fly a straight line, move sideways by the same amount, and repeat until the box is filled. If there are any vertical ledges or shelves in the view, flying some passes looking at 40 degrees will improve the model.
 
 
 ## Literature

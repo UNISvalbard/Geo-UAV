@@ -106,6 +106,6 @@ Instruments must be re-calibratied when observed to be working incorrectly. Inst
 ### 6. Pre-launch check
 After completing all necessary checks, it is crucial to carefully survey the launch area and select the optimal spot for takeoff.
 
-The drone should ideally be placed on a level surface, with no obstructions in the surrounding area.
+The drone should ideally be placed on a flat surface with plenty of space around it.
 
-In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to schedule a flight.
+In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to reschedule the flight.
