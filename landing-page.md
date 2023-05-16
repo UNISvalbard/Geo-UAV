@@ -35,8 +35,66 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 ```
 
 ### Funding and Support
-The developement of Geo-UAV is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
 
+`````{grid} 2 2 2 2
+
+````{grid-item}
+:columns: 4
+
+```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
+:class: m-auto
+:width: 200px
+:target: https://iearth.no
+```
+````
+````{grid-item}
+:columns: 7
+The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
+````
+
+````{grid-item}
+:columns: 4
+
+```{image} https://svalbox.no/_static/logo.svg
+:class: m-auto
+:width: 50px
+:target: https://svalbox.no
+```
+````
+````{grid-item}
+:columns: 7
+The Geo-MOD course implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
+````
+
+````{grid-item}
+:columns: 4
+
+```{image} ./content/assets/UNIS_logo.gif
+:class: m-auto
+:width: 200px
+:target: https://unis.no
+```
+````
+````{grid-item}
+:columns: 7
+[UNIS](https://www.unis.no/) supports Geo-MOD by providing necessary technical and logistical assistance.
+````
+
+````{grid-item}
+:columns: 4
+
+```{image} 
+:class: m-auto
+:width: 200px
+:target: https://nfip.no
+```
+````
+````{grid-item}
+:columns: 7
+[NFiP](https://nfip.no/) financially supports Geo-MOD development and provided travel stipends for course participants.
+````
+
+`````
 ### Acknowledgements and licensing
 Geo-UAV is implemented through Jupyter Book and the Executable Book Project.
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
