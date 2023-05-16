@@ -67,7 +67,7 @@ Safety is crucial when using a UAV, so it is essential to ensure that the outcro
 When planning to collect a virtual outcrop, it is important to ensure that it is legally and safely feasible (see [SESSION 1 - UAV flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html) and [SESSION 2  - UAV pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)).
 The next step is to design the survey, which can be done either in the field or in the lab. The purpose of the data being collected will determine the size of the area covered and the expected resolution of the virtual outcrop. 
 
-#### Digital outcrop resolution
+### Digital outcrop resolution
 The resolution of the virtual outcrop is dependent on the camera's sensor resolution and the proximity of the photographs to the cliff. 
 
 For instance, DJI Mavic Series or DJI Phantom Series cameras have a 94 degree lens equivalent to 20mm on a standard SLR. Therefore, the height of the image in landscape format is roughly equal to the distance of the camera from the cliffs. 
@@ -79,7 +79,7 @@ This means that as a rule of thumb, if you want to obtain a resolution of less t
 To estimate outcrop resolution, you can use the online app [GSD Calculator](https://www.propelleraero.com/gsd-calculator/). However, this estimate is only a guide since the surface may not be completely flat, making it difficult to maintain a consistent distance and causing the GSD to vary based on the terrain complexity.
 ```
 
-#### Light and shadows
+### Light and shadows
 When planning your UAV acquisition survey, it is crucial to consider outcrop orientation and lighting. Bad light on your pictures will require strong post-processing and likely result in a bad model.
 
 Smooth outcrops in direct sunlight will produce excellent results, but rough outcrops and harsh lighting can create shadows in the model. 
@@ -87,7 +87,6 @@ Smooth outcrops in direct sunlight will produce excellent results, but rough out
 To get the best surveying results, it's recommended to do so on a bright, overcast day with even lighting. This helps to minimize shadows and provide ample light for your outcrop. Contrary to popular belief, a sunny day with clear blue skies is not ideal for surveying. The strong sunlight can create excessive shadows, which may cause issues with camera exposure and focus. This can lead to issues like flare and details being obscured by shadow, especially when the sun is directly behind or above the cliffs.
 
 Although it may be necessary to collect data in these conditions, it is crucial to avoid them whenever possible by planning ahead. If time and weather permit, it would be beneficial to collect data at different times of day to optimize lighting.
-
 
 ## Flight pattern
 
