@@ -6,3 +6,5 @@ With this simulator, you can train in a real-world environment without facing po
 To use the simulator, you must have a computer equipped with a 64-bit version of Windows 10 and a DJI Remote Controller that can be connected using a Micro-B to USB-A cable.
 
 You can access the [online](https://www.dji.com/no/simulator) DJI flight simulator or [download](https://sim.djicdn.com/Launcher/DJIFlightSimulatorLauncher.zip) it to your personal computer.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zb_XKPgr0oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
