@@ -8,13 +8,6 @@ Multi-rotor UAVs are the most widely used for recreational and professional use.
 
 They are perfect for photogrammetry because of their versatility, which allows different types of cameras to be installed for various tasks. These drones offer great flexibility as they can easily hover and take off vertically. However, one downside of multi-rotor drones is their limited flight autonomy. If you plan to perform long flights, you will need multiple batteries, which can add extra costs.
 
-```{admonition} Wingtra
-:class: note
-[WingtraOne](https://wingtra.com/mapping-drone-wingtraone/) is a VTOL UAV made for high-resolution mapping and surveying of large areas.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KwkCgDMKTTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-```
-
 ## Fixed-wing
 Fixed-wing UAVs using the air's force against their wings to fly. They look similar to radio-controlled planes and are great for mapping big areas because of their long-lasting battery life. Their design and aerodynamics keep them flying, making them faster and last longer in the air.
 

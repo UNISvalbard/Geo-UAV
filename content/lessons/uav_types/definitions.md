@@ -1,5 +1,5 @@
 # Some useful definitions
-Before delving into the technical aspects, let's clarify some commonly-used terms such as "drone", "AUV", "UAS", and "RPA". It's important to know which term to use in which context. To begin with, it's worth noting that every UAV is a drone, but not every drone is a UAV. Below, we've outlined the definitions of these phrases to help you understand their meanings and any potential differences.
+Before delving into the technical aspects, let's clarify some commonly-used terms such as "drone", "UAV", "UAS", and "RPA". It's important to know which term to use in which context. To begin with, it's worth noting that every UAV is a drone, but not every drone is a UAV. Below, we've outlined the definitions of these phrases to help you understand their meanings and any potential differences.
 
 ## Drone
 While "Drones" make most people think of "an unmanned aircraft that can fly autonomously-that is, without a human in control." It can actually be used to describe a wide variety of vehicles. For example, there are seafaring or land based autonomously vehicles that also count under the given definition of drone.
