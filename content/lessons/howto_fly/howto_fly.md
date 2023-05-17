@@ -64,4 +64,5 @@ To rotate the UAV you will need to move the throttle stick right to move clockwi
 :class: warning
 The Geo-UAV module of on how automatically fly a multirotor UAV is still under construction.
 ```
-Many apps and survey design software are available to automate surveys. They allow for planning the survey in the lab and executing it in the field with a simple command. These tools work best for mapping planar surfaces or simple structures like buildings.
+Many apps and survey design software are available to automate surveys. They allow for planning the survey in the lab and executing it in the field with a simple command, maximizing flight efficiency, reducing pilot and observer workloads and in some situations, minimizing equipment risk. These tools work best for mapping planar surfaces or simple structures like buildings.
+

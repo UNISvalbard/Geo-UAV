@@ -1,11 +1,11 @@
-# Data acquisition
+# Survey plan and Data acquisition
 The initial phase of UAV-based photogrammetry is data acquisition, which involves capturing aerial photographs with a specific objective and subject. To gather high-quality data, it is crucial to adhere to best practices when taking photos for photogrammetry.
 
-When acquiring data in the field, it's crucial to consider the requirements for acquisition. Like any project, there's a connection between time, quality, and costs. Time refers to the available period for data collection, cost represents the necessary resources, and quality represents the resolution and fit-to-purpose that we want for our DEM or 3D model.
+When acquiring data in the field, it is important to consider the requirements for acquisition. Like any project, there's a connection between time, quality, and costs. Time refers to the available period for data collection, cost represents the necessary resources, and quality represents the resolution and fit-to-purpose that we want for our DEM or 3D model.
 
 Let's exemplify it. If you want a very high-resolution model of an outcrop, you will have to spend significant time acquiring good-quality data, and you will need many resources such as a high-quality camera and UAV, batteries for your UAV and controller, images in your memory card, etc. Suppose you have very little time to properly acquire data. In that case, the quality of the model will be very poor unless you use extremely expensive resources such as multiple multirotors flying simultaneously or predefined flights with a vertical take-off and landing (VTOL) UAV containing a very high-resolution camera. If you are limited by the resources, let's say, by only having one battery for your UAV, the time you will be able to spend acquiring data will be low, and you will either not cover the entire area that you want or collect general images ending up having a low-resolution model.
 
-Therefore, when collecting data in the field, it's vital to assess the resolution you need, the resources you have, and the time you can invest in flying to achieve the best possible data.
+Therefore, when collecting data in the field for photogrammetric studies, it's vital to assess the resolution and measurement accuracy needed, the resources you have, and the time you can invest in flying to achieve the best possible outcome.
 
 ```{figure} assets/triangle.png
 :name: triangle
@@ -20,14 +20,14 @@ The data acquisition stage also contains processes during which we collect addit
 In order to collect virtual outcrop data, it's important to have expertise in operating a UAV, or in other words, that you know how to fly. Don't rely on the availability of automated mapping software to do this for you.
 ```
 
-## Types of UAV
+## Types of UAV for photogrammetry
 
 ```{admonition} Data source
 :class: tip
 Most of the pieces of information in this section have been published by Howell et al., 2021.
 ```
 
-The market offers a wide selection of UAVs, each with different features and price ranges suitable for hobbyists, professionals, and scientific purposes. When it comes to virtual outcrop modelling, multirotors like the DJI Mavic series or DJI Phantom series are ideal for beginners. While fixed wing drones are useful for horizontal outcrops and can cover large areas quickly, they come with a few limitations such as having only a downward-facing camera, being expensive, and requiring mission planning that may not always be suitable for fieldwork.
+The market offers a wide selection of UAVs, each with different features and price ranges suitable for professionals and scientific purposes. When it comes to virtual outcrop modelling, multirotors like the DJI Mavic series or DJI Phantom series are ideal for beginners. While fixed wing drones are useful for horizontal outcrops and can cover large areas quickly, they come with a few limitations such as having only a downward-facing camera, being expensive, and requiring mission planning that may not always be suitable for fieldwork.
 
 ```{admonition} DJI Mavic Series
 :class: note
@@ -44,7 +44,17 @@ To effectively use a UAV for photogrammetric modelling of geological outcrops, t
 6. The camera should be linked to the navigation system so that the UAV's position is recorded when each photo is taken.
 
 ### Limitations of UAV systems
+#### Battery life
+One major issue with UAVs is their short battery life. Consumer-grade drones with multiple rotors can only fly for around 20-40 minutes. However, using fixed-wing airframes can increase flight time.
+Note that battery life can be affected by factors such as ambient temperature, the weight of the drone, wind speed, and take-off altitude.
 
+#### Miniaturisation and optimisation
+UAVs have to meet specific weight and size requirements. This means that components such as cameras, GPS, and IMU modules must be miniaturized to ensure optimal performance.
+
+#### Accuracy
+Most UAVs currently available to consumers have GNSS navigation modules that can determine their position with an accuracy of about a meter. Drones with centimeter-accuracy receivers are much more expensive, costing roughly 5-6 times as much.
+
+An alternative is the use of [GCPs](https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html) measured in the field, which can supplement or replace exterior orientation measurements. However, this method requires time-consuming field measurements that must be done with great care to ensure the highest possible accuracy in determining the position of the points.
 
 ## Choice of outcrop
 To be a valuable resource for studying, an ideal outcrop should be geologically interesting. Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later.
@@ -57,8 +67,15 @@ Safety is crucial when using a UAV, so it is essential to ensure that the outcro
 ```
 
 ## Survey design
-When planning to collect a virtual outcrop, it is important to ensure that it is legally and safely feasible (see [SESSION 1 - UAV flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html) and [SESSION 2  - UAV pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)).
-The next step is to design the survey, which can be done either in the field or in the lab. The purpose of the data being collected will determine the size of the area covered and the expected resolution of the virtual outcrop. 
+If you are using your drone for a specific purpose, such as collecting a virtual outcrop model, having a flight plan for your UAV is important to achieve your goal. This will help you control various factors, ensure that it is legally and safely feasible (see [SESSION 1 - UAV flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html) and [SESSION 2  - UAV pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)), safeguard your equipment, and achieve your mission objective.
+
+The next step is to design the survey, which can be done either in the field or in the lab.  It's best to consult with your visual observer beforehand to agree on the flight plan. The size of the area covered and the expected resolution of the virtual outcrop will depend on the data being collected.
+
+```{figure} assets/observer.jpg
+:name: observer
+
+Pilot and visual observer discussing and adjusting the flight plan in the field.
+```
 
 ### Digital outcrop resolution
 The resolution of the virtual outcrop is dependent on the camera's sensor resolution and the proximity of the photographs to the cliff. 
@@ -140,6 +157,15 @@ If you're new to this, we suggest starting with smaller outcrops and working you
 ### Horizontal outcrops
 To map planar surfaces like wave-cut platforms, you don't need to make three passes. Instead, you can fly a grid with the camera facing downwards. This can be easily done with a mission planning app. Alternatively, you can use the map function and fly around the perimeter of the area you want to record. Then, move in from one of the sides until you achieve a view with a 70% overlap. Fly a straight line, move sideways by the same amount, and repeat until the box is filled. If there are any vertical ledges or shelves in the view, flying some passes looking at 40 degrees will improve the model.
 
+## Contingency plans
+It is wise to have contingency plans in place in the event your UAV loses connection or low battery levels.
+
+While DJI UAVs typically provide alerts for battery connectivity issues, malfunctions, and remote controller disconnection, the response time may sometimes be brief. In the event of any flight problems, the top priority should always be to quickly and safely land the UAV in a secure location.
+
+
+
+
+_Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!_
 
 ## Literature
 Howell et al., 2021. Acquisition of Data for Building Photogrammetric Virtual Outcrop Modelsfor the Geosciences using Remotely Piloted Vehicles (UAVs). https://doi.org/10.31223/X54914

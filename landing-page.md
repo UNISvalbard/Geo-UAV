@@ -13,10 +13,9 @@ The reference work is primarily developed as a class-room aid. Best practices an
 ### Course content
 Geo-UAV course is split in several sessions, consisting of interactive lectures walkthroughs, and exercises.
 - [Flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html)
-- [Pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)
-- [How to fly an UAV](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
-- [Design of a flight plan](https://unisvalbard.github.io/Geo-UAV/content/lessons/flightplan/flightplan.html)
-- [Data acquisition](https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html)
+- [Check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)
+- [How to fly a UAV](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
+- [Survey plan and Data acquisition](https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html)
 - [Questionnaire](https://unisvalbard.github.io/Geo-UAV/content/survey.html)
 
 
@@ -83,7 +82,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````{grid-item}
 :columns: 4
 
-```{image} 
+```{image} ./content/assets/nfip-logo.png
 :class: m-auto
 :width: 200px
 :target: https://nfip.no

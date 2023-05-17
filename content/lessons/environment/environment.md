@@ -5,6 +5,7 @@ When you reach the outcrop and before flying, it's important to double-check the
 Inspect the local weather conditions, keeping in mind that weather forecasts are not always accurate and that local weather patterns like valley winds can occur.
 
 Check for people, animals, traffic, power lines etc. 
+
 ```{admonition} Bird cliffs
 :class: note
 Typically, birds prefer to build their nests on cliffs and vertical outcrops. If you fly a UAV near a bird nesting area, it can cause disturbance and be perceived as an attack, resulting in the birds dive-bombing the UAV and potentially causing it to crash. To avoid this situation, it is best to steer clear of bird colonies when flying your UAV. If you spot birds flying near your UAV, it is best to cancel the flight to ensure their safety.

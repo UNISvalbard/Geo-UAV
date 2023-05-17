@@ -5,6 +5,8 @@ parts:
 - caption: INTRODUCTION
   chapters:
   - file: content/lessons/intro/intro.md
+  - file: content/lessons/uav_types/definitions.md
+  - file: content/lessons/uav_types/uav_types.md
 
 - caption: SESSION 1
   chapters:
@@ -18,6 +20,7 @@ parts:
 
 - caption: SESSION 3
   chapters:
+  - file: content/lessons/howto_fly/uav_types.md
   - file: content/lessons/howto_fly/howto_fly.md
   - file: content/lessons/flight_simulator/flight_simulator.md
 #   - file: content/lessons/howto_fly/howto_fly_fixwing.md
@@ -25,14 +28,10 @@ parts:
 
 - caption: SESSION 4
   chapters:
-  - file: content/lessons/flightplan/flightplan.md
+  - file: content/lessons/data_acquisition/data_acquisition.md
   - file: content/lessons/environment/environment.md
   - file: content/lessons/environment/longyearbyen.md
   - file: content/lessons/sora/sora.md
-
-- caption: SESSION 5
-  chapters:
-  - file: content/lessons/data_acquisition/data_acquisition.md
 
 - caption: QUESTIONNAIRE
   chapters:
