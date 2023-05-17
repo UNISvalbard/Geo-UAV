@@ -70,8 +70,8 @@ must be met:
 The flight ban on concentrations of people is maintained!
 ```
 
-```{figure} assets/A1.png
-:name: A1
+```{figure} assets/a1.png
+:name: a1
 
 Open category A1 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
 ```
@@ -84,8 +84,8 @@ In subcategory A2 the following condition must be met:
 The flight ban on concentrations of people is maintained!
 ```
 
-```{figure} assets/A2.png
-:name: A2
+```{figure} assets/a2.png
+:name: a2
 
 Open category A2 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
 ```
@@ -99,8 +99,8 @@ In subcategory A3 the following conditions must be met:
 The flight ban on concentrations of people is maintained!
 ```
 
-```{figure} assets/A3.png
-:name: A3
+```{figure} assets/a3.png
+:name: a3
 
 Open category A3 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
 ```

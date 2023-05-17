@@ -3,6 +3,12 @@ There are multiple types of UAVs in the market, covering different sizes and cap
 
 We have categorized UAVs into different groups based on their wing types. However, they could also be categorized based on their size, range, power source or payload capacity.
 
+```{figure} assets/mavic2.jpg
+:name: mavic2
+
+
+```
+
 ## Multi-rotor
 Multi-rotor UAVs are the most widely used for recreational and professional use. Their small size and excellent control make multi-rotor UAVs the best choice for aerial photography.
 

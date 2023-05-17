@@ -49,7 +49,7 @@ One major issue with UAVs is their short battery life. Consumer-grade drones wit
 Note that battery life can be affected by factors such as ambient temperature, the weight of the drone, wind speed, and take-off altitude.
 
 #### Miniaturisation and optimisation
-UAVs have to meet specific weight and size requirements. This means that components such as cameras, GPS, and IMU modules must be miniaturized to ensure optimal performance.
+UAVs have to meet specific weight and size requirements. This means that components such as cameras, GPS, and IMU modules must be miniaturized, potentially leading to less precise or suboptimal data.
 
 #### Accuracy
 Most UAVs currently available to consumers have GNSS navigation modules that can determine their position with an accuracy of about a meter. Drones with centimeter-accuracy receivers are much more expensive, costing roughly 5-6 times as much.
@@ -67,7 +67,7 @@ Safety is crucial when using a UAV, so it is essential to ensure that the outcro
 ```
 
 ## Survey design
-If you are using your drone for a specific purpose, such as collecting a virtual outcrop model, having a flight plan for your UAV is important to achieve your goal. This will help you control various factors, ensure that it is legally and safely feasible (see [SESSION 1 - UAV flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html) and [SESSION 2  - UAV pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)), safeguard your equipment, and achieve your mission objective.
+If you are using your drone for a specific purpose, such as collecting a virtual outcrop model, having a flight plan for your UAV is important to achieve your goal. This will help you control various factors, ensure that it is legally and safely feasible (revise [SESSION 1 - UAV flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html) and [SESSION 2  - UAV pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)), safeguard your equipment, and achieve your mission objective.
 
 The next step is to design the survey, which can be done either in the field or in the lab.  It's best to consult with your visual observer beforehand to agree on the flight plan. The size of the area covered and the expected resolution of the virtual outcrop will depend on the data being collected.
 

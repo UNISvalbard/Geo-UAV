@@ -11,6 +11,9 @@ parts:
 - caption: SESSION 1
   chapters:
   - file: content/lessons/regulations/regulations.md
+    sections:
+    - file: content/lessons/sora/sora.md
+    - file: content/lessons/environment/longyearbyen.md
   - file: content/lessons/regulations/operator_registration.md
 
 - caption: SESSION 2
@@ -30,8 +33,6 @@ parts:
   chapters:
   - file: content/lessons/data_acquisition/data_acquisition.md
   - file: content/lessons/environment/environment.md
-  - file: content/lessons/environment/longyearbyen.md
-  - file: content/lessons/sora/sora.md
 
 - caption: QUESTIONNAIRE
   chapters:

@@ -6,10 +6,15 @@ To fly UAV in Europe, you must be a registered pilot. Registering as a drone pil
 2. In Norway, you have to pay a yearly fee of 220 nok.
 3. Register with ID-porten if you have a Norwegian national identity number or a D-number even if you are a foreign citizen.
 
-```{admonition} CCA Norway
+````{admonition} CCA Norway
 :class: note
 To register as a UAS operator in Norway click [here](https://luftfartstilsynet.no/en/drones/registration/).
+
+```{figure} assets/cca_norway.png
+:name: cca_norway
+
 ```
+````
 
 You can register as a:
 - Private person as a drone pilot, with drone

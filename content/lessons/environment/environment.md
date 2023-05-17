@@ -8,7 +8,7 @@ Before taking off to fly over an outcrop, it's important to review the safety me
 - Check for people, animals, traffic, power lines etc. 
 ```{admonition} Bird cliffs
 :class: note
-Typically, birds prefer to build their nests on cliffs and vertical outcrops. If you fly a UAV near a bird nesting area, it can cause disturbance and be perceived as an attack, resulting in the birds dive-bombing the UAV and potentially causing it to crash. To avoid this situation, it is best to steer clear of bird colonies when flying your UAV. If you spot birds flying near your UAV, it is best to cancel the flight to ensure their safety.
+Birds can build their nests on cliffs and vertical outcrops. If you fly a UAV near a bird nesting area, it can cause disturbance and be perceived as an attack, resulting in the birds dive-bombing the UAV and potentially causing it to crash. To avoid this situation, it is best to steer clear of bird colonies when flying your UAV. If you spot birds flying near your UAV, it is best to cancel the flight to ensure their safety.
 ```
 
 - Review your planned takeoff and landing locations. Ensure that there's enough space available in case of an emergency landing.
