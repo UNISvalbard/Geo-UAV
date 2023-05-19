@@ -38,6 +38,10 @@ parts:
   chapters:
   - file: content/survey.md
 
+- caption: SUPPLEMENTARY
+  chapters:
+  - file: content/bibliography.md
+
 - caption: External Links
   chapters:
   - url: https://unisvalbard.github.io/exbooks/

@@ -17,7 +17,7 @@ The data acquisition stage also contains processes during which we collect addit
 
 ```{admonition} Learn how to fly
 :class: warning
-In order to collect virtual outcrop data, it's important to have expertise in operating a UAV, or in other words, that you know how to fly. Don't rely on the availability of automated mapping software to do this for you.
+In order to collect virtual outcrop data, it's important to have experience in operating a UAV, or in other words, that you know how to fly. Don't rely on the availability of automated mapping software to do this for you.
 ```
 
 ## Types of UAV for photogrammetry

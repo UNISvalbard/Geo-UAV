@@ -48,7 +48,7 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 ````
 ````{grid-item}
 :columns: 7
-The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
+The developement of Geo-AUV is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
 ````
 
 ````{grid-item}
@@ -62,7 +62,7 @@ The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Nor
 ````
 ````{grid-item}
 :columns: 7
-The Geo-MOD course implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
+The Geo-UAV implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
 ````
 
 ````{grid-item}
@@ -76,7 +76,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````
 ````{grid-item}
 :columns: 7
-[UNIS](https://www.unis.no/) supports Geo-MOD by providing necessary technical and logistical assistance.
+[UNIS](https://www.unis.no/) supports Geo-UAV by providing necessary technical and logistical assistance.
 ````
 
 ````{grid-item}
@@ -90,7 +90,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````
 ````{grid-item}
 :columns: 7
-[NFiP](https://nfip.no/) financially supports Geo-MOD development and provided travel stipends for course participants.
+[NFiP](https://nfip.no/) financially supports Geo-UAV development and provided travel stipends for course participants.
 ````
 
 `````

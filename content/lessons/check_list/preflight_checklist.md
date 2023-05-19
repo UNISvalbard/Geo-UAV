@@ -12,7 +12,7 @@ Here we suggest a 5-point guide UAV pilots can refer to for conducting effective
 5. UAV Calibration
 6. Pre-launch check
 
-### 1. Check the flying conditions and the itinerary
+### 1. Check the flying conditions and the flightplan
 Checking the weather is crucial, especially in areas with unpredictable weather like Svalbard. Before flying UAVs, it is important to assess the conditions on site. Avoid flying in high winds, very low temperatures, low clouds, fog, or precipitation. Visibility should be consistent throughout the expected range of operation and pilot certificate. 
 
 Discuss the flight plan with your co-pilot and have a clear plan in place. You will be limited by the number of batteries, battery life of the controller, memory card space, etc. Therefore, having a predefined flight plan is crucial for efficiency and ensuring complete coverage of the area. 
