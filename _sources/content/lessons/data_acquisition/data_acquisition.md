@@ -10,7 +10,7 @@ Therefore, when collecting data in the field for photogrammetric studies, it's v
 ```{figure} assets/triangle.png
 :name: triangle
 
-The principle of the triangle suggests that of the three points, you can only have two at a time, not three.
+The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  Image [source](https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png).
 ```
 
 The data acquisition stage also contains processes during which we collect additional data, for example, [Ground Control Points (GCPs)](https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html).
