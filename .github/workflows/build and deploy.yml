@@ -23,10 +23,10 @@ jobs:
       - name: Build
         shell: bash -l {0}
         run: |
-          conda init bash
-          conda env create jupyterbook
-          conda activate jupyterbook
-          conda install -c conda-forge jupyter-book
+          mamba init bash
+          mamba env create jupyterbook
+          mamba activate jupyterbook
+          mamba install -c conda-forge jupyter-book
           jupyter book build .
           
       - name: Deploy
