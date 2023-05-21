@@ -19,14 +19,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-          activate-environmen: jupyterbook
-          auto-activate-base: false
 
       - name: Build
         shell: bash -l {0}
         run: |
           conda init bash
           conda env create jupyterbook
+          conda activate jupyterbook
           conda install -c conda-forge jupyter-book
           jupyter book build .
           
