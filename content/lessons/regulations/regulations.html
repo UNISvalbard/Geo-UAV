@@ -64,8 +64,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/lessons/regulations/regulations';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Register as a UAS operator" href="operator_registration.html" />
-    <link rel="prev" title="Welcome to Geo-UAV" href="../intro/intro.html" />
+    <link rel="next" title="Specific Operations Risk Assessment (SORA)" href="../sora/sora.html" />
+    <link rel="prev" title="Types of UAVs" href="../uav_types/uav_types.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -147,8 +147,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../../_static/UNIS_logo.gif" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/UNIS_logo.gif" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -157,10 +157,16 @@ const thebe_selector_output = ".output, .cell_output"
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">UAV flight regulations</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">UAV flight regulations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="operator_registration.html">Register as a UAS operator</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 2</span></p>
@@ -175,14 +181,8 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../flightplan/flightplan.html">Design your flight plan</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment awareness</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 5</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment and situational awareness</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SUPPLEMENTARY</span></p>
 <ul class="nav bd-sidenav">
@@ -433,10 +433,14 @@ document.write(`
                   
   <section id="uav-flight-regulations">
 <h1>UAV flight regulations<a class="headerlink" href="#uav-flight-regulations" title="Permalink to this headline">#</a></h1>
-<p>The flying regulations in the European Union are established by EASA (<a class="reference external" href="https://www.easa.europa.eu/en">European Union Aviation Safety Agency</a>). Norway is a EASA Member State, and follows the same regulations as the rest of the EU state members.</p>
+<p>The flying regulations in the European Union are established by EASA (<a class="reference external" href="https://www.easa.europa.eu/en">European Union Aviation Safety Agency</a>). The main goal of EASA is to establish uniform safety standards for civil aviation operations across all Member States. They achieve this by creating common rules that apply to all states. To standardize regulations for Unmanned Aircraft Systems (UAS), they have developed Regulations (EU) 2019/947 and (EU) 2019/945.</p>
+<p>As a member state of EASA, Norway adheres to the same safety standards and regulations as the rest of the EU member states.</p>
 <div class="warning admonition">
 <p class="admonition-title">Data source</p>
 <p>This is a compilation of the standarised rules published by <a class="reference external" href="https://www.easa.europa.eu/en/light/topics/drones">European Union Aviation Safety Agency</a>.</p>
+<figure class="align-default" id="easa">
+<a class="reference external image-reference" href="https://www.easa.europa.eu/en"><img alt="../../../_images/easa.png" class="m-auto" src="../../../_images/easa.png" style="width: 200px;" /></a>
+</figure>
 </div>
 <section id="uav-operation-categories">
 <h2>UAV operation categories<a class="headerlink" href="#uav-operation-categories" title="Permalink to this headline">#</a></h2>
@@ -454,34 +458,36 @@ document.write(`
 <section id="open-category">
 <h3>Open Category<a class="headerlink" href="#open-category" title="Permalink to this headline">#</a></h3>
 <p>The open category has three subcategories: A1, A2 and A3. In A1 you can fly small UAVs, which can be used above and near individuals. In A2 you can fly medium-sized UAVs with a defined distance from individuals and crowds. Larger UAVs in the open category are flown in subcategory A3 and away from people, buildings and recreational areas.</p>
-<p>Certain general flight conditions are applicable for the three flight subcategories within the <strong>open category</strong>. These are:</p>
+<p>For all three flight subcategories in the <strong>open category</strong>, there are specific general flight conditions that apply. These conditions are:</p>
 <ol class="arabic simple">
-<li><p>The remote pilot will always fly in <strong>VLOS mode</strong> (aircraft within visual range), except when flying in follow me mode or using an unmanned aircraft observer, in which case he may use first-person vision devices (FPV, First-Person-View).</p></li>
-<li><p>Flight at a height greater than <strong>120 m</strong> from the closest point on the surface is NOT allowed. The maximum height may be less than 120 m if the UAS geographic area defined by the authorities indicates the flight area.</p></li>
+<li><p>The remote pilot is required to maintain visual line of sight (<strong>VLOS</strong>) while flying, unless they are using follow me mode or an unmanned aircraft observer. In those cases, they may use first-person vision devices (FPV), also known as First-Person-View.</p></li>
+<li><p>It is not permitted to fly a drone at a height exceeding <strong>120 meters</strong> from the nearest point on the surface. However, if the flight area is specified by the authorities, the maximum allowable height may be lower than 120 meters.</p></li>
 </ol>
 <div class="note admonition">
 <p class="admonition-title">Case example</p>
 <p>If a UAV is flying within 50 m, measured horizontally, of an artificial obstacle (such as a building) higher than 105 m in height, the maximum height of the UAS operation may be increased up to 15 m above the height of the obstacle, accounting for a total height of 120 m.</p>
 </div>
 <ol class="arabic simple" start="3">
-<li><p>In the event of a conflict or encounter with a manned aircraft, the remote pilot must reduce flight height, perform evasive maneuvers in the event of a possible collision with the manned aircraft, and land as soon as possible.</p></li>
+<li><p>If there is a conflict or encounter with a manned aircraft, the remote pilot must lower the flight height, make evasive maneuvers to avoid a possible collision, and land as quickly as possible.</p></li>
 </ol>
 <div class="note admonition">
 <p class="admonition-title">Note</p>
 <p>In any case, the remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to the manned aircraft.</p>
 </div>
 <ol class="arabic simple" start="4">
-<li><p>Overflight of concentrations of people is not allowed and a safe distance must be maintained with people not participating in the operation.</p></li>
+<li><p>It is prohibited to fly over areas where there are large groups of people, and it is necessary to keep a safe distance from individuals who are not involved in the operation.</p></li>
 </ol>
 <div class="note admonition">
 <p class="admonition-title">Note</p>
 <p>The “safe distance” will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer</p>
 </div>
 <ol class="arabic simple" start="5">
-<li><p>An observer from the unmanned aircraft can help the pilot if he deems it appropriate. In no case is the objective of the observer to extend the flight range of the UAS beyond the visual range of the remote pilot. The observer will stand next to the pilot and will support him in the circumstances such as:
-A. Help the pilot to maintain the distance to obstacles and warn him in case it is reduced.
-B. Help the pilot maintain situational awareness and warn of potential hazards.
-<strong>In any case, the remote pilot is always ultimately responsible for maintaining the safety of the UAS operation</strong>.</p></li>
+<li><p>If needed, an observer on an unmanned aircraft can assist the pilot. However, the observer must never extend the flight range of the UAS beyond the pilot’s visual range. The observer will stand next to the pilot and aid in:
+A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
+B. Help the pilot stay aware of the surroundings and potential hazards.</p></li>
+</ol>
+<p><strong>In any case, the remote pilot is always ultimately responsible for maintaining the safety of the UAS operation</strong>.</p>
+<ol class="arabic simple" start="6">
 <li><p>In the open category, it is prohibited to transport dangerous goods with the UAS or to drop or project any material or object.</p></li>
 </ol>
 <section id="subcategory-a1">
@@ -495,6 +501,12 @@ must be met:</p>
 <p class="admonition-title">Important</p>
 <p>The flight ban on concentrations of people is maintained!</p>
 </div>
+<figure class="align-default" id="a1">
+<img alt="../../../_images/a1.png" src="../../../_images/a1.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Open category A1 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#a1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="subcategory-a2">
 <h4>Subcategory A2<a class="headerlink" href="#subcategory-a2" title="Permalink to this headline">#</a></h4>
@@ -506,6 +518,12 @@ must be met:</p>
 <p class="admonition-title">Important</p>
 <p>The flight ban on concentrations of people is maintained!</p>
 </div>
+<figure class="align-default" id="a2">
+<img alt="../../../_images/a2.png" src="../../../_images/a2.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Open category A2 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#a2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="subcategory-a3">
 <h4>Subcategory A3<a class="headerlink" href="#subcategory-a3" title="Permalink to this headline">#</a></h4>
@@ -518,6 +536,12 @@ must be met:</p>
 <p class="admonition-title">Important</p>
 <p>The flight ban on concentrations of people is maintained!</p>
 </div>
+<figure class="align-default" id="a3">
+<img alt="../../../_images/a3.png" src="../../../_images/a3.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Open category A3 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#a3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 </section>
 <section id="specific-category">
@@ -558,6 +582,8 @@ must be met:</p>
 </section>
 </section>
 </section>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -592,20 +618,20 @@ must be met:</p>
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../intro/intro.html"
+       href="../uav_types/uav_types.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to Geo-UAV</p>
+        <p class="prev-next-title">Types of UAVs</p>
       </div>
     </a>
     <a class="right-next"
-       href="operator_registration.html"
+       href="../sora/sora.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Register as a UAS operator</p>
+        <p class="prev-next-title">Specific Operations Risk Assessment (SORA)</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

@@ -13,10 +13,9 @@ The reference work is primarily developed as a class-room aid. Best practices an
 ### Course content
 Geo-UAV course is split in several sessions, consisting of interactive lectures walkthroughs, and exercises.
 - [Flight regulations](https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html)
-- [Pre-flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)
-- [How to fly an UAV](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
-- [Design of a flight plan](https://unisvalbard.github.io/Geo-UAV/content/lessons/flightplan/flightplan.html)
-- [Data acquisition](https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html)
+- [Pre- and Post- flight check list](https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html)
+- [How to fly a UAV](https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html)
+- [Survey plan and Data acquisition](https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html)
 - [Questionnaire](https://unisvalbard.github.io/Geo-UAV/content/survey.html)
 
 
@@ -24,7 +23,7 @@ Geo-UAV course is split in several sessions, consisting of interactive lectures 
 Geo-UAV is still in development, with additional tutorials and how-tos added continously to keep the work up-to-date with recent developments and evolving best practices.
 
 ### Contribute or improve the resource
-Notice some unclear sections? A typo in the text? Want to add a cool tutorial or how-to on processing? Get in touch and let's make thing happen!
+Notice some unclear sections? A typo in the text? Want to contribute in one of the course sessions? Get in touch and let's make thing happen!
 
 ```{figure} assets/github_tut.gif
 :name: github_tut
@@ -49,7 +48,7 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 ````
 ````{grid-item}
 :columns: 7
-The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
+The developement of Geo-AUV is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
 ````
 
 ````{grid-item}
@@ -63,7 +62,7 @@ The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Nor
 ````
 ````{grid-item}
 :columns: 7
-The Geo-MOD course implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
+The Geo-UAV implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
 ````
 
 ````{grid-item}
@@ -77,13 +76,13 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````
 ````{grid-item}
 :columns: 7
-[UNIS](https://www.unis.no/) supports Geo-MOD by providing necessary technical and logistical assistance.
+[UNIS](https://www.unis.no/) supports Geo-UAV by providing necessary technical and logistical assistance.
 ````
 
 ````{grid-item}
 :columns: 4
 
-```{image} 
+```{image} ./content/assets/nfip-logo.png
 :class: m-auto
 :width: 200px
 :target: https://nfip.no
@@ -91,7 +90,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````
 ````{grid-item}
 :columns: 7
-[NFiP](https://nfip.no/) financially supports Geo-MOD development and provided travel stipends for course participants.
+[NFiP](https://nfip.no/) financially supports Geo-UAV development and provided travel stipends for course participants.
 ````
 
 `````

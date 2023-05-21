@@ -19,3 +19,17 @@ Map around Longyearbyen where flying drones is prohibited. You can open the map 
 
 ## Ny-Alesund
 Flying drones is prohibited in Ny-Alesund and the entire Kongsfjorden due to the flying ban of five kilometers around Ny-Alesund airport and the 20 km radio silence zone around the city. The Norwegian Communications Authority is responsible for managing frequency resources in Norway.
+
+Kings Bay A/S owns Ny-Alesund Airport and is formally responsible for the airspace in the Hamnerabben Traffic Information Zone (red line on map).
+
+
+```{figure} assets/ny-alesund.png
+:name: ny-alesund
+
+Traffic information zone (red line on map) established to protect the airspace around the airport and the flights to and from the airport.
+```
+
+```{admonition} Hamnerabben Traffic Information Zone
+:class: note
+For more information regarding the Hamnerabben Traffic Information Zone and the Ny-Alsund area, click [here](https://kingsbay.no/wp-content/uploads/2021/07/Rules-unmanned-aircrafts-in-Hamnerabben-TIZ-2021-002.pdf).
+```

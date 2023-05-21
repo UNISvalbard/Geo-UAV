@@ -64,8 +64,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/lessons/sora/sora';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Data acquisition" href="../data_acquisition/data_acquisition.html" />
-    <link rel="prev" title="Flying drones on Svalbard" href="../environment/longyearbyen.html" />
+    <link rel="next" title="Flying drones on Svalbard" href="../environment/longyearbyen.html" />
+    <link rel="prev" title="UAV flight regulations" href="../regulations/regulations.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -147,8 +147,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../../_static/UNIS_logo.gif" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/UNIS_logo.gif" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -157,10 +157,16 @@ const thebe_selector_output = ".output, .cell_output"
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Specific Operations Risk Assessment (SORA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../regulations/operator_registration.html">Register as a UAS operator</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 2</span></p>
@@ -174,15 +180,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../flight_simulator/flight_simulator.html">DJI flight simulator</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../flightplan/flightplan.html">Design your flight plan</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment awareness</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Specific Operations Risk Assessment (SORA)</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 5</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment and situational awareness</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SUPPLEMENTARY</span></p>
 <ul class="nav bd-sidenav">
@@ -382,7 +382,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -398,6 +400,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-does-it-work">How does it work?</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -409,12 +419,29 @@ document.write(`
                   
   <section id="specific-operations-risk-assessment-sora">
 <h1>Specific Operations Risk Assessment (SORA)<a class="headerlink" href="#specific-operations-risk-assessment-sora" title="Permalink to this headline">#</a></h1>
-<p>When conducting an operation not covered by a STS or a PDRA, applicants are required to conduct a risk assessment, identify mitigations and comply with safety objectives.</p>
-<p>You can find more information about SORA <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/specific-operations-risk-assessment-sora">here</a>.</p>
 <div class="warning admonition">
 <p class="admonition-title">Under construction!</p>
 <p>The Geo-UAV module on Specific Operations Risk Assessment (SORA) is still under construction.</p>
 </div>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="note admonition">
+<p class="admonition-title">Data source</p>
+<p>This is a compilation of the standarised rules published by <a class="reference external" href="https://www.easa.europa.eu/en/light/topics/drones">European Union Aviation Safety Agency</a>. You can find more information about SORA <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/specific-operations-risk-assessment-sora">here</a>.</p>
+</div>
+</aside>
+<p>To conduct an unmanned aircraft operation that isn’t covered by a STS or PDRA, a Specific Operations Risk Assessment (SORA) is required. This assessment is designed to aid you in determining the level of risk involved, proposing ways to mitigate those risks, and ensuring that all safety objectives are met. Failure to complete a SORA for such an operation could result in severe consequences.</p>
+<p>According to the <em>Article 11</em> of the <a class="reference external" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019R0947">European Commission Implementing Regulation (EU) 2019/947</a> <strong>all operations conducted in the Specific category require a risk assessment in order to obtain Operational Authorisation from the Competent Authority of the Member State where the operator is registered</strong>.</p>
+<section id="how-does-it-work">
+<h2>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">#</a></h2>
+<p>SORA offers design and operational measures to reduce harm to third parties on the ground or in the air. The level of robustness, categorized as low, medium, or high, should match the risks associated with ground and air classes. The level of robustness depends on the combination of integrity and assurance levels.</p>
+<figure class="align-default" id="sora-model">
+<img alt="../../../_images/sora-model.png" src="../../../_images/sora-model.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">SORA risk model.</span><a class="headerlink" href="#sora-model" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -449,20 +476,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../environment/longyearbyen.html"
+       href="../regulations/regulations.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Flying drones on Svalbard</p>
+        <p class="prev-next-title">UAV flight regulations</p>
       </div>
     </a>
     <a class="right-next"
-       href="../data_acquisition/data_acquisition.html"
+       href="../environment/longyearbyen.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Data acquisition</p>
+        <p class="prev-next-title">Flying drones on Svalbard</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -475,6 +502,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-does-it-work">How does it work?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

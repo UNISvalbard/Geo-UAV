@@ -12,7 +12,7 @@ Here we suggest a 5-point guide UAV pilots can refer to for conducting effective
 5. UAV Calibration
 6. Pre-launch check
 
-### 1. Check the flying conditions and the itinerary
+### 1. Check the flying conditions and the flightplan
 Checking the weather is crucial, especially in areas with unpredictable weather like Svalbard. Before flying UAVs, it is important to assess the conditions on site. Avoid flying in high winds, very low temperatures, low clouds, fog, or precipitation. Visibility should be consistent throughout the expected range of operation and pilot certificate. 
 
 Discuss the flight plan with your co-pilot and have a clear plan in place. You will be limited by the number of batteries, battery life of the controller, memory card space, etc. Therefore, having a predefined flight plan is crucial for efficiency and ensuring complete coverage of the area. 
@@ -65,6 +65,17 @@ To avoid power-critical mission failure, ensure that the batteries are adequatel
 
 Finally, check the camera settings and ensure that the memory card has enough space for the mission.
 
+```{admonition} Spare components
+:class: tip
+It is recommended to have spare components always with you in case of damage or malfunctions. Our recommended list includes: 
+
+1. Spare batteries. A battery lasts typically 20-30 minutes (15-20 minutes in cold conditions). We recommend taking between 3 and 10 to the field, depending on how much flying is anticipated.
+2. Memory cards. In addition to having enough storage space, recommended to change cards after flights to prevent loss of data collected earlier in the day in the event of a crash or flyaway.
+3. Spare propellers.
+4. Spare joysticks.
+5. An external battery pack with a cable to charge the controller/phone/tablet.
+```
+
 ### 5. UAV Calibration
 
 #### 5.1. Check and update firmware
@@ -95,6 +106,6 @@ Instruments must be re-calibratied when observed to be working incorrectly. Inst
 ### 6. Pre-launch check
 After completing all necessary checks, it is crucial to carefully survey the launch area and select the optimal spot for takeoff.
 
-The drone should ideally be placed on a level surface, with no obstructions in the surrounding area.
+The drone should ideally be placed on a flat surface with plenty of space around it.
 
-In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to schedule a flight.
+In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to reschedule the flight.

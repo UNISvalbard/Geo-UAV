@@ -147,8 +147,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../../_static/UNIS_logo.gif" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/UNIS_logo.gif" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -157,10 +157,16 @@ const thebe_selector_output = ".output, .cell_output"
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../regulations/operator_registration.html">Register as a UAS operator</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 2</span></p>
@@ -175,14 +181,8 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../flightplan/flightplan.html">Design your flight plan</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment awareness</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 5</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment and situational awareness</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SUPPLEMENTARY</span></p>
 <ul class="nav bd-sidenav">
@@ -409,7 +409,10 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uav-controls">UAV controls</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#position-of-the-antennas">Position of the antennas</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-take-off">How to take-off</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-land-your-uav">How to land your UAV</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-land-your-uav">How to land your UAV</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#return-to-home-rth">Return to home (RTH)</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#move-left-right-and-forward-backward">Move left/right and forward/backward</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-rotate-the-uav">How to rotate the UAV</a></li>
 </ul>
@@ -434,7 +437,7 @@ When creating your flight plan, you will need to decide if you want to fly manua
 <p class="admonition-title">Fly manual in Svalbard</p>
 <p>In Svalbard we highly recommend flying your UAV manually. There are multiple reasons for this:</p>
 <ol class="arabic simple">
-<li><p>Low DEM resolution. The Digital Elevation Model (DEM) in Svalbard has a maximum resolution of tens of meters.</p></li>
+<li><p>Low terrain model resolution. The Digital Elevation Model (DEM) in Svalbard has a maximum resolution of tens of meters.</p></li>
 <li><p>Changing environment. Glaciers, morraines, coastal fjord’s morphology significatively altering every year. This means that the base map in your controller may not include all the morphological changes that have taken place since the time of your flight. If you plan your flight solely based on this map, there is a high risk of crashing your UAV into a newly formed and changed morphological feature.</p></li>
 </ol>
 </div>
@@ -474,6 +477,14 @@ DJI UAVs are programmed so that you don’t need to push the throttle continuous
 <p class="admonition-title">Flying DJI UAV multirotor</p>
 <p>When landing a DJI UAV, simply pull the throttle towards you. These drones come equipped with sensors that regulate their distance from the ground. As the drone approaches a height of 20 cm from the ground, it will stop automatically to prevent any collisions. If you wish to land the drone directly on a specific spot below its position, you can pull the throttle to the maximum and the drone will land automatically.</p>
 </div>
+<section id="return-to-home-rth">
+<h4>Return to home (RTH)<a class="headerlink" href="#return-to-home-rth" title="Permalink to this headline">#</a></h4>
+<p>The DJI Return to Home feature ensures the safe landing of your drone by bringing it back to either a pre-selected home point or a safe landing spot. In the event of a communication loss between the controller and the drone, the feature will automatically activate, causing the UAV to fly up to a predetermined height before returning to the home point. To avoid any obstacles on the way home, it’s crucial to set the height high enough. It’s recommended to set the height each time instead of setting it to a very high number and forgetting about it, as running out of battery on the way home could cause a forced landing.</p>
+<div class="warning admonition">
+<p class="admonition-title">User recommendations</p>
+<p>It is advisable to avoid using the Return to Home feature to land your UAV. As per regulations, pilots with an A1/A3 license certificate have to fly within line of sight, and it is advisable to land the UAV manually for better control.</p>
+</div>
+</section>
 </section>
 <section id="move-left-right-and-forward-backward">
 <h3>Move left/right and forward/backward<a class="headerlink" href="#move-left-right-and-forward-backward" title="Permalink to this headline">#</a></h3>
@@ -490,6 +501,7 @@ DJI UAVs are programmed so that you don’t need to push the throttle continuous
 <p class="admonition-title">Under construction!</p>
 <p>The Geo-UAV module of on how automatically fly a multirotor UAV is still under construction.</p>
 </div>
+<p>Many apps and survey design software are available to automate surveys. They allow for planning the survey in the lab and executing it in the field with a simple command, maximizing flight efficiency, reducing pilot and observer workloads and in some situations, minimizing equipment risk. These tools work best for mapping planar surfaces or simple structures like buildings.</p>
 </section>
 </section>
 
@@ -564,7 +576,10 @@ DJI UAVs are programmed so that you don’t need to push the throttle continuous
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uav-controls">UAV controls</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#position-of-the-antennas">Position of the antennas</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-take-off">How to take-off</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-land-your-uav">How to land your UAV</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-land-your-uav">How to land your UAV</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#return-to-home-rth">Return to home (RTH)</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#move-left-right-and-forward-backward">Move left/right and forward/backward</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-rotate-the-uav">How to rotate the UAV</a></li>
 </ul>

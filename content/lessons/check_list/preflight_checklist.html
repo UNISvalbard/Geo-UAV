@@ -147,8 +147,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../../_static/UNIS_logo.gif" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/UNIS_logo.gif" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -157,10 +157,16 @@ const thebe_selector_output = ".output, .cell_output"
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../regulations/operator_registration.html">Register as a UAS operator</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 2</span></p>
@@ -175,14 +181,8 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../flightplan/flightplan.html">Design your flight plan</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment awareness</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 5</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../environment/environment.html">Enviornment and situational awareness</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SUPPLEMENTARY</span></p>
 <ul class="nav bd-sidenav">
@@ -406,7 +406,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#point-uav-pre-flight-check-guide-for-pilots">6-point UAV pre-flight check guide for pilots</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-the-flying-conditions-and-the-itinerary">1. Check the flying conditions and the itinerary</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-the-flying-conditions-and-the-flightplan">1. Check the flying conditions and the flightplan</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#secure-the-necessary-documentation-before-uav-operation">2. Secure the necessary documentation before UAV operation</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#know-and-comply-with-specific-uav-operation-laws-in-the-area-you-are-flying">3. Know and comply with specific UAV operation laws in the area you are flying</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ensure-that-the-uav-is-fit-for-flight">4. Ensure that the UAV is fit for flight</a></li>
@@ -444,8 +444,8 @@ document.write(`
 <li><p>UAV Calibration</p></li>
 <li><p>Pre-launch check</p></li>
 </ol>
-<section id="check-the-flying-conditions-and-the-itinerary">
-<h3>1. Check the flying conditions and the itinerary<a class="headerlink" href="#check-the-flying-conditions-and-the-itinerary" title="Permalink to this headline">#</a></h3>
+<section id="check-the-flying-conditions-and-the-flightplan">
+<h3>1. Check the flying conditions and the flightplan<a class="headerlink" href="#check-the-flying-conditions-and-the-flightplan" title="Permalink to this headline">#</a></h3>
 <p>Checking the weather is crucial, especially in areas with unpredictable weather like Svalbard. Before flying UAVs, it is important to assess the conditions on site. Avoid flying in high winds, very low temperatures, low clouds, fog, or precipitation. Visibility should be consistent throughout the expected range of operation and pilot certificate.</p>
 <p>Discuss the flight plan with your co-pilot and have a clear plan in place. You will be limited by the number of batteries, battery life of the controller, memory card space, etc. Therefore, having a predefined flight plan is crucial for efficiency and ensuring complete coverage of the area.</p>
 <p>If the weather suddenly changes and disrupts UAV operations, land the UAV as soon as possible to minimize risks.</p>
@@ -489,6 +489,17 @@ Never fly over stadiums, crowds, near emergency response efforts, and within the
 <p>Dirt and debris can cause malfunctions, so it is important to clean specific areas carefully after the structural damage inspections.</p>
 <p>To avoid power-critical mission failure, ensure that the batteries are adequately charged with a minimum of 75% charge per battery. It is also recommended to have spare batteries on hand for each unit to reduce time lost to charging. Make sure that all battery packs are securely fixed into position before launching.</p>
 <p>Finally, check the camera settings and ensure that the memory card has enough space for the mission.</p>
+<div class="tip admonition">
+<p class="admonition-title">Spare components</p>
+<p>It is recommended to have spare components always with you in case of damage or malfunctions. Our recommended list includes:</p>
+<ol class="arabic simple">
+<li><p>Spare batteries. A battery lasts typically 20-30 minutes (15-20 minutes in cold conditions). We recommend taking between 3 and 10 to the field, depending on how much flying is anticipated.</p></li>
+<li><p>Memory cards. In addition to having enough storage space, recommended to change cards after flights to prevent loss of data collected earlier in the day in the event of a crash or flyaway.</p></li>
+<li><p>Spare propellers.</p></li>
+<li><p>Spare joysticks.</p></li>
+<li><p>An external battery pack with a cable to charge the controller/phone/tablet.</p></li>
+</ol>
+</div>
 </section>
 <section id="uav-calibration">
 <h3>5. UAV Calibration<a class="headerlink" href="#uav-calibration" title="Permalink to this headline">#</a></h3>
@@ -518,8 +529,8 @@ Never fly over stadiums, crowds, near emergency response efforts, and within the
 <section id="pre-launch-check">
 <h3>6. Pre-launch check<a class="headerlink" href="#pre-launch-check" title="Permalink to this headline">#</a></h3>
 <p>After completing all necessary checks, it is crucial to carefully survey the launch area and select the optimal spot for takeoff.</p>
-<p>The drone should ideally be placed on a level surface, with no obstructions in the surrounding area.</p>
-<p>In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to schedule a flight.</p>
+<p>The drone should ideally be placed on a flat surface with plenty of space around it.</p>
+<p>In case of unfavorable weather conditions, missing documentation or any discrepancies in the pre-flight checklist, you will need to reschedule the flight.</p>
 </section>
 </section>
 </section>
@@ -592,7 +603,7 @@ Never fly over stadiums, crowds, near emergency response efforts, and within the
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#point-uav-pre-flight-check-guide-for-pilots">6-point UAV pre-flight check guide for pilots</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-the-flying-conditions-and-the-itinerary">1. Check the flying conditions and the itinerary</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#check-the-flying-conditions-and-the-flightplan">1. Check the flying conditions and the flightplan</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#secure-the-necessary-documentation-before-uav-operation">2. Secure the necessary documentation before UAV operation</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#know-and-comply-with-specific-uav-operation-laws-in-the-area-you-are-flying">3. Know and comply with specific UAV operation laws in the area you are flying</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ensure-that-the-uav-is-fit-for-flight">4. Ensure that the UAV is fit for flight</a></li>

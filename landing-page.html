@@ -146,8 +146,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="_static/UNIS_logo.gif" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/UNIS_logo.gif" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -156,10 +156,16 @@ const thebe_selector_output = ".output, .cell_output"
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="content/lessons/intro/intro.html">Welcome to Geo-UAV</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/uav_types/definitions.html">Some useful definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/uav_types/uav_types.html">Types of UAVs</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/regulations/regulations.html">UAV flight regulations</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="content/lessons/regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/lessons/sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/lessons/environment/longyearbyen.html">Flying drones on Svalbard</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="content/lessons/regulations/operator_registration.html">Register as a UAS operator</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 2</span></p>
@@ -174,14 +180,8 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/flightplan/flightplan.html">Design your flight plan</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/environment/environment.html">Enviornment awareness</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/environment/longyearbyen.html">Flying drones on Svalbard</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 5</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/data_acquisition/data_acquisition.html">Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/environment/environment.html">Enviornment and situational awareness</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SUPPLEMENTARY</span></p>
 <ul class="nav bd-sidenav">
@@ -436,10 +436,9 @@ document.write(`
 <p>Geo-UAV course is split in several sessions, consisting of interactive lectures walkthroughs, and exercises.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html">Flight regulations</a></p></li>
-<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html">Pre-flight check list</a></p></li>
-<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html">How to fly an UAV</a></p></li>
-<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/flightplan/flightplan.html">Design of a flight plan</a></p></li>
-<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html">Data acquisition</a></p></li>
+<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html">Pre- and Post- flight check list</a></p></li>
+<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html">How to fly a UAV</a></p></li>
+<li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></p></li>
 <li><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/survey.html">Questionnaire</a></p></li>
 </ul>
 </section>
@@ -449,7 +448,7 @@ document.write(`
 </section>
 <section id="contribute-or-improve-the-resource">
 <h2>Contribute or improve the resource<a class="headerlink" href="#contribute-or-improve-the-resource" title="Permalink to this headline">#</a></h2>
-<p>Notice some unclear sections? A typo in the text? Want to add a cool tutorial or how-to on processing? Get in touch and let’s make thing happen!</p>
+<p>Notice some unclear sections? A typo in the text? Want to contribute in one of the course sessions? Get in touch and let’s make thing happen!</p>
 <figure class="align-default" id="github-tut">
 <img alt="_images/github_tut.gif" src="_images/github_tut.gif" />
 <figcaption>
@@ -467,24 +466,25 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 <a class="reference external image-reference" href="https://iearth.no"><img alt="https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png" class="m-auto" src="https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png" style="width: 200px;" /></a>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-<p>The developement of Geo-MOD is funded by <a class="reference external" href="https://www.iearth.no/">iEarth</a>, a Norwegian Center of Excellence for Integrated Earth Science Education.</p>
+<p>The developement of Geo-AUV is funded by <a class="reference external" href="https://www.iearth.no/">iEarth</a>, a Norwegian Center of Excellence for Integrated Earth Science Education.</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <a class="reference external image-reference" href="https://svalbox.no"><img alt="https://svalbox.no/_static/logo.svg" class="m-auto" src="https://svalbox.no/_static/logo.svg" width="50px" /></a>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-<p>The Geo-MOD course implements technical knowhow acquired through The <a class="reference external" href="https://svalbox.no">Svalbox</a> Project.</p>
+<p>The Geo-UAV implements technical knowhow acquired through The <a class="reference external" href="https://svalbox.no">Svalbox</a> Project.</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <a class="reference external image-reference" href="https://unis.no"><img alt="_images/UNIS_logo.gif" class="m-auto" src="_images/UNIS_logo.gif" style="width: 200px;" /></a>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-<p><a class="reference external" href="https://www.unis.no/">UNIS</a> supports Geo-MOD by providing necessary technical and logistical assistance.</p>
+<p><a class="reference external" href="https://www.unis.no/">UNIS</a> supports Geo-UAV by providing necessary technical and logistical assistance.</p>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference external image-reference" href="https://nfip.no"><img alt="_images/nfip-logo.png" class="m-auto" src="_images/nfip-logo.png" style="width: 200px;" /></a>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
-<p><a class="reference external" href="https://nfip.no/">NFiP</a> financially supports Geo-MOD development and provided travel stipends for course participants.</p>
+<p><a class="reference external" href="https://nfip.no/">NFiP</a> financially supports Geo-UAV development and provided travel stipends for course participants.</p>
 </div>
 </div>
 </div>
