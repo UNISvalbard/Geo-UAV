@@ -22,7 +22,7 @@ jobs:
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
-          environment-file: geomod.yml
+          environment-file: ${{ github.workspace }}/geomod.yml
 
       - name: Build
         shell: bash -l {0}
