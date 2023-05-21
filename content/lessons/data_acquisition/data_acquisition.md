@@ -38,7 +38,7 @@ To effectively use a UAV for photogrammetric modelling of geological outcrops, t
 
 1. The UAV should have the ability to be piloted manually while providing a live camera feed.
 2. The UAV should be stable in windy conditions and have satellite-assisted positioning. Cheaper units that lack these features are only suitable for indoor flying.
-3. The UAV should have a range of at least 500 meters, which is the maximum distance for line of sight flying in most countries. The unit should be capable of achieving this comfortably.
+3. The UAV should have a range of at least 500 m, which is the maximum distance for line of sight flying in most countries. The unit should be capable of achieving this comfortably.
 4. The camera should be of good quality and have various controls like speed, aperture, etc. The DJI Phantom 4 Pro and Mavic Pro 2 have a 20-megapixel 1-inch sensor that produces excellent results. Good results can also be achieved with slightly smaller sensors like the 12-megapixel sensor on smaller Mavics and older Phantoms.
 5. The camera must have a timelapse function (intervalometer) that allows for taking photos at preset intervals (normally 3 to 5 seconds).
 6. The camera should be linked to the navigation system so that the UAV's position is recorded when each photo is taken.
