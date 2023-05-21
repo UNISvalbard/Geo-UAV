@@ -32,9 +32,8 @@ jobs:
           conda install jupyter-book -c conda-forge
           jupyter book build .
           
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.6.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITUHB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: _build/html
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
