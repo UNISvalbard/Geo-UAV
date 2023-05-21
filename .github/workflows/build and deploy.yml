@@ -1,0 +1,38 @@
+name: Build and deploy [Python 3.8, 3.9]
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          activate-environmen: jupyterbook
+          auto-activate-base: false
+
+      - name: Build
+        shell: bash -l {0}
+        run: |
+          conda init bash
+          conda env create jupyterbook
+          conda install -c conda-forge jupyter-book
+          jupyter book build .
+          
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITUHB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: _build/html
