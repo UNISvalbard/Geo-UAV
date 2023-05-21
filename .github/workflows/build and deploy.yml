@@ -18,15 +18,18 @@ jobs:
       - name: Setup Python
         uses: conda-incubator/setup-miniconda@v2
         with:
+          activate-environment: test
+          #environment-file: geomod.yaml
           python-version: ${{ matrix.python-version }}
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
-          environment-file: ${{ github.workspace }}/geomod.yaml
+          auto-activate-base: false
 
       - name: Build
         shell: bash -l {0}
         run: |
+          conda install jupyter-book -c conda-forge
           jupyter book build .
           
       - name: Deploy
