@@ -34,3 +34,9 @@ sphinx:
     bibtex_default_style: plain
 
 only_build_toc_files: true
+
+bibtex_bibfiles: "bibliography.bib"
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year

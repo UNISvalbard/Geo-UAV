@@ -34,6 +34,10 @@ parts:
   chapters:
   - file: content/lessons/data_acquisition/data_acquisition.md
 
+- caption: SUPPLEMENTARY
+  chapters:
+  - file: content/lessons/bibliography.md
+
 - caption: QUESTIONNAIRE
   chapters:
   - file: content/survey.md

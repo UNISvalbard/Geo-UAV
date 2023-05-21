@@ -24,7 +24,7 @@ In order to collect virtual outcrop data, it's important to have expertise in op
 
 ```{admonition} Data source
 :class: tip
-Most of the pieces of information in this section have been published by Howell et al., 2021.
+Most of the pieces of information in this section have been published by {cite:t}`howell2021acquisition`.
 ```
 
 The market offers a wide selection of UAVs, each with different features and price ranges suitable for hobbyists, professionals, and scientific purposes. When it comes to virtual outcrop modelling, multirotors like the DJI Mavic series or DJI Phantom series are ideal for beginners. While fixed wing drones are useful for horizontal outcrops and can cover large areas quickly, they come with a few limitations such as having only a downward-facing camera, being expensive, and requiring mission planning that may not always be suitable for fieldwork.
@@ -97,13 +97,12 @@ Although it may be necessary to collect data in these conditions, it is crucial 
 ```{figure} assets/howelletal1.png
 :name: howelletal1
 
-Figure published by Howell et al., 2021. Fly three transects to ensure complete coverage of the cliff section.
+Figure published by {cite:t}`howell2021acquisition`. Fly three transects to ensure complete coverage of the cliff section.
 ```
 
 
 
 ## Literature
-Howell et al., 2021. Acquisition of Data for Building Photogrammetric Virtual Outcrop Modelsfor the Geosciences using Remotely Piloted Vehicles (UAVs). https://doi.org/10.31223/X54914
 
 Pargiela et al., 2023. Optimising UAV Data Acquisition and Processing for Photogrammetry: A Review. https://doi.org/10.7494/geom.2023.17.3.29
 
