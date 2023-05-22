@@ -140,7 +140,7 @@ To get the best data from a flight, making three passes along each section of th
 ```{figure} assets/howelletal1.png
 :name: howelletal1
 
-Figure published by {cite:t}`howell2021acquisition`. Fly three transects to ensure complete coverage of the cliff section.
+Figure published by {cite:t}`howell2021acquisition`. Fly at least two transects to ensure complete coverage of the cliff section.
 ```
 
 For larger outcrops or lower-resolution models, two flight passes might be enough. In this case, the UAV should be flown further away from the outcrop to fit the entire height in each photo. The first pass should be done with the camera facing downward at a 5-15 degree angle, and the second pass should be done with the camera tilted up at a 20-40 degree angle and the UAV flying higher.
