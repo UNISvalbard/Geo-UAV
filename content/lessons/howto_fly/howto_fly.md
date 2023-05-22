@@ -66,3 +66,9 @@ The Geo-UAV module of on how automatically fly a multirotor UAV is still under c
 ```
 Many apps and survey design software are available to automate surveys. They allow for planning the survey in the lab and executing it in the field with a simple command, maximizing flight efficiency, reducing pilot and observer workloads and in some situations, minimizing equipment risk. These tools work best for mapping planar surfaces or simple structures like buildings.
 
+```{admonition} Explore more
+:class: tip
+
+[PIX4D](https://www.pix4d.com/product/pix4dmapper-photogrammetry-software/) is a photogrammetry software to help you plan and capture your UAV mapping survey.
+```
+
