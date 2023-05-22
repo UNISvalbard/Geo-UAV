@@ -71,8 +71,8 @@ If you are using your drone for a specific purpose, such as collecting a virtual
 
 The next step is to design the survey, which can be done either in the field or in the lab.  It's best to consult with your visual observer beforehand to agree on the flight plan. The size of the area covered and the expected resolution of the virtual outcrop will depend on the data being collected.
 
-```{figure} assets/observer.jpg
-:name: observer
+```{figure} assets/observer1.jpg
+:name: observer1
 
 Pilot and visual observer discussing and adjusting the flight plan in the field.
 ```
