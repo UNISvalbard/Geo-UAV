@@ -1,5 +1,5 @@
 # Enviornment awareness, risk and safety
-When flying, it's crucial to stay aware of your surroundings, your UAV, and yourself. It's important to have a good understanding of your situation and be able to predict events based on your perception of the environment. This allows you to manage risks and stay safe throughout your flight
+When flying, it's crucial to stay aware of your surroundings, your UAV, and yourself. It's important to have a good understanding of your situation and be able to predict events based on your perception of the environment. This allows you to manage risks and stay safe throughout your flight.
 
 Before taking off to fly over an outcrop, it's important to review the safety measures outlined in your flight plan to ensure they are in place:
 
@@ -31,12 +31,12 @@ Before taking a flight, it is important to consider the human factor which can l
 ```{admonition} **I'M SAFE** methodology
 :class: note
 
-- I - Illness: Colds, allergies, and other illnesses can lead to issues like eye irritation or headaches, which can ultimately impact the safety of the flight. To ensure safety, pilots must evaluate their physical fitness before flying. They should only fly if they feel well enough to do so without risking the safety of the operation.
-- M - Medication: If ill, the pilot must assess whether the medication they take may have any negative impact on their mental or physical abilities that could compromise the safety of the flight.
-- S - Stress: When flying as a remote pilot, a moderate level of stress can actually be beneficial by keeping one alert to potentially hazardous situations. However, excessive stress can negatively impact behavior and reaction times. To ensure safe flights, it's important for remote pilots to recognize and assess their own personal threshold for stress and avoid exceeding it.
-- A - Alcohol: Drinking alcohol or using psychoactive substances before flying a UAS is not recommended. These substances can impair the brain, sight, hearing, motor skills, and judgment of the pilot, all of which are crucial for a safe flight.
-- F - Fatige: Managing fatigue among pilots can be challenging since it affects individuals differently. Therefore, each pilot must be aware of their fatigue limitations and ensure they do not exceed them before or during a flight. Factors such as sleep deprivation, time changes, jet lag, and night operations can contribute to pilot fatigue.
-- E - Emotions: Before flying, the pilot should assess their mental state to ensure stability. While emotions can typically be controlled, they may resurface under stress.
+- **I** - Illness: Colds, allergies, and other illnesses can lead to issues like eye irritation or headaches, which can ultimately impact the safety of the flight. To ensure safety, pilots must evaluate their physical fitness before flying. They should only fly if they feel well enough to do so without risking the safety of the operation.
+- **M** - Medication: If ill, the pilot must assess whether the medication they take may have any negative impact on their mental or physical abilities that could compromise the safety of the flight.
+- **S** - Stress: When flying as a remote pilot, a moderate level of stress can actually be beneficial by keeping one alert to potentially hazardous situations. However, excessive stress can negatively impact behavior and reaction times. To ensure safe flights, it's important for remote pilots to recognize and assess their own personal threshold for stress and avoid exceeding it.
+- **A** - Alcohol: Drinking alcohol or using psychoactive substances before flying a UAS is not recommended. These substances can impair the brain, sight, hearing, motor skills, and judgment of the pilot, all of which are crucial for a safe flight.
+- **F** - Fatige: Managing fatigue among pilots can be challenging since it affects individuals differently. Therefore, each pilot must be aware of their fatigue limitations and ensure they do not exceed them before or during a flight. Factors such as sleep deprivation, time changes, jet lag, and night operations can contribute to pilot fatigue.
+- **E** - Emotions: Before flying, the pilot should assess their mental state to ensure stability. While emotions can typically be controlled, they may resurface under stress.
 ```
 
 ## Privacy and data protection
