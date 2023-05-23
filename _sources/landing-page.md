@@ -1,6 +1,8 @@
+# Welcome to Geo-UAV
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
 
-# Welcome to Geo-UAV
+## Teaching Geoscientific drone-based data acquisition
 
 ````{margin} Part of the Geo-MOD series
  
