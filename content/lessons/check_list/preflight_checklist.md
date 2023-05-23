@@ -89,6 +89,17 @@ It is very important to check the UAV firmware in a place with Internet connecti
 #### 5.2. Calibration
 If you're changing locations, your compass may experience interference and cause problems. Luckily, calibrating it is usually a breeze - just access the in-app command and let the software do its thing. Be sure to check your model-specific manual for the exact steps.
 
+````{admonition} Instruments calibration
+:class: note
+Instruments must be re-calibratied when observed to be working incorrectly. Instruments may also be re-calibrated prior to every flight to reduce the propagation of small errors over time.
+
+```{figure} assets/calibration.gif
+:name: calibration
+
+If you encounter a compass calibration error while using DJI UAVs, the message prompt _Compass error. More aircraft or calibrate compass_ will appear at the top of the screen. Click on it to access the aircraft status menu, then select the _Calibrate_ option to calibrate the compass. It is crucial to ensure that there are no magnets or metal objects near the compass during calibration.
+```
+````
+
 Your drone's Inertial Measurement Unit (IMU) is a complex system that calculates angular velocity and linear acceleration using accelerometers, gyroscopes, and sometimes magnetometers. Despite its complexity, calibrating the IMU is a simple process that can be done using software on your drone or control station modules.
 
 
@@ -96,11 +107,6 @@ Your drone's Inertial Measurement Unit (IMU) is a complex system that calculates
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l4xhdfJWr3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 _This is an example of a DJI UAV calibration in the field, also called _Drone Dance!_. To begin, select the "Calibration" option on the controller and follow the instructions that appear on the screen. Start by rotating the UAV horizontally, then move it 90 degrees and continue rotating it in the same plane until the controller indicates that the calibration is complete._
-```
-
-```{admonition} Instruments calibration
-:class: note
-Instruments must be re-calibratied when observed to be working incorrectly. Instruments may also be re-calibrated prior to every flight to reduce the propagation of small errors over time.
 ```
 
 ### 6. Pre-launch check
