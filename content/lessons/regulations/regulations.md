@@ -137,9 +137,19 @@ European Standard Scenario STS-01. Source: [EASA](https://www.easa.europa.eu/en/
 ```
 ````
 
-````{sidebar}
-```{admonition} UAS requirements
-:class: tip
+````{grid}
+:gutter: 2
+
+```{grid-item-card} General requirements
+- Operator Registration
+- STS-01 Declaration
+- Operator's Manual
+- STS-01 Pilot license
+- Coordination with Air Traffic Service Porviders if necessary
+- EARO + FPL if necessary
+```
+
+```{grid-item-card} UAS requirements
 - The UAV cannot be a fixed-wing.
 - MTOM < 10 kg
 - Electric
@@ -148,16 +158,6 @@ European Standard Scenario STS-01. Source: [EASA](https://www.easa.europa.eu/en/
 - Means to reduce the effect of impact dynamics
 ```
 ````
-
-```{admonition} General requirements
-:class: tip
-- Operator Registration
-- STS-01 Declaration
-- Operator's Manual
-- STS-01 Pilot license
-- Coordination with Air Traffic Service Porviders if necessary
-- EARO + FPL if necessary
-```
 
 ##### STS-02
 The European Standard Scenario STS-02 refers to flight of a C6 UAS beyond visual line of sight (BVLOS) with airspace observers over a controlled area on ground in a sparsely populated environment.
@@ -186,9 +186,19 @@ European Standard Scenario STS-02. Source: [EASA](https://www.easa.europa.eu/en/
 ```
 ````
 
-````{sidebar}
-```{admonition} UAS requirements
-:class: tip
+````{grid}
+:gutter: 2
+
+```{grid-item-card} General requirements
+- Operator Registration
+- STS-02 Declaration
+- Operator's Manual
+- STS-02 Pilot license
+- Coordination with Air Traffic Service Porviders if necessary
+- EARO + FPL if necessary
+```
+
+```{grid-item-card} UAS requirements
 - MTOM < 25 kg
 - Max dimension < 3 m
 - Max speed < 50 m/s
@@ -198,16 +208,6 @@ European Standard Scenario STS-02. Source: [EASA](https://www.easa.europa.eu/en/
 - UAS insurance
 ```
 ````
-
-```{admonition} General requirements
-:class: tip
-- Operator Registration
-- STS-02 Declaration
-- Operator's Manual
-- STS-02 Pilot license
-- Coordination with Air Traffic Service Porviders if necessary
-- EARO + FPL if necessary
-```
 
 ### Certified Category
 To operate in the "certified" category, certain requirements must be met as defined in the Execution Regulation (EU) 2019/947. These include:
