@@ -10,7 +10,7 @@ Therefore, when collecting data in the field for photogrammetric studies, it's v
 ```{figure} assets/triangle.png
 :name: triangle
 
-The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  Image [source](https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png).
+The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  [Image source](https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png).
 ```
 
 The data acquisition stage also contains processes during which we collect additional data, for example, [Ground Control Points (GCPs)](https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html).
@@ -57,7 +57,7 @@ Most UAVs currently available to consumers have GNSS navigation modules that can
 An alternative is the use of [GCPs](https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html) measured in the field, which can supplement or replace exterior orientation measurements. However, this method requires time-consuming field measurements that must be done with great care to ensure the highest possible accuracy in determining the position of the points.
 
 ## Choice of outcrop
-To be a valuable resource for studying, an ideal outcrop should be geologically interesting. Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later.
+To be a valuable resource for studying, an ideal outcrop should be geologically interesting. Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later {cite:t}`howell2021acquisition`.
 
 For those who are new to acquisition campaigns, it is recommended to start with a small and compact outcrop for the first flights and gradually work up to more challenging locations. A reasonable size to begin with is around 200-300 meters long and up to 30 meters high. This way, you can always fly within line of sight and never exceed 120 meters in height.
 
@@ -135,7 +135,7 @@ We recommend using the camera's auto-focus feature when taking pictures to make 
 
 ## Flight pattern
 ### Vertical outcrops
-To get the best data from a flight, making three passes along each section of the outcrop is recommended. The UAV should be flown sideways, facing directly at the cliff. As you fly, ensure that there's at least a 70% overlap between adjacent photos. If the outcrop is curved or concave, adjust your flight path accordingly to capture all angles. You can take as many photos as needed, and sort them later during processing. The first pass should be low, with the camera pointing horizontally and tilted at a 10-degree angle. The second pass should be done from a higher altitude and with the camera tilted at a 30-40 degree angle. Finally, the third pass should be done from an even higher altitude, with the camera tilted at an 80-degree angle. Collecting overview photos taken from further back can be useful as a reference in the model-building process.
+To get the best data from a flight, making three passes along each section of the outcrop is recommended. The UAV should be flown sideways, facing directly at the cliff. As you fly, ensure that there's at least a 70% overlap between adjacent photos. If the outcrop is curved or concave, adjust your flight path accordingly to capture all angles. You can take as many photos as needed, and sort them later during processing. The first pass should be low, with the camera pointing horizontally and tilted at a 10-degree angle. The second pass should be done from a higher altitude and with the camera tilted at a 30-40 degree angle. Finally, the third pass should be done from an even higher altitude, with the camera tilted at an 80-degree angle. Collecting overview photos taken from further back can be useful as a reference in the model-building process {cite:t}`howell2021acquisition`.
 
 ```{figure} assets/howelletal1.png
 :name: howelletal1
@@ -166,10 +166,6 @@ While DJI UAVs typically provide alerts for battery connectivity issues, malfunc
 
 
 _Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!_
-
-## Literature
-
-Pargiela et al., 2023. Optimising UAV Data Acquisition and Processing for Photogrammetry: A Review. https://doi.org/10.7494/geom.2023.17.3.29
 
 
 
