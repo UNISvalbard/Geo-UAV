@@ -4,7 +4,7 @@
 
 ````{margin} Part of the Geo-MOD series
  
-This compendium forms part of the UNIS [Geo-MOD](https://unisvalbard.github.io/Geo-MODlanding-page.html) series:
+This compendium forms part of the UNIS [Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) series:
 
 > [Geo-UAV: Learn to fly geoscientific missions](https://unisvalbard.github.io/Geo-UAV/landing-page.html)
 
