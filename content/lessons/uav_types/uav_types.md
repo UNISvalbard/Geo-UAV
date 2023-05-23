@@ -25,7 +25,7 @@ Vertical Take-Off and Landing Unmanned Aerial Vehicles (VTOL UAVs) are fixed-win
 VTOL UAVs are not recommended for beginners due to their advanced technology, which makes them more complex and expensive than other options of fixed-wing UAVs in the market.
 
 ```{admonition} Wingtra
-:class: tip
+:class: seealso
 [WingtraOne](https://wingtra.com/mapping-drone-wingtraone/) is a VTOL UAV made for high-resolution mapping and surveying of large areas.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KwkCgDMKTTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

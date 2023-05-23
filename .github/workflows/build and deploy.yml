@@ -1,0 +1,39 @@
+name: Build and deploy [Python 3.9]
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Setup Python
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: test
+          #environment-file: geomod.yaml
+          python-version: ${{ matrix.python-version }}
+          mamba-version: "*"
+          channels: conda-forge,defaults
+          channel-priority: true
+          auto-activate-base: false
+
+      - name: Build
+        shell: bash -l {0}
+        run: |
+          conda install jupyter-book -c conda-forge
+          jupyter book build .
+          
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html

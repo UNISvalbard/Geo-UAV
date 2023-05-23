@@ -4,6 +4,14 @@ It's helpful to have a checklist to make sure you don't forget any important ste
 
 Always power off/disarm the UAV and the controler before anything else to prevent accidents. Then, we recommend following these additional steps:
 
+````{admonition} How to power off
+:class: tip
+In order to power off DJI UAVs, you must first do a quick press, followed by a longer press on the battery on/off button.
+```{figure} assets/turnoff.gif
+:name: turnoff
+```
+````
+
 ## General inspection of the UAV
 1. Inspect each component of the UAV for any visible damage from a potential collision or crash.
 2. Check to be sure all moving parts including the propellers are secure. Carefully rotate the gimbal and see if it can rotate freely.

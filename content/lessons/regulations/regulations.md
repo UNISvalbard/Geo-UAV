@@ -70,8 +70,8 @@ must be met:
 The flight ban on concentrations of people is maintained!
 ```
 
-```{figure} assets/a1.png
-:name: a1
+```{figure} assets/uav-a1.jpg
+:name: uav-a1
 
 Open category A1 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
 ```
@@ -84,8 +84,8 @@ In subcategory A2 the following condition must be met:
 The flight ban on concentrations of people is maintained!
 ```
 
-```{figure} assets/a2.png
-:name: a2
+```{figure} assets/uav-a2.jpg
+:name: uav-a2
 
 Open category A2 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
 ```
@@ -99,8 +99,8 @@ In subcategory A3 the following conditions must be met:
 The flight ban on concentrations of people is maintained!
 ```
 
-```{figure} assets/a3.png
-:name: a3
+```{figure} assets/uav-a3.jpg
+:name: uav-a3
 
 Open category A3 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
 ```
@@ -110,25 +110,109 @@ When the "open" or "certified" category requirements are not met, we would be wi
 
 1. An operational authorization will be requested from the authority of the Member State in which it is registered, including a risk assessment with mitigation measures. Authorization may refer to:
 - One or several operations.
-- The approval of an LUC.
+- The approval of an LUC (Light UAS Operator Certificate).
 
 2. If the operation conforms to a standard scenario, a responsible statement will be submitted through the UAS operator profile on the AESA website.
 
-### Standard Scenarios (STS)
+#### Standard Scenarios (STS)
 Execution Regulation (EU) 2019/947 defines two standard scenarios in which certain requirements are indicated, some of which are not applicable today due to technical limitations.
 
 European Standard Scenarios:
 - STS-01: VLOS over a controlled ground area in a populated environment.
 - STS-02: BVLOS operations with airspace observers over a controlled area on ground in a sparsely populated environment.
 
-#### STS-01
-```{admonition} Under construction!
-:class: warning
-The Geo-UAV STS-01 module is still under construction.
+##### STS-01
+The European Standard Scenario STS-01 refers to flight of a C5 UAS within visual line of sight (VLOS) over a controlled ground area in a populated environment.
+
+Keep your flight below **120 m** and do not fly your unmanned aircraft more than **100 m away**. Additionally, ensure that your entire flight takes place in a _controlled area on ground_ where outsiders cannot access.
+
+````{admonition} Controlled area on ground
+:class: note
+The UAS should only be used in an area where the operator can ensure that only participating individuals are present. A non-participant is someone who is not involved in the UAS operation or unaware of the operator's safety instructions. The operator must establish the boundary of the controlled area on land and monitor who enters. The controlled area includes the flight geography, contingency area, and a risk prevention zone on the ground.
+
+```{figure} assets/sts01.png
+:name: sts01
+
+European Standard Scenario STS-01. Source: [EASA](https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/standard-scenario-sts)
+```
+````
+
+````{grid}
+:gutter: 2
+
+```{grid-item-card} General requirements
+- Operator Registration
+- STS-01 Declaration
+- Operator's Manual
+- STS-01 Pilot license
+- Coordination with Air Traffic Service Porviders if necessary
+- EARO + FPL if necessary
 ```
 
-#### STS-02
-```{admonition} Under construction!
-:class: warning
-The STS-02 module is still under construction.
+```{grid-item-card} UAS requirements
+- The UAV cannot be a fixed-wing.
+- MTOM < 10 kg
+- Electric
+- Low speed mode (max speed 5 m/s)
+- UAS insurance
+- Means to reduce the effect of impact dynamics
 ```
+````
+
+##### STS-02
+The European Standard Scenario STS-02 refers to flight of a C6 UAS beyond visual line of sight (BVLOS) with airspace observers over a controlled area on ground in a sparsely populated environment.
+
+It is imperative that you comply with safety regulations:
+- Keep your flight below **100 m** and ensure that takeoff and landing are within your visual line of sight (VLOS).
+- All flights will take place in sparsely populated areas, and only authorized personnel will be present in a controlled land area.
+- Access to the area must be strictly regulated without exception. 
+- It is essential that you maintain a minimum visibility of **5 kilometers** and keep no more than **1 kilometer** distance between the pilot and aircraft if not using observers.
+- These regulations are non-negotiable and must be followed at all times for the safety of all involved.
+
+````{admonition} Flight zone
+:class: note
+
+When utilizing observers, there are several guidelines to follow to ensure safe operation of the UAS:
+- The drone should not be flown more than 2 km away from the pilot
+- It should be within 1 km of the nearest airspace observer
+- The distance between the remote pilot and any observer should not exceed 1 km
+- Reliable communication between the remote pilot and observers must be established
+- Observers should be strategically positioned to adequately cover the operational volume.
+
+```{figure} assets/sts02.png
+:name: sts02
+
+European Standard Scenario STS-02. Source: [EASA](https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/standard-scenario-sts)
+```
+````
+
+````{grid}
+:gutter: 2
+
+```{grid-item-card} General requirements
+- Operator Registration
+- STS-02 Declaration
+- Operator's Manual
+- STS-02 Pilot license
+- Coordination with Air Traffic Service Porviders if necessary
+- EARO + FPL if necessary
+```
+
+```{grid-item-card} UAS requirements
+- MTOM < 25 kg
+- Max dimension < 3 m
+- Max speed < 50 m/s
+- Max cruise speed < 33 m/s
+- Independent emergency shutdown system
+- Means for programming the trajectory of the aircraft
+- UAS insurance
+```
+````
+
+### Certified Category
+To operate in the "certified" category, certain requirements must be met as defined in the Execution Regulation (EU) 2019/947. These include:
+- Not flying UAS with a dimension greater than 3 m over concentrations of people
+- Transporting people
+- Transporting dangerous goods with high risk for third parties in the event of an accident.
+
+Additionally, if the necessary safety study shows that the risks of the operation cannot be mitigated without certification of the UAS, operator, and pilot licenses, it will also fall under the certified category.
