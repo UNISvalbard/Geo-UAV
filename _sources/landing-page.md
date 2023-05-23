@@ -1,6 +1,17 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
 
 # Welcome to Geo-UAV
+
+````{margin} Part of the Geo-MOD series
+ 
+This compendium forms part of the UNIS [Geo-MOD](https://unisvalbard.github.io/Geo-MODlanding-page.html) series:
+
+> [Geo-UAV: Learn to fly geoscientific missions](https://unisvalbard.github.io/Geo-UAV/landing-page.html)
+
+> [Geo-SfM: Learn to apply structure-from-motion photogrammetry](https://unisvalbard.github.io/Geo-SfM/landing-page.html)
+
+````
+
 This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition in the field.
 
 ### About Geo-UAV
