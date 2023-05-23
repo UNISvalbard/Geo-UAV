@@ -1,2 +1,0 @@
-# Pre-flight check list
-
