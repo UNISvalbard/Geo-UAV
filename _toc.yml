@@ -23,7 +23,6 @@ parts:
 
 - caption: SESSION 3
   chapters:
-  - file: content/lessons/howto_fly/uav_types.md
   - file: content/lessons/howto_fly/howto_fly.md
   - file: content/lessons/flight_simulator/flight_simulator.md
 #   - file: content/lessons/howto_fly/howto_fly_fixwing.md
@@ -32,6 +31,7 @@ parts:
 - caption: SESSION 4
   chapters:
   - file: content/lessons/data_acquisition/data_acquisition.md
+#  - file: content/lessons/data_acquisition/photospheres.md
   - file: content/lessons/environment/environment.md
 
 - caption: SUPPLEMENTARY
@@ -41,10 +41,6 @@ parts:
 - caption: QUESTIONNAIRE
   chapters:
   - file: content/survey.md
-
-- caption: SUPPLEMENTARY
-  chapters:
-  - file: content/bibliography.md
 
 - caption: External Links
   chapters:

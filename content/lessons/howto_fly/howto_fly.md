@@ -36,14 +36,14 @@ To power on your DJI UAV, you'll need to press the battery on/off button twice. 
 
 ```{figure} assets/turnon.gif
 :name: turnon
-Example on how press and hold the power button on a DJI Mavic 2 Pro.
+Press and hold the power button on a DJI Mavic 2 Pro to power on the UAV.
 ```
 
 To power on the Smart Controller, it is the same steps as with the UAV.
 
 ```{figure} assets/turnon-controller.gif
 :name: turnon-controller
-Example on how to to power on a DJI Smart Controller.
+Press and hold the power button on the DJI Smart Controller to power it on/off.
 ```
 
 ### Position of the antennas
