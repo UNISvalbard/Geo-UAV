@@ -131,16 +131,7 @@ At the beginning of this session, it was emphasized that finding a balance betwe
 ```
 
 ### Focus
-We recommend using the camera's auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the _Focus / Shutter_ button on the upper-right of the DJI smart controller's top.
-
-## UAV controller layout
-When you operate DJI UAVs with the smart controller and pre-set options, you can use the buttons and dials on the top to control the camera. On the left side, you'll find the video _Record/stop_ button, and below it is the _Gimbal control dial_, which you can rotate to adjust the camera's vertical angle. On the right side, there's the  _Focus / Shutter_ button, which we previously advised you to half-click to focus before each photo.
-
-```{figure} assets/controller-layout.png
-:name: controller-layout
-
-DJI smart controller top layout. [Image source](https://flyingcdn-fb1c04ff.b-cdn.net/wp-content/uploads/2020/12/bottom-connectors.jpg?width=800).
-```
+We recommend using the camera's auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the camera button on the upper-right of the controller's backside.
 
 ## Flight pattern
 ### Vertical outcrops

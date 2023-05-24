@@ -9,7 +9,6 @@ Always power off/disarm the UAV and the controler before anything else to preven
 In order to power off DJI UAVs, you must first do a quick press, followed by a longer press on the battery on/off button.
 ```{figure} assets/turnoff.gif
 :name: turnoff
-Press and hold the power button on a DJI Mavic 2 Pro to power off the UAV.
 ```
 ````
 
