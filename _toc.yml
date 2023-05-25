@@ -7,6 +7,8 @@ parts:
   - file: content/lessons/intro/intro.md
   - file: content/lessons/uav_types/definitions.md
   - file: content/lessons/uav_types/uav_types.md
+    sections:
+    - file: content/lessons/uav_types/uav_classes.md
 
 - caption: SESSION 1
   chapters:
