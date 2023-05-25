@@ -23,7 +23,7 @@ This is a compilation of the standarised rules published by [European Union Avia
 ```{figure} assets/dronecategories.png
 :name: dronecategories
 
-A visual representation of the adopted three categories of UAV operations. Figure published by Konert et al., 2020.
+A visual representation of the adopted three categories of UAV operations {cite:t}`howell2021acquisition`.
 ```
 
 
