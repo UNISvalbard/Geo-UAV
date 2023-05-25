@@ -7,8 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bibliography &#8212; Geo-AUV</title>
   
   
@@ -158,11 +157,14 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="intro/intro.html">Welcome to Geo-UAV</a></li>
 <li class="toctree-l1"><a class="reference internal" href="uav_types/definitions.html">Some useful definitions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="uav_types/uav_types.html">Types of UAVs</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="uav_types/uav_types.html">Types of UAVs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="uav_types/uav_classes.html">UAV Classes</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="environment/longyearbyen.html">Flying drones on Svalbard</a></li>
 </ul>
@@ -407,7 +409,7 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="bibliography">
+  <div class="section" id="bibliography">
 <h1>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">#</a></h1>
 <div class="docutils container" id="id1">
 <dl class="citation">
@@ -419,7 +421,7 @@ document.write(`
 </dd>
 </dl>
 </div>
-</section>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -434,7 +436,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./content\lessons"
+            path: "./content/lessons"
         },
         predefinedOutput: true
     }
