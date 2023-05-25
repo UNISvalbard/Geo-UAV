@@ -7,7 +7,8 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Specific Operations Risk Assessment (SORA) &#8212; Geo-AUV</title>
   
   
@@ -157,11 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../uav_types/uav_classes.html">UAV Classes</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Specific Operations Risk Assessment (SORA)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
 </ul>
@@ -416,30 +420,32 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="section" id="specific-operations-risk-assessment-sora">
+  <section id="specific-operations-risk-assessment-sora">
 <h1>Specific Operations Risk Assessment (SORA)<a class="headerlink" href="#specific-operations-risk-assessment-sora" title="Permalink to this headline">#</a></h1>
 <div class="warning admonition">
 <p class="admonition-title">Under construction!</p>
 <p>The Geo-UAV module on Specific Operations Risk Assessment (SORA) is still under construction.</p>
 </div>
-<div class="margin sidebar">
+<aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="note admonition">
 <p class="admonition-title">Data source</p>
 <p>This is a compilation of the standarised rules published by <a class="reference external" href="https://www.easa.europa.eu/en/light/topics/drones">European Union Aviation Safety Agency</a>. You can find more information about SORA <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/specific-operations-risk-assessment-sora">here</a>.</p>
 </div>
-</div>
+</aside>
 <p>To conduct an unmanned aircraft operation that isn’t covered by a STS or PDRA, a Specific Operations Risk Assessment (SORA) is required. This assessment is designed to aid you in determining the level of risk involved, proposing ways to mitigate those risks, and ensuring that all safety objectives are met. Failure to complete a SORA for such an operation could result in severe consequences.</p>
 <p>According to the <em>Article 11</em> of the <a class="reference external" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019R0947">European Commission Implementing Regulation (EU) 2019/947</a> <strong>all operations conducted in the Specific category require a risk assessment in order to obtain Operational Authorisation from the Competent Authority of the Member State where the operator is registered</strong>.</p>
-<div class="section" id="how-does-it-work">
+<section id="how-does-it-work">
 <h2>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">#</a></h2>
 <p>SORA offers design and operational measures to reduce harm to third parties on the ground or in the air. The level of robustness, categorized as low, medium, or high, should match the risks associated with ground and air classes. The level of robustness depends on the combination of integrity and assurance levels.</p>
-<div class="figure align-default" id="sora-model">
+<figure class="align-default" id="sora-model">
 <img alt="../../../_images/sora-model.png" src="../../../_images/sora-model.png" />
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">SORA risk model.</span><a class="headerlink" href="#sora-model" title="Permalink to this image">#</a></p>
-</div>
-</div>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 16 </span><span class="caption-text">SORA risk model.</span><a class="headerlink" href="#sora-model" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -454,7 +460,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./content/lessons/sora"
+            path: "./content\lessons\sora"
         },
         predefinedOutput: true
     }

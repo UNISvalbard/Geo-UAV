@@ -7,7 +7,8 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Survey plan and Data acquisition &#8212; Geo-AUV</title>
   
   
@@ -157,11 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../uav_types/uav_classes.html">UAV Classes</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
 </ul>
@@ -445,22 +449,24 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="section" id="survey-plan-and-data-acquisition">
+  <section id="survey-plan-and-data-acquisition">
 <h1>Survey plan and Data acquisition<a class="headerlink" href="#survey-plan-and-data-acquisition" title="Permalink to this headline">#</a></h1>
 <p>The initial phase of UAV-based photogrammetry is data acquisition, which involves capturing aerial photographs with a specific objective and subject. To gather high-quality data, it is crucial to adhere to best practices when taking photos for photogrammetry.</p>
 <p>When acquiring data in the field, it is important to consider the requirements for acquisition. Like any project, there’s a connection between time, quality, and costs. Time refers to the available period for data collection, cost represents the necessary resources, and quality represents the resolution and fit-to-purpose that we want for our DEM or 3D model.</p>
 <p>Let’s exemplify it. If you want a very high-resolution model of an outcrop, you will have to spend significant time acquiring good-quality data, and you will need many resources such as a high-quality camera and UAV, batteries for your UAV and controller, images in your memory card, etc. Suppose you have very little time to properly acquire data. In that case, the quality of the model will be very poor unless you use extremely expensive resources such as multiple multirotors flying simultaneously or predefined flights with a vertical take-off and landing (VTOL) UAV containing a very high-resolution camera. If you are limited by the resources, let’s say, by only having one battery for your UAV, the time you will be able to spend acquiring data will be low, and you will either not cover the entire area that you want or collect general images ending up having a low-resolution model.</p>
 <p>Therefore, when collecting data in the field for photogrammetric studies, it’s vital to assess the resolution and measurement accuracy needed, the resources you have, and the time you can invest in flying to achieve the best possible outcome.</p>
-<div class="figure align-default" id="triangle">
+<figure class="align-default" id="triangle">
 <img alt="../../../_images/triangle.png" src="../../../_images/triangle.png" />
-<p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  <a class="reference external" href="https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png">Image source</a>.</span><a class="headerlink" href="#triangle" title="Permalink to this image">#</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  <a class="reference external" href="https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png">Image source</a>.</span><a class="headerlink" href="#triangle" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>The data acquisition stage also contains processes during which we collect additional data, for example, <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html">Ground Control Points (GCPs)</a>.</p>
 <div class="warning admonition">
 <p class="admonition-title">Learn how to fly</p>
 <p>In order to collect virtual outcrop data, it’s important to have experience in operating a UAV, or in other words, that you know how to fly. Don’t rely on the availability of automated mapping software to do this for you.</p>
 </div>
-<div class="section" id="types-of-uav-for-photogrammetry">
+<section id="types-of-uav-for-photogrammetry">
 <h2>Types of UAV for photogrammetry<a class="headerlink" href="#types-of-uav-for-photogrammetry" title="Permalink to this headline">#</a></h2>
 <div class="tip admonition">
 <p class="admonition-title">Data source</p>
@@ -480,25 +486,25 @@ document.write(`
 <li><p>The camera must have a timelapse function (intervalometer) that allows for taking photos at preset intervals (normally 3 to 5 seconds).</p></li>
 <li><p>The camera should be linked to the navigation system so that the UAV’s position is recorded when each photo is taken.</p></li>
 </ol>
-<div class="section" id="limitations-of-uav-systems">
+<section id="limitations-of-uav-systems">
 <h3>Limitations of UAV systems<a class="headerlink" href="#limitations-of-uav-systems" title="Permalink to this headline">#</a></h3>
-<div class="section" id="battery-life">
+<section id="battery-life">
 <h4>Battery life<a class="headerlink" href="#battery-life" title="Permalink to this headline">#</a></h4>
 <p>One major issue with UAVs is their short battery life. Consumer-grade drones with multiple rotors can only fly for around 20-40 minutes. However, using fixed-wing airframes can increase flight time.
 Note that battery life can be affected by factors such as ambient temperature, the weight of the drone, wind speed, and take-off altitude.</p>
-</div>
-<div class="section" id="miniaturisation-and-optimisation">
+</section>
+<section id="miniaturisation-and-optimisation">
 <h4>Miniaturisation and optimisation<a class="headerlink" href="#miniaturisation-and-optimisation" title="Permalink to this headline">#</a></h4>
 <p>UAVs have to meet specific weight and size requirements. This means that components such as cameras, GPS, and IMU modules must be miniaturized, potentially leading to less precise or suboptimal data.</p>
-</div>
-<div class="section" id="accuracy">
+</section>
+<section id="accuracy">
 <h4>Accuracy<a class="headerlink" href="#accuracy" title="Permalink to this headline">#</a></h4>
 <p>Most UAVs currently available to consumers have GNSS navigation modules that can determine their position with an accuracy of about a meter. Drones with centimeter-accuracy receivers are much more expensive, costing roughly 5-6 times as much.</p>
 <p>An alternative is the use of <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html">GCPs</a> measured in the field, which can supplement or replace exterior orientation measurements. However, this method requires time-consuming field measurements that must be done with great care to ensure the highest possible accuracy in determining the position of the points.</p>
-</div>
-</div>
-</div>
-<div class="section" id="choice-of-outcrop">
+</section>
+</section>
+</section>
+<section id="choice-of-outcrop">
 <h2>Choice of outcrop<a class="headerlink" href="#choice-of-outcrop" title="Permalink to this headline">#</a></h2>
 <p>To be a valuable resource for studying, an ideal outcrop should be geologically interesting. Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later <span id="id2">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>.</p>
 <p>For those who are new to acquisition campaigns, it is recommended to start with a small and compact outcrop for the first flights and gradually work up to more challenging locations. A reasonable size to begin with is around 200-300 meters long and up to 30 meters high. This way, you can always fly within line of sight and never exceed 120 meters in height.</p>
@@ -506,16 +512,18 @@ Note that battery life can be affected by factors such as ambient temperature, t
 <p class="admonition-title">Safety first!</p>
 <p>Safety is crucial when using a UAV, so it is essential to ensure that the outcrop can be flown safely.</p>
 </div>
-</div>
-<div class="section" id="survey-design">
+</section>
+<section id="survey-design">
 <h2>Survey design<a class="headerlink" href="#survey-design" title="Permalink to this headline">#</a></h2>
 <p>If you are using your drone for a specific purpose, such as collecting a virtual outcrop model, having a flight plan for your UAV is important to achieve your goal. This will help you control various factors, ensure that it is legally and safely feasible (revise <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html">SESSION 1 - UAV flight regulations</a> and <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html">SESSION 2  - UAV pre-flight check list</a>), safeguard your equipment, and achieve your mission objective.</p>
 <p>The next step is to design the survey, which can be done either in the field or in the lab.  It’s best to consult with your visual observer beforehand to agree on the flight plan. The size of the area covered and the expected resolution of the virtual outcrop will depend on the data being collected.</p>
-<div class="figure align-default" id="observer1">
+<figure class="align-default" id="observer1">
 <img alt="../../../_images/observer1.jpg" src="../../../_images/observer1.jpg" />
-<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">Pilot and visual observer discussing and adjusting the flight plan in the field.</span><a class="headerlink" href="#observer1" title="Permalink to this image">#</a></p>
-</div>
-<div class="section" id="digital-outcrop-resolution">
+<figcaption>
+<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Pilot and visual observer discussing and adjusting the flight plan in the field.</span><a class="headerlink" href="#observer1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="digital-outcrop-resolution">
 <h3>Digital outcrop resolution<a class="headerlink" href="#digital-outcrop-resolution" title="Permalink to this headline">#</a></h3>
 <p>The resolution of the virtual outcrop is dependent on the camera’s sensor resolution and the proximity of the photographs to the cliff.</p>
 <p>For instance, DJI Mavic Series or DJI Phantom Series cameras have a 94 degree lens equivalent to 20mm on a standard SLR. Therefore, the height of the image in landscape format is roughly equal to the distance of the camera from the cliffs.</p>
@@ -524,35 +532,35 @@ Note that battery life can be affected by factors such as ambient temperature, t
 <p class="admonition-title">GSD Calculator</p>
 <p>To estimate outcrop resolution, you can use the online app <a class="reference external" href="https://www.propelleraero.com/gsd-calculator/">GSD Calculator</a>. However, this estimate is only a guide since the surface may not be completely flat, making it difficult to maintain a consistent distance and causing the GSD to vary based on the terrain complexity.</p>
 </div>
-</div>
-<div class="section" id="light-and-shadows">
+</section>
+<section id="light-and-shadows">
 <h3>Light and shadows<a class="headerlink" href="#light-and-shadows" title="Permalink to this headline">#</a></h3>
 <p>When planning your UAV acquisition survey, it is crucial to consider outcrop orientation and lighting. Bad light on your pictures will require strong post-processing and likely result in a bad model.</p>
 <p>Smooth outcrops in direct sunlight will produce excellent results, but rough outcrops and harsh lighting can create shadows in the model.</p>
 <p>To get the best surveying results, it’s recommended to do so on a bright, overcast day with even lighting. This helps to minimize shadows and provide ample light for your outcrop. Contrary to popular belief, a sunny day with clear blue skies is not ideal for surveying. The strong sunlight can create excessive shadows, which may cause issues with camera exposure and focus. This can lead to issues like flare and details being obscured by shadow, especially when the sun is directly behind or above the cliffs.</p>
 <p>Although it may be necessary to collect data in these conditions, it is crucial to avoid them whenever possible by planning ahead. If time and weather permit, it would be beneficial to collect data at different times of day to optimize lighting.</p>
-</div>
-</div>
-<div class="section" id="camera-set-up-and-calibration">
+</section>
+</section>
+<section id="camera-set-up-and-calibration">
 <h2>Camera set-up and calibration<a class="headerlink" href="#camera-set-up-and-calibration" title="Permalink to this headline">#</a></h2>
 <p>Proper camera setup is crucial in creating a high-quality 3D model. Before every flight, make sure to adjust the camera settings according to the light conditions to ensure optimal data collection.</p>
-<div class="section" id="image-format">
+<section id="image-format">
 <h3>Image format<a class="headerlink" href="#image-format" title="Permalink to this headline">#</a></h3>
 <p>With the DJI UAVs you have the possibility to switch the image file format to either RAW or JPG.</p>
 <p>If you’re wondering which image file format to use, we suggest choosing JPG. In most cases, it’s best to go with JPG since RAW files are much larger and require processing before they can be used, which can be a problem when dealing with hundreds or even thousands of images. Unless you’re dealing with challenging or fluctuating lighting conditions, shooting in RAW isn’t necessary. However, if you do encounter such situations, RAW images will give you more flexibility to adjust exposure stops later on.</p>
 <p>For your first models, we suggest sticking with JPG format.</p>
-</div>
-<div class="section" id="shutter-speed-and-camera-aperture">
+</section>
+<section id="shutter-speed-and-camera-aperture">
 <h3>Shutter speed and camera aperture<a class="headerlink" href="#shutter-speed-and-camera-aperture" title="Permalink to this headline">#</a></h3>
 <p>When taking photographs, it is important to balance the aperture and shutter speed. The aperture controls the depth of field, while the shutter speed prevents blurry images.</p>
 <p>For uniform lighting and non-backlit subjects, auto exposure will suffice. However, for better modeling, a small aperture with a high F-number and depth of field is recommended. If the subject is well-lit, choose Aperture Priority and select F/11 or higher. This will reduce the shutter speed, but a fast shutter speed of 1/250 or faster is necessary to compensate for the movement of the UAV.</p>
 <p>To determine the appropriate shutter speed for your selected aperture, use spot metering by pointing the camera at the darkest part of the subject. Adjust the ISO to compensate, but keep it as low as possible to minimize sensor noise. Using DJI Phantom Series and DJI Mavic Series cameras, an ISO of up to 800 or even 1600 is still acceptable.</p>
-</div>
-<div class="section" id="white-balance">
+</section>
+<section id="white-balance">
 <h3>White balance<a class="headerlink" href="#white-balance" title="Permalink to this headline">#</a></h3>
 <p>For consistent photo quality, it’s important to manually set the White Balance (WB) to either sunny or cloudy depending on the lighting conditions, instead of leaving it on auto. This will prevent color variations in your survey photos.</p>
-</div>
-<div class="section" id="timelapse">
+</section>
+<section id="timelapse">
 <h3>Timelapse<a class="headerlink" href="#timelapse" title="Permalink to this headline">#</a></h3>
 <p>The frequency of the camera timelapse depends on the data being collected and the speed at which the UAV is flying.</p>
 <ul class="simple">
@@ -564,29 +572,33 @@ Note that battery life can be affected by factors such as ambient temperature, t
 <p class="admonition-title">Do not overtake images</p>
 <p>At the beginning of this session, it was emphasized that finding a balance between time, resources and resolution is crucial. Gathering sufficient data to avoid gaps in the model and obtaining a satisfactory resolution without overwhelming images is key. If there is an excessive amount of data, the model may be difficult to process on your computer.</p>
 </div>
-</div>
-<div class="section" id="focus">
+</section>
+<section id="focus">
 <h3>Focus<a class="headerlink" href="#focus" title="Permalink to this headline">#</a></h3>
 <p>We recommend using the camera’s auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the <em>Focus / Shutter</em> button on the upper-right of the DJI smart controller’s top.</p>
-</div>
-</div>
-<div class="section" id="uav-controller-layout">
+</section>
+</section>
+<section id="uav-controller-layout">
 <h2>UAV controller layout<a class="headerlink" href="#uav-controller-layout" title="Permalink to this headline">#</a></h2>
 <p>When you operate DJI UAVs with the smart controller and pre-set options, you can use the buttons and dials on the top to control the camera. On the left side, you’ll find the video <em>Record/stop</em> button, and below it is the <em>Gimbal control dial</em>, which you can rotate to adjust the camera’s vertical angle. On the right side, there’s the  <em>Focus / Shutter</em> button, which we previously advised you to half-click to focus before each photo.</p>
-<div class="figure align-default" id="controller-layout">
+<figure class="align-default" id="controller-layout">
 <img alt="../../../_images/controller-layout.png" src="../../../_images/controller-layout.png" />
-<p class="caption"><span class="caption-number">Fig. 25 </span><span class="caption-text">DJI smart controller top layout. <a class="reference external" href="https://flyingcdn-fb1c04ff.b-cdn.net/wp-content/uploads/2020/12/bottom-connectors.jpg?width=800">Image source</a>.</span><a class="headerlink" href="#controller-layout" title="Permalink to this image">#</a></p>
-</div>
-</div>
-<div class="section" id="flight-pattern">
+<figcaption>
+<p><span class="caption-number">Fig. 33 </span><span class="caption-text">DJI smart controller top layout. <a class="reference external" href="https://flyingcdn-fb1c04ff.b-cdn.net/wp-content/uploads/2020/12/bottom-connectors.jpg?width=800">Image source</a>.</span><a class="headerlink" href="#controller-layout" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="flight-pattern">
 <h2>Flight pattern<a class="headerlink" href="#flight-pattern" title="Permalink to this headline">#</a></h2>
-<div class="section" id="vertical-outcrops">
+<section id="vertical-outcrops">
 <h3>Vertical outcrops<a class="headerlink" href="#vertical-outcrops" title="Permalink to this headline">#</a></h3>
 <p>To get the best data from a flight, making at least two (ideally three) passes along each section of the outcrop is recommended. The UAV should be flown sideways, facing directly at the cliff. As you fly, ensure that there’s at least a 70% overlap between adjacent photos. If the outcrop is curved or concave, adjust your flight path accordingly to capture all angles. You can take as many photos as needed, and sort them later during processing. The first pass should be low, with the camera pointing horizontally and tilted at a 10-degree angle. The second pass should be done from a higher altitude and with the camera tilted at a 30-40 degree angle. Finally, the third pass should be done from an even higher altitude, with the camera tilted at an 80-degree angle. Collecting overview photos taken from further back can be useful as a reference in the model-building process <span id="id3">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>.</p>
-<div class="figure align-default" id="howelletal1">
+<figure class="align-default" id="howelletal1">
 <img alt="../../../_images/howelletal1.png" src="../../../_images/howelletal1.png" />
-<p class="caption"><span class="caption-number">Fig. 26 </span><span class="caption-text">Figure published by <span id="id4">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>. Fly at least two transects to ensure complete coverage of the cliff section.</span><a class="headerlink" href="#howelletal1" title="Permalink to this image">#</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Figure published by <span id="id4">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>. Fly at least two transects to ensure complete coverage of the cliff section.</span><a class="headerlink" href="#howelletal1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>For larger outcrops or lower-resolution models, two flight passes might be enough. In this case, the UAV should be flown further away from the outcrop to fit the entire height in each photo. The first pass should be done with the camera facing downward at a 5-15 degree angle, and the second pass should be done with the camera tilted up at a 20-40 degree angle and the UAV flying higher.</p>
 <p>When flying with an A1/A3 pilot license, you can only fly within your line of sight. This should be sufficient for capturing a few hundred meters of lateral outcrop coverage. To capture longer cliff lines, simply move along the cliff and capture further sections from different take-off sites. It’s important to maintain overlap between flights for model registration purposes, and to stay organized and keep track of what you’ve done. The DJI controller has a map that retains previous flight paths, making it easy to track progress and ensure full coverage.</p>
 <p>For high outcrops, the same procedure of multiple flight passes per section should be followed. The tilt angle of the camera can be adjusted to comply with flying regulations and ensure that the drone never flies more than 120 meters above ground. It’s often helpful to fly at the same height twice, once with the camera looking semi-horizontal and once tilted a few degrees to provide context around the outcrop area.</p>
@@ -594,19 +606,19 @@ Note that battery life can be affected by factors such as ambient temperature, t
 <p class="admonition-title">Start with easy outcrops</p>
 <p>If you’re new to this, we suggest starting with smaller outcrops and working your way up to more complex sites.</p>
 </div>
-</div>
-<div class="section" id="horizontal-outcrops">
+</section>
+<section id="horizontal-outcrops">
 <h3>Horizontal outcrops<a class="headerlink" href="#horizontal-outcrops" title="Permalink to this headline">#</a></h3>
 <p>To map planar surfaces like wave-cut platforms, you don’t need to make three passes. Instead, you can fly a grid with the camera facing downwards. This can be easily done with a mission planning app. Alternatively, you can use the map function and fly around the perimeter of the area you want to record. Then, move in from one of the sides until you achieve a view with a 70% overlap. Fly a straight line, move sideways by the same amount, and repeat until the box is filled. If there are any vertical ledges or shelves in the view, flying some passes looking at 40 degrees will improve the model.</p>
-</div>
-</div>
-<div class="section" id="contingency-plans">
+</section>
+</section>
+<section id="contingency-plans">
 <h2>Contingency plans<a class="headerlink" href="#contingency-plans" title="Permalink to this headline">#</a></h2>
 <p>It is wise to have contingency plans in place in the event your UAV loses connection or low battery levels.</p>
 <p>While DJI UAVs typically provide alerts for battery connectivity issues, malfunctions, and remote controller disconnection, the response time may sometimes be brief. In the event of any flight problems, the top priority should always be to quickly and safely land the UAV in a secure location.</p>
 <p><em>Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!</em></p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -621,7 +633,7 @@ Note that battery life can be affected by factors such as ambient temperature, t
         },
         kernelOptions: {
             name: "python3",
-            path: "./content/lessons/data_acquisition"
+            path: "./content\lessons\data_acquisition"
         },
         predefinedOutput: true
     }

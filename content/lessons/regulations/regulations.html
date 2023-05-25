@@ -7,7 +7,8 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>UAV flight regulations &#8212; Geo-AUV</title>
   
   
@@ -64,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Specific Operations Risk Assessment (SORA)" href="../sora/sora.html" />
-    <link rel="prev" title="Types of UAVs" href="../uav_types/uav_types.html" />
+    <link rel="prev" title="UAV Classes" href="../uav_types/uav_classes.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -157,11 +158,14 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Welcome to Geo-UAV</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../uav_types/definitions.html">Some useful definitions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../uav_types/uav_types.html">Types of UAVs</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../uav_types/uav_classes.html">UAV Classes</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">UAV flight regulations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">UAV flight regulations</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../sora/sora.html">Specific Operations Risk Assessment (SORA)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
 </ul>
@@ -433,80 +437,130 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="section" id="uav-flight-regulations">
+  <section id="uav-flight-regulations">
 <h1>UAV flight regulations<a class="headerlink" href="#uav-flight-regulations" title="Permalink to this headline">#</a></h1>
-<p>The flying regulations in the European Union are established by EASA (<a class="reference external" href="https://www.easa.europa.eu/en">European Union Aviation Safety Agency</a>). The main goal of EASA is to establish uniform safety standards for civil aviation operations across all Member States. They achieve this by creating common rules that apply to all states. To standardize regulations for Unmanned Aircraft Systems (UAS), they have developed Regulations (EU) 2019/947 and (EU) 2019/945.</p>
+<p>The flying regulations in the European Union are established by EASA (<a class="reference external" href="https://www.easa.europa.eu/en">European Union Aviation Safety Agency</a>). The main goal of EASA is to establish uniform safety standards for civil aviation operations across all Member States. They achieve this by creating common rules that apply to all states. To standardize regulations for Unmanned Aircraft Systems (UAS), they have developed <a class="reference external" href="https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulations-eu">EU Regulations 2019/947 and 2019/945</a>.</p>
 <p>As a member state of EASA, Norway adheres to the same safety standards and regulations as the rest of the EU member states.</p>
 <div class="warning admonition">
 <p class="admonition-title">Data source</p>
 <p>This is a compilation of the standarised rules published by <a class="reference external" href="https://www.easa.europa.eu/en/light/topics/drones">European Union Aviation Safety Agency</a>.</p>
-<div class="figure align-default" id="easa">
+<figure class="align-default" id="easa">
 <a class="reference external image-reference" href="https://www.easa.europa.eu/en"><img alt="../../../_images/easa.png" class="m-auto" src="../../../_images/easa.png" style="width: 200px;" /></a>
+</figure>
+<p>Watch the EASA introductory video to become a safe and responsible UAV pilot and comply with the European rules.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l6xHV61jwGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-</div>
-<div class="section" id="uav-operation-categories">
+<section id="uav-operation-categories">
 <h2>UAV operation categories<a class="headerlink" href="#uav-operation-categories" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
-<li><p>OPEN: Low risk operation. No need of authorisation nor declaration.</p></li>
-<li><p>SPECIFIC: Higher risk. Need to declare the Standard Scenarios (STS) or authorization.</p></li>
-<li><p>CERTIFIED: High risk. Similar regulations to manned aviation.</p></li>
+<li><p><a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background/open-category-civil-drones"><strong>OPEN</strong></a>: Low risk operation. No need of authorisation nor declaration.</p></li>
+<li><p><a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones"><strong>SPECIFIC</strong></a>: Higher risk. Need to declare the Standard Scenarios (STS) or authorization.</p></li>
+<li><p><a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background/certified-category-civil-drones"><strong>CERTIFIED</strong></a>: High risk. Similar regulations to manned aviation.</p></li>
 </ul>
-<div class="figure align-default" id="dronecategories">
+<figure class="align-default" id="dronecategories">
 <img alt="../../../_images/dronecategories.png" src="../../../_images/dronecategories.png" />
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">A visual representation of the adopted three categories of UAV operations <span id="id1">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>.</span><a class="headerlink" href="#dronecategories" title="Permalink to this image">#</a></p>
-</div>
-<div class="section" id="open-category">
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">A visual representation of the adopted three categories of UAV operations published by <span id="id1">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>.</span><a class="headerlink" href="#dronecategories" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<section id="open-category">
 <h3>Open Category<a class="headerlink" href="#open-category" title="Permalink to this headline">#</a></h3>
-<p>The open category has three subcategories: A1, A2 and A3. In A1 you can fly small UAVs, which can be used above and near individuals. In A2 you can fly medium-sized UAVs with a defined distance from individuals and crowds. Larger UAVs in the open category are flown in subcategory A3 and away from people, buildings and recreational areas.</p>
+<p>The open category has three subcategories: <strong>A1</strong>, <strong>A2</strong> and <strong>A3</strong>. In A1 you can fly small UAVs, which can be used above and near individuals. In A2 you can fly medium-sized UAVs with a defined distance from individuals and crowds. Larger UAVs in the open category are flown in subcategory A3 and away from people, buildings and recreational areas.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="seealso admonition">
+<p class="admonition-title">Case example</p>
+<p>If a UAV is flying within 50 m, measured horizontally, of an artificial obstacle (such as a building) higher than 105 m in height, the maximum height of the UAS operation may be increased up to 15 m above the height of the obstacle, accounting for a total height of 120 m.</p>
+</div>
+</aside>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="note admonition">
+<p class="admonition-title">Note</p>
+<p>The remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to the manned aircraft.</p>
+</div>
+</aside>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="note admonition">
+<p class="admonition-title">Safe distance</p>
+<p>The <em>safe distance</em> will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer</p>
+</div>
+</aside>
 <p>For all three flight subcategories in the <strong>open category</strong>, there are specific general flight conditions that apply. These conditions are:</p>
 <ol class="arabic simple">
 <li><p>The remote pilot is required to maintain visual line of sight (<strong>VLOS</strong>) while flying, unless they are using follow me mode or an unmanned aircraft observer. In those cases, they may use first-person vision devices (FPV), also known as First-Person-View.</p></li>
 <li><p>It is not permitted to fly a drone at a height exceeding <strong>120 meters</strong> from the nearest point on the surface. However, if the flight area is specified by the authorities, the maximum allowable height may be lower than 120 meters.</p></li>
-</ol>
-<div class="note admonition">
-<p class="admonition-title">Case example</p>
-<p>If a UAV is flying within 50 m, measured horizontally, of an artificial obstacle (such as a building) higher than 105 m in height, the maximum height of the UAS operation may be increased up to 15 m above the height of the obstacle, accounting for a total height of 120 m.</p>
-</div>
-<ol class="arabic simple" start="3">
 <li><p>If there is a conflict or encounter with a manned aircraft, the remote pilot must lower the flight height, make evasive maneuvers to avoid a possible collision, and land as quickly as possible.</p></li>
-</ol>
-<div class="note admonition">
-<p class="admonition-title">Note</p>
-<p>In any case, the remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to the manned aircraft.</p>
-</div>
-<ol class="arabic simple" start="4">
 <li><p>It is prohibited to fly over areas where there are large groups of people, and it is necessary to keep a safe distance from individuals who are not involved in the operation.</p></li>
-</ol>
-<div class="note admonition">
-<p class="admonition-title">Note</p>
-<p>The “safe distance” will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer</p>
-</div>
-<ol class="arabic simple" start="5">
 <li><p>If needed, an observer on an unmanned aircraft can assist the pilot. However, the observer must never extend the flight range of the UAS beyond the pilot’s visual range. The observer will stand next to the pilot and aid in:
 A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
 B. Help the pilot stay aware of the surroundings and potential hazards.</p></li>
-</ol>
-<p><strong>In any case, the remote pilot is always ultimately responsible for maintaining the safety of the UAS operation</strong>.</p>
-<ol class="arabic simple" start="6">
 <li><p>In the open category, it is prohibited to transport dangerous goods with the UAS or to drop or project any material or object.</p></li>
 </ol>
-<div class="section" id="subcategory-a1">
+<div class="warning admonition">
+<p class="admonition-title">Responsibility</p>
+<p><strong>The remote pilot is always ultimately responsible for maintaining the safety of the UAS operation</strong>.</p>
+</div>
+<section id="subcategory-a1">
 <h4>Subcategory A1<a class="headerlink" href="#subcategory-a1" title="Permalink to this headline">#</a></h4>
-<p>In addition to the general conditions described for the “open” category, in subcategory A1 the following condition
-must be met:</p>
+<p>In addition to the general conditions described for the <em>Open category</em>, in subcategory A1 the following condition must be met:</p>
 <ul class="simple">
-<li><p>Flight over non-participants is allowed, without infringing the privacy and data protection of these people, except for operations with class C1 UAS with which it  ill not be possible to fly over non-participants.</p></li>
+<li><p>Flight over non-participants is allowed without infringing the privacy and data protection of these people, except for operations with class C1 UAS with which it will not be possible to fly over non-participants.</p></li>
 </ul>
 <div class="tip admonition">
 <p class="admonition-title">Important</p>
 <p>The flight ban on concentrations of people is maintained!</p>
 </div>
-<div class="figure align-default" id="uav-a1">
+<aside class="margin sidebar">
+<p class="sidebar-title">UAS Class requirements</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Class C0</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="c0-camera">
+<a class="reference internal image-reference" href="../../../_images/C0_camera.png"><img alt="../../../_images/C0_camera.png" src="../../../_images/C0_camera.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">To operate flights within subcategory A1 of the <em>open category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C0</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c0-camera" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Class C1</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="c1">
+<a class="reference internal image-reference" href="../../../_images/C1.png"><img alt="../../../_images/C1.png" src="../../../_images/C1.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">To operate flights within subcategory A1 of the <em>open category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C1</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+</div>
+</aside>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-1 sd-g-xs-1 sd-g-sm-1 sd-g-md-1 sd-g-lg-1 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Pilot requirements</div>
+<ul class="simple">
+<li><p class="sd-card-text">Follow the instructions provided by the UAS manufacturer.</p></li>
+<li><p class="sd-card-text">Complete the <strong>A1/A3</strong> online training course and pass the subsequent online exam to obtain the <em>Proof of completion of the online training</em>.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<figure class="align-default" id="uav-a1">
 <img alt="../../../_images/uav-a1.jpg" src="../../../_images/uav-a1.jpg" />
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Open category A1 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#uav-a1" title="Permalink to this image">#</a></p>
-</div>
-</div>
-<div class="section" id="subcategory-a2">
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Open category A1 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#uav-a1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="subcategory-a2">
 <h4>Subcategory A2<a class="headerlink" href="#subcategory-a2" title="Permalink to this headline">#</a></h4>
 <p>In subcategory A2 the following condition must be met:</p>
 <ul class="simple">
@@ -516,12 +570,41 @@ must be met:</p>
 <p class="admonition-title">Important</p>
 <p>The flight ban on concentrations of people is maintained!</p>
 </div>
-<div class="figure align-default" id="uav-a2">
+<aside class="margin sidebar">
+<p class="sidebar-title">UAS Class requirements</p>
+<figure class="align-default" id="c2">
+<a class="reference internal image-reference" href="../../../_images/C2.png"><img alt="../../../_images/C2.png" src="../../../_images/C2.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">To operate flights within subcategory A2 of the <em>open category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C2</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</aside>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-1 sd-g-xs-1 sd-g-sm-1 sd-g-md-1 sd-g-lg-1 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Pilot requirements</div>
+<ul class="simple">
+<li><p class="sd-card-text">Follow the instructions provided by the UAS manufacturer.</p></li>
+<li><p class="sd-card-text">Complete the A1/A3 online training course and pass the subsequent online exam to obtain the <em>Proof of completion of the online training</em>.</p></li>
+<li><p class="sd-card-text">conduct practical self-training in a secluded area, at least 150m away from residential, commercial, industrial, or recreational areas if operating under subcategory A3.</p></li>
+<li><p class="sd-card-text">Pass an additional theoretical knowledge test to obtain the <em>Remote Pilot Certificate of Competency</em> for <strong>subcategory A2</strong>.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<figure class="align-default" id="uav-a2">
 <img alt="../../../_images/uav-a2.jpg" src="../../../_images/uav-a2.jpg" />
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Open category A2 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#uav-a2" title="Permalink to this image">#</a></p>
-</div>
-</div>
-<div class="section" id="subcategory-a3">
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Open category A2 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#uav-a2" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="subcategory-a3">
 <h4>Subcategory A3<a class="headerlink" href="#subcategory-a3" title="Permalink to this headline">#</a></h4>
 <p>In subcategory A3 the following conditions must be met:</p>
 <ul class="simple">
@@ -532,44 +615,110 @@ must be met:</p>
 <p class="admonition-title">Important</p>
 <p>The flight ban on concentrations of people is maintained!</p>
 </div>
-<div class="figure align-default" id="uav-a3">
+<aside class="margin sidebar">
+<p class="sidebar-title">UAS Class requirements</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Class C3</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="c3">
+<a class="reference internal image-reference" href="../../../_images/C3.png"><img alt="../../../_images/C3.png" src="../../../_images/C3.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">To operate flights within subcategory A3 of the <em>open category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C3</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Class C4</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="c4">
+<a class="reference internal image-reference" href="../../../_images/C4.png"><img alt="../../../_images/C4.png" src="../../../_images/C4.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">To operate flights within subcategory A3 of the <em>open category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C4</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c4" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+</div>
+</aside>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+Pilot requirements</div>
+<ul class="simple">
+<li><p class="sd-card-text">Follow the instructions provided by the UAS manufacturer.</p></li>
+<li><p class="sd-card-text">Complete the <strong>A1/A3</strong> online training course and pass the subsequent online exam to obtain the <em>Proof of completion of the online training</em>.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold docutils">
+UAS requirements</div>
+<ul class="simple">
+<li><p class="sd-card-text">Be privately constructed and have a maximum take-off mass (MTOM) of less than 25 kg.</p></li>
+<li><p class="sd-card-text">Not have a class identification tag and have been placed on the market before January 1, 2022.</p></li>
+<li><p class="sd-card-text">Have a <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html">class C2</a> identification tag that meets all the requirements previously defined.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<figure class="align-default" id="uav-a3">
 <img alt="../../../_images/uav-a3.jpg" src="../../../_images/uav-a3.jpg" />
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Open category A3 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#uav-a3" title="Permalink to this image">#</a></p>
-</div>
-</div>
-</div>
-<div class="section" id="specific-category">
+<figcaption>
+<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Open category A3 flight regulations. Source: Direction de l’Aviation Civile Luxembourg.</span><a class="headerlink" href="#uav-a3" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="specific-category">
 <h3>Specific category<a class="headerlink" href="#specific-category" title="Permalink to this headline">#</a></h3>
-<p>When the “open” or “certified” category requirements are not met, we would be within the “specific” category. Within this category there are the following options:</p>
+<p>When the <em>Open</em> or <em>Certified</em> category requirements are not met, we would be within the <em>Specific</em> category. Within this category there are the following options:</p>
 <ol class="arabic simple">
-<li><p>An operational authorization will be requested from the authority of the Member State in which it is registered, including a risk assessment with mitigation measures. Authorization may refer to:</p></li>
-</ol>
+<li><p>An operational authorization will be requested from the authority of the Member State in which it is registered, including a risk assessment with mitigation measures. Authorization may refer to:</p>
 <ul class="simple">
 <li><p>One or several operations.</p></li>
 <li><p>The approval of an LUC (Light UAS Operator Certificate).</p></li>
 </ul>
-<ol class="arabic simple" start="2">
+</li>
 <li><p>If the operation conforms to a standard scenario, a responsible statement will be submitted through the UAS operator profile on the AESA website.</p></li>
 </ol>
-<div class="section" id="standard-scenarios-sts">
+<section id="standard-scenarios-sts">
 <h4>Standard Scenarios (STS)<a class="headerlink" href="#standard-scenarios-sts" title="Permalink to this headline">#</a></h4>
-<p>Execution Regulation (EU) 2019/947 defines two standard scenarios in which certain requirements are indicated, some of which are not applicable today due to technical limitations.</p>
+<p>Execution <a class="reference external" href="https://www.easa.europa.eu/en/document-library/regulations/commission-implementing-regulation-eu-2019947">Regulation (EU) 2019/947</a> defines two standard scenarios in which certain requirements are indicated, some of which are not applicable today due to technical limitations.</p>
 <p>European Standard Scenarios:</p>
 <ul class="simple">
-<li><p>STS-01: VLOS over a controlled ground area in a populated environment.</p></li>
-<li><p>STS-02: BVLOS operations with airspace observers over a controlled area on ground in a sparsely populated environment.</p></li>
+<li><p><strong>STS-01</strong>: VLOS over a controlled ground area in a populated environment.</p></li>
+<li><p><strong>STS-02</strong>: BVLOS operations with airspace observers over a controlled area on ground in a sparsely populated environment.</p></li>
 </ul>
-<div class="section" id="sts-01">
+<section id="sts-01">
 <h5>STS-01<a class="headerlink" href="#sts-01" title="Permalink to this headline">#</a></h5>
-<p>The European Standard Scenario STS-01 refers to flight of a C5 UAS within visual line of sight (VLOS) over a controlled ground area in a populated environment.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title">UAS Class requirements</p>
+<figure class="align-default" id="c5">
+<a class="reference internal image-reference" href="../../../_images/C5.png"><img alt="../../../_images/C5.png" src="../../../_images/C5.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">To operate flights within European Standard Scenarios STS-01 of the <em>specific category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C5</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c5" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</aside>
+<p>The European Standard Scenario <strong>STS-01</strong> refers to flight of a C5 UAS within visual line of sight (VLOS) over a controlled ground area in a populated environment.</p>
 <p>Keep your flight below <strong>120 m</strong> and do not fly your unmanned aircraft more than <strong>100 m away</strong>. Additionally, ensure that your entire flight takes place in a <em>controlled area on ground</em> where outsiders cannot access.</p>
 <div class="note admonition">
 <p class="admonition-title">Controlled area on ground</p>
 <p>The UAS should only be used in an area where the operator can ensure that only participating individuals are present. A non-participant is someone who is not involved in the UAS operation or unaware of the operator’s safety instructions. The operator must establish the boundary of the controlled area on land and monitor who enters. The controlled area includes the flight geography, contingency area, and a risk prevention zone on the ground.</p>
-<div class="figure align-default" id="sts01">
+<figure class="align-default" id="sts01">
 <img alt="../../../_images/sts01.png" src="../../../_images/sts01.png" />
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">European Standard Scenario STS-01. Source: <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/standard-scenario-sts">EASA</a></span><a class="headerlink" href="#sts01" title="Permalink to this image">#</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 13 </span><span class="caption-text">European Standard Scenario STS-01. Source: <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/standard-scenario-sts">EASA</a></span><a class="headerlink" href="#sts01" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
@@ -607,10 +756,19 @@ UAS requirements</div>
 </div>
 </div>
 </div>
-</div>
-<div class="section" id="sts-02">
+</section>
+<section id="sts-02">
 <h5>STS-02<a class="headerlink" href="#sts-02" title="Permalink to this headline">#</a></h5>
-<p>The European Standard Scenario STS-02 refers to flight of a C6 UAS beyond visual line of sight (BVLOS) with airspace observers over a controlled area on ground in a sparsely populated environment.</p>
+<aside class="margin sidebar">
+<p class="sidebar-title">UAS Class requirements</p>
+<figure class="align-default" id="c6">
+<a class="reference internal image-reference" href="../../../_images/C6.png"><img alt="../../../_images/C6.png" src="../../../_images/C6.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 14 </span><span class="caption-text">To operate flights within European Standard Scenarios STS-02 of the <em>specific category</em> using <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html"><strong>class C6</strong></a> UASs, the following requirements must be fulfilled.</span><a class="headerlink" href="#c6" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</aside>
+<p>The European Standard Scenario <strong>STS-02</strong> refers to flight of a C6 UAS beyond visual line of sight (BVLOS) with airspace observers over a controlled area on ground in a sparsely populated environment.</p>
 <p>It is imperative that you comply with safety regulations:</p>
 <ul class="simple">
 <li><p>Keep your flight below <strong>100 m</strong> and ensure that takeoff and landing are within your visual line of sight (VLOS).</p></li>
@@ -629,10 +787,12 @@ UAS requirements</div>
 <li><p>Reliable communication between the remote pilot and observers must be established</p></li>
 <li><p>Observers should be strategically positioned to adequately cover the operational volume.</p></li>
 </ul>
-<div class="figure align-default" id="sts02">
+<figure class="align-default" id="sts02">
 <img alt="../../../_images/sts02.png" src="../../../_images/sts02.png" />
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">European Standard Scenario STS-02. Source: <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/standard-scenario-sts">EASA</a></span><a class="headerlink" href="#sts02" title="Permalink to this image">#</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 15 </span><span class="caption-text">European Standard Scenario STS-02. Source: <a class="reference external" href="https://www.easa.europa.eu/en/domains/civil-drones-rpas/specific-category-civil-drones/standard-scenario-sts">EASA</a></span><a class="headerlink" href="#sts02" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </div>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
@@ -671,23 +831,23 @@ UAS requirements</div>
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-<div class="section" id="certified-category">
+</section>
+</section>
+</section>
+<section id="certified-category">
 <h3>Certified Category<a class="headerlink" href="#certified-category" title="Permalink to this headline">#</a></h3>
-<p>To operate in the “certified” category, certain requirements must be met as defined in the Execution Regulation (EU) 2019/947. These include:</p>
+<p>To operate in the <em>Certified</em> category, certain requirements must be met as defined in the Execution <a class="reference external" href="https://www.easa.europa.eu/en/document-library/regulations/commission-implementing-regulation-eu-2019947">Regulation (EU) 2019/947</a>. These include:</p>
 <ul class="simple">
 <li><p>Not flying UAS with a dimension greater than 3 m over concentrations of people</p></li>
 <li><p>Transporting people</p></li>
 <li><p>Transporting dangerous goods with high risk for third parties in the event of an accident.</p></li>
 </ul>
 <p>Additionally, if the necessary safety study shows that the risks of the operation cannot be mitigated without certification of the UAS, operator, and pilot licenses, it will also fall under the certified category.</p>
-</div>
-</div>
+</section>
+</section>
 <div class="toctree-wrapper compound">
 </div>
-</div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -702,7 +862,7 @@ UAS requirements</div>
         },
         kernelOptions: {
             name: "python3",
-            path: "./content/lessons/regulations"
+            path: "./content\lessons\regulations"
         },
         predefinedOutput: true
     }
@@ -721,12 +881,12 @@ UAS requirements</div>
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../uav_types/uav_types.html"
+       href="../uav_types/uav_classes.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Types of UAVs</p>
+        <p class="prev-next-title">UAV Classes</p>
       </div>
     </a>
     <a class="right-next"
