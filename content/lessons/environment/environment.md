@@ -1,4 +1,4 @@
-# Enviornment awareness, risk and safety
+# Environment awareness, risk and safety
 When flying, it's crucial to stay aware of your surroundings, your UAV, and yourself. It's important to have a good understanding of your situation and be able to predict events based on your perception of the environment. This allows you to manage risks and stay safe throughout your flight.
 
 Before taking off to fly over an outcrop, it's important to review the safety measures outlined in your flight plan to ensure they are in place:
