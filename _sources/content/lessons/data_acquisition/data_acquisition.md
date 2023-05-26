@@ -175,6 +175,7 @@ While DJI UAVs typically provide alerts for battery connectivity issues, malfunc
 
 
 _Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!_
+<iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//zenodo.org/api/iiif/v2/e39f9220-ad4a-489d-87d6-0c272cdb764e%3A61eda04e-9366-4c3f-882e-591dfc85b26a%3Ar9cqh6-92mzd-1ahcl8.jpg/full/750%2C/0/default.jpg&autoLoad=true"></iframe>
 
 
 

@@ -30,6 +30,6 @@ Traffic information zone (red line on map) established to protect the airspace a
 ```
 
 ```{admonition} Hamnerabben Traffic Information Zone
-:class: note
+:class: seealso
 For more information regarding the Hamnerabben Traffic Information Zone and the Ny-Alsund area, click [here](https://kingsbay.no/wp-content/uploads/2021/07/Rules-unmanned-aircrafts-in-Hamnerabben-TIZ-2021-002.pdf).
 ```
