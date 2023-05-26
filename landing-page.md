@@ -5,7 +5,7 @@
 ## Teaching Geoscientific drone-based data acquisition
 
 ````{margin} Part of the Geo-MOD series
- 
+
 This compendium forms part of the UNIS [Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) series:
 
 > [Geo-UAV: Learn to fly geoscientific missions](https://unisvalbard.github.io/Geo-UAV/landing-page.html)
@@ -17,7 +17,10 @@ This compendium forms part of the UNIS [Geo-MOD](https://unisvalbard.github.io/G
 This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition in the field.
 
 ### About Geo-UAV
-[Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
+
+```{admonition} Open access
+The [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html) course is **open for everyone to follow online**. It is aimed as an open-source reference work for the UAV-based data acquisition in the field.
+```
 
 Unmanned Aerial Vehicles, also known as UAVs, are being used extensively for recreational, commercial, academic, and government purposes. They are particularly useful in geosciences to survey large areas accurately and efficiently. This course offers guidelines on how to acquire scientifically publishable data using UAVs in a safe and legal manner.
 
