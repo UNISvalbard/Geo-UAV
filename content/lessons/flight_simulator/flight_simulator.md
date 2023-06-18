@@ -42,7 +42,7 @@ If the installation process is not clear, we recommend you watch the following v
 **Do not make any updates or installations to the DJI Smart Controllers without communicating it to one of the course trainers.**
 ```
 
-## Exercise: Start your first flight
+## Exercise: Start your first virtual flight
 
 We recommend selecting the _Free Flight_ mode to get acquainted with the DJI Smart Controller and how the UAV reacts.
 
@@ -59,7 +59,7 @@ Once the DJI Flight Simulator is running, turn on the DJI Smart Controller, and 
 
 ````{admonition} UAV Characteristics
 :class: tip
-To view the various features of the chosen UAV, simply push the left joystick upwards.
+To view the various features of the chosen UAV, simply push the left joystick forward.
 
 ```{figure} assets/uav_characteristics.png
 :name: uav_characteristics
