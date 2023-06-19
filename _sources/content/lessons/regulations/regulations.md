@@ -47,14 +47,14 @@ If a UAV is flying within 50 m, measured horizontally, of an artificial obstacle
 ````{margin}
 ```{admonition} Note
 :class: note
-The remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to a manned aircraft.
+The remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to the manned aircraft.
 ```
 ````
 
 ````{margin}
 ```{admonition} Safe distance
 :class: note
-The _safe distance_ will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer.
+The _safe distance_ will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer
 ```
 ````
 
@@ -145,7 +145,7 @@ To operate flights within subcategory A2 of the _open category_ using [**class C
 ```{grid-item-card} Pilot requirements
 - Follow the instructions provided by the UAS manufacturer.
 - Complete the A1/A3 online training course and pass the subsequent online exam to obtain the _Proof of completion of the online training_.
-- Conduct practical self-training in a secluded area, at least 150m away from residential, commercial, industrial, or recreational areas if operating under subcategory A3.
+- conduct practical self-training in a secluded area, at least 150m away from residential, commercial, industrial, or recreational areas if operating under subcategory A3.
 - Pass an additional theoretical knowledge test to obtain the _Remote Pilot Certificate of Competency_ for **subcategory A2**. 
 ```
 ````
@@ -292,10 +292,10 @@ It is imperative that you comply with safety regulations:
 :class: note
 
 When utilizing observers, there are several guidelines to follow to ensure safe operation of the UAS:
-- The drone should not be flown more than 2 km away from the pilot.
-- It should be within 1 km of the nearest airspace observer.
-- The distance between the remote pilot and any observer should not exceed 1 km.
-- Reliable communication between the remote pilot and observers must be established.
+- The drone should not be flown more than 2 km away from the pilot
+- It should be within 1 km of the nearest airspace observer
+- The distance between the remote pilot and any observer should not exceed 1 km
+- Reliable communication between the remote pilot and observers must be established
 - Observers should be strategically positioned to adequately cover the operational volume.
 
 ```{figure} assets/sts02.png
@@ -330,8 +330,8 @@ European Standard Scenario STS-02. Source: [EASA](https://www.easa.europa.eu/en/
 
 ### Certified Category
 To operate in the _Certified_ category, certain requirements must be met as defined in the Execution [Regulation (EU) 2019/947](https://www.easa.europa.eu/en/document-library/regulations/commission-implementing-regulation-eu-2019947). These include:
-- Not flying UAS with a dimension greater than 3 m over concentrations of people.
-- Transporting people.
+- Not flying UAS with a dimension greater than 3 m over concentrations of people
+- Transporting people
 - Transporting dangerous goods with high risk for third parties in the event of an accident.
 
 Additionally, if the necessary safety study shows that the risks of the operation cannot be mitigated without certification of the UAS, operator, and pilot licenses, it will also fall under the certified category.
