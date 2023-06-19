@@ -35,7 +35,10 @@ A visual representation of the adopted three categories of UAV operations publis
 
 ### Open Category
 
-The open category has three subcategories: **A1**, **A2** and **A3**. In A1 you can fly small UAVs, which can be used above and near individuals. In A2 you can fly medium-sized UAVs with a defined distance from individuals and crowds. Larger UAVs in the open category are flown in subcategory A3 and away from people, buildings and recreational areas.
+The open category has three subcategories: **A1**, **A2** and **A3**.
+- In **A1** you can fly small UAVs (CO and C1 categories), which can be used above and near individuals.
+- In **A2** you can fly medium-sized UAVs (C2 category) with a defined distance from individuals and crowds.
+- The **A3** category allows you to fly larger UAVs (C3 and C4 category), being always away from people, buildings and recreational areas.
 
 ````{margin}
 ```{admonition} Case example
@@ -47,14 +50,21 @@ If a UAV is flying within 50 m, measured horizontally, of an artificial obstacle
 ````{margin}
 ```{admonition} Note
 :class: note
-The remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to the manned aircraft.
+The remote pilot must always interrupt the flight with UAS when its continuation could pose a risk to a manned aircraft.
 ```
 ````
 
 ````{margin}
 ```{admonition} Safe distance
 :class: note
-The _safe distance_ will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer
+The _safe distance_ will depend on the subcategory of the operation. As a general rule, the heavier the unmanned aircraft, the farther it should be flown from nonparticipants to make the operation safer.
+```
+````
+
+````{margin}
+```{admonition} Assemblies of people
+:class: tip
+The specific number of people that qualifies as an assembly is unclear. However, it is important to avoid flying over cultural or sports events, as well as any group of people who may not be able to evacuate in case of an emergency.
 ```
 ````
 
@@ -62,32 +72,45 @@ For all three flight subcategories in the **open category**, there are specific 
 
 1. The remote pilot is required to maintain visual line of sight (**VLOS**) while flying, unless they are using follow me mode or an unmanned aircraft observer. In those cases, they may use first-person vision devices (FPV), also known as First-Person-View.
 
-2. It is not permitted to fly a drone at a height exceeding **120 meters** from the nearest point on the surface. However, if the flight area is specified by the authorities, the maximum allowable height may be lower than 120 meters.
+2. It is not permitted to fly a drone at a height exceeding **120 meters** from the nearest point on the surface. However, if the flight area is specified by the authorities, the maximum allowable height may be _lower_ than 120 meters.
 
 3. If there is a conflict or encounter with a manned aircraft, the remote pilot must lower the flight height, make evasive maneuvers to avoid a possible collision, and land as quickly as possible.
 
 4. It is prohibited to fly over areas where there are large groups of people, and it is necessary to keep a safe distance from individuals who are not involved in the operation.
 
-5. If needed, an observer on an unmanned aircraft can assist the pilot. However, the observer must never extend the flight range of the UAS beyond the pilot's visual range. The observer will stand next to the pilot and aid in:
-A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced. 
+5. Never record anyone without specific given conscent.
+
+6. Do not fly at night.
+
+7. If needed, an observer on an unmanned aircraft can assist the pilot. However, the observer must never extend the flight range of the UAS beyond the pilot's visual range. The observer will stand next to the pilot and aid in:
+
+A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
+
 B. Help the pilot stay aware of the surroundings and potential hazards.
 
-6. In the open category, it is prohibited to transport dangerous goods with the UAS or to drop or project any material or object.
+8. In the open category, it is prohibited to transport dangerous goods with the UAS or to drop or project any material or object.
 
 ```{admonition} Responsibility
 :class: warning
 **The remote pilot is always ultimately responsible for maintaining the safety of the UAS operation**.
 ```
 
+```{figure} assets/uav_categories.png
+:name: uav_categories
+
+EASA regulations for UAV opearation categories. [Source](https://youtu.be/FEqbHVan5OY?t=132).
+```
+
+
 #### Subcategory A1
 In addition to the general conditions described for the _Open category_, in subcategory A1 the following condition must be met:
 
 - Flight over non-participants is allowed without infringing the privacy and data protection of these people, except for operations with class C1 UAS with which it will not be possible to fly over non-participants.
-
 ```{admonition} Important
-:class: tip
+:class: note
 The flight ban on concentrations of people is maintained!
 ```
+- The operator registration is not mandatory for C0 category, unless the UAV has a camera.
 
 ``````{margin} UAS Class requirements
 `````{tab-set}
@@ -112,7 +135,9 @@ To operate flights within subcategory A1 of the _open category_ using [**class C
 :gutter: 1
 ```{grid-item-card} Pilot requirements
 - Follow the instructions provided by the UAS manufacturer.
+- Be registered as a UAV operator.
 - Complete the **A1/A3** online training course and pass the subsequent online exam to obtain the _Proof of completion of the online training_.
+- The UAV must have e-identification and geoawareness, plus it has to be equipped with lights.
 ```
 ````
 
@@ -125,10 +150,9 @@ Open category A1 flight regulations. Source: Direction de l'Aviation Civile Luxe
 #### Subcategory A2
 
 In subcategory A2 the following condition must be met:
-- Flight is permitted at a safe horizontal distance of at least 30 m from non-participants, which may be reduced to a minimum of 5 m when the low speed mode function is activated, and the height will be reduced in the same proportion as the safe horizontal distance to non-participants is reduced (1:1 rule) 
-
+- Flight is permitted at a safe horizontal distance of at least **30 m** from non-participants, which may be reduced to a minimum of 5 m when the low speed mode function is activated, and the height will be reduced in the same proportion as the safe horizontal distance to non-participants is reduced (1:1 rule) 
 ```{admonition} Important
-:class: tip
+:class: note
 The flight ban on concentrations of people is maintained!
 ```
 
@@ -144,9 +168,11 @@ To operate flights within subcategory A2 of the _open category_ using [**class C
 :gutter: 1
 ```{grid-item-card} Pilot requirements
 - Follow the instructions provided by the UAS manufacturer.
+- Be registered as a UAV operator.
 - Complete the A1/A3 online training course and pass the subsequent online exam to obtain the _Proof of completion of the online training_.
-- conduct practical self-training in a secluded area, at least 150m away from residential, commercial, industrial, or recreational areas if operating under subcategory A3.
-- Pass an additional theoretical knowledge test to obtain the _Remote Pilot Certificate of Competency_ for **subcategory A2**. 
+- Conduct practical self-training in a secluded area, at least 150m away from residential, commercial, industrial, or recreational areas if operating under subcategory A3.
+- Pass an additional theoretical knowledge test to obtain the _Remote Pilot Certificate of Competency_ for **subcategory A2**.
+- The UAV must have e-identification and geoawareness, plus it has to be equipped with lights.
 ```
 ````
 
@@ -159,13 +185,8 @@ Open category A2 flight regulations. Source: Direction de l'Aviation Civile Luxe
 #### Subcategory A3
 
 In subcategory A3 the following conditions must be met:
-- Fly in areas where it is anticipated that no non-participating person will be endangered for the entire duration of the flight.
-- Fly a minimum safe horizontal distance of 150 m from residential, commercial, industrial and recreational areas.
-
-```{admonition} Important
-:class: tip
-The flight ban on concentrations of people is maintained!
-```
+- Flying over or near people is forbidden. Fly in areas where it is anticipated that no non-participating person will be endangered for the entire duration of the flight.
+- Fly a minimum safe horizontal distance of **150 m** from residential, commercial, industrial and recreational areas.
 
 ``````{margin} UAS Class requirements
 `````{tab-set}
@@ -190,7 +211,9 @@ To operate flights within subcategory A3 of the _open category_ using [**class C
 :gutter: 2
 ```{grid-item-card} Pilot requirements
 - Follow the instructions provided by the UAS manufacturer.
+- Be registered as a UAV operator.
 - Complete the **A1/A3** online training course and pass the subsequent online exam to obtain the _Proof of completion of the online training_.
+- The UAV must have e-identification and geoawareness, plus it has to be equipped with lights.
 ```
 
 ```{grid-item-card} UAS requirements
@@ -204,6 +227,13 @@ To operate flights within subcategory A3 of the _open category_ using [**class C
 :name: uav-a3
 
 Open category A3 flight regulations. Source: Direction de l'Aviation Civile Luxembourg.
+```
+
+```{admonition} New 2023 regulations
+:class: seealso
+Watch the following video to understand the new regulations implemented in 2023.
+
+<iframe width="1520" height="545" src="https://www.youtube.com/embed/FEqbHVan5OY" title="EASA Drone Regulations / New Legislation /New Rules for Drones 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
 
 ### Specific category
@@ -292,10 +322,10 @@ It is imperative that you comply with safety regulations:
 :class: note
 
 When utilizing observers, there are several guidelines to follow to ensure safe operation of the UAS:
-- The drone should not be flown more than 2 km away from the pilot
-- It should be within 1 km of the nearest airspace observer
-- The distance between the remote pilot and any observer should not exceed 1 km
-- Reliable communication between the remote pilot and observers must be established
+- The drone should not be flown more than 2 km away from the pilot.
+- It should be within 1 km of the nearest airspace observer.
+- The distance between the remote pilot and any observer should not exceed 1 km.
+- Reliable communication between the remote pilot and observers must be established.
 - Observers should be strategically positioned to adequately cover the operational volume.
 
 ```{figure} assets/sts02.png
@@ -330,8 +360,8 @@ European Standard Scenario STS-02. Source: [EASA](https://www.easa.europa.eu/en/
 
 ### Certified Category
 To operate in the _Certified_ category, certain requirements must be met as defined in the Execution [Regulation (EU) 2019/947](https://www.easa.europa.eu/en/document-library/regulations/commission-implementing-regulation-eu-2019947). These include:
-- Not flying UAS with a dimension greater than 3 m over concentrations of people
-- Transporting people
+- Not flying UAS with a dimension greater than 3 m over concentrations of people.
+- Transporting people.
 - Transporting dangerous goods with high risk for third parties in the event of an accident.
 
 Additionally, if the necessary safety study shows that the risks of the operation cannot be mitigated without certification of the UAS, operator, and pilot licenses, it will also fall under the certified category.
