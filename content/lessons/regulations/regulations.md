@@ -38,7 +38,7 @@ A visual representation of the adopted three categories of UAV operations publis
 The open category has three subcategories: **A1**, **A2** and **A3**.
 - In **A1** you can fly small UAVs ([CO](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-0-with-camera) and [C1](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-1) categories), which can be used above and near individuals.
 - In **A2** you can fly medium-sized UAVs ([C2](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-2-with-low-speed-mode) category) with a defined distance from individuals and crowds.
-- The **A3** category allows you to fly larger UAVs ([C2](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-2-with-low-speed-mode), [C3](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-3) and [C4](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-4) category), being always away from people, buildings and recreational areas.
+- The **A3** category allows you to fly larger UAVs ([C2](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-2-with-low-speed-mode), [C3](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-3) and [C4](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-4) categories), being always away from people, buildings and recreational areas.
 
 ````{margin}
 ```{admonition} Case example
@@ -83,10 +83,8 @@ For all three flight subcategories in the **open category**, there are specific 
 6. Do not fly at night.
 
 7. If needed, an observer on an unmanned aircraft can assist the pilot. However, the observer must never extend the flight range of the UAS beyond the pilot's visual range. The observer will stand next to the pilot and aid in:
-
-A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
-
-B. Help the pilot stay aware of the surroundings and potential hazards.
+    - A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
+    - B. Help the pilot stay aware of the surroundings and potential hazards.
 
 8. In the open category, it is prohibited to transport dangerous goods with the UAS or to drop or project any material or object.
 
