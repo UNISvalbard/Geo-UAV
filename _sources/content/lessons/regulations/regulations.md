@@ -36,9 +36,9 @@ A visual representation of the adopted three categories of UAV operations publis
 ### Open Category
 
 The open category has three subcategories: **A1**, **A2** and **A3**.
-- In **A1** you can fly small UAVs (CO and C1 categories), which can be used above and near individuals.
-- In **A2** you can fly medium-sized UAVs (C2 category) with a defined distance from individuals and crowds.
-- The **A3** category allows you to fly larger UAVs (C3 and C4 category), being always away from people, buildings and recreational areas.
+- In **A1** you can fly small UAVs ([CO](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-0-with-camera) and [C1](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-1) categories), which can be used above and near individuals.
+- In **A2** you can fly medium-sized UAVs ([C2](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-2-with-low-speed-mode) category) with a defined distance from individuals and crowds.
+- The **A3** category allows you to fly larger UAVs ([C2](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-2-with-low-speed-mode), [C3](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-3) and [C4](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-4) categories), being always away from people, buildings and recreational areas.
 
 ````{margin}
 ```{admonition} Case example
@@ -83,10 +83,8 @@ For all three flight subcategories in the **open category**, there are specific 
 6. Do not fly at night.
 
 7. If needed, an observer on an unmanned aircraft can assist the pilot. However, the observer must never extend the flight range of the UAS beyond the pilot's visual range. The observer will stand next to the pilot and aid in:
-
-A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
-
-B. Help the pilot stay aware of the surroundings and potential hazards.
+    - A. Maintaining a safe distance from obstacles and alert the pilot if the distance is reduced.
+    - B. Help the pilot stay aware of the surroundings and potential hazards.
 
 8. In the open category, it is prohibited to transport dangerous goods with the UAS or to drop or project any material or object.
 
@@ -98,19 +96,19 @@ B. Help the pilot stay aware of the surroundings and potential hazards.
 ```{figure} assets/uav_categories.png
 :name: uav_categories
 
-EASA regulations for UAV opearation categories. [Source](https://youtu.be/FEqbHVan5OY?t=132).
+EASA regulations for UAV opearation categories. [Image source](https://youtu.be/FEqbHVan5OY?t=132).
 ```
 
 
 #### Subcategory A1
 In addition to the general conditions described for the _Open category_, in subcategory A1 the following condition must be met:
 
-- Flight over non-participants is allowed without infringing the privacy and data protection of these people, except for operations with class C1 UAS with which it will not be possible to fly over non-participants.
+- Flight over non-participants is allowed without infringing the privacy and data protection of these people, except for operations with class [C1](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-1) UAS with which it will not be possible to fly over non-participants.
 ```{admonition} Important
 :class: note
 The flight ban on concentrations of people is maintained!
 ```
-- The operator registration is not mandatory for C0 category, unless the UAV has a camera.
+- The operator registration is not mandatory for [C0](https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_classes.html#class-0-with-camera) category, unless the UAV has a camera.
 
 ``````{margin} UAS Class requirements
 `````{tab-set}
@@ -231,9 +229,9 @@ Open category A3 flight regulations. Source: Direction de l'Aviation Civile Luxe
 
 ```{admonition} New 2023 regulations
 :class: seealso
-Watch the following video to understand the new regulations implemented in 2023.
+Watch the following video to understand the new EASA UAV regulations implemented in 2023.
 
-<iframe width="1520" height="545" src="https://www.youtube.com/embed/FEqbHVan5OY" title="EASA Drone Regulations / New Legislation /New Rules for Drones 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEqbHVan5OY" title="EASA Drone Regulations / New Legislation /New Rules for Drones 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
 
 ### Specific category
