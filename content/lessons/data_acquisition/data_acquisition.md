@@ -168,7 +168,7 @@ In drone mapping this typically occurs when flying at high speed and while takin
 Motion blur is one of the main reasons behind low-quality mapping products and suboptimal textures.
 It is also one of the easiest to mitigate:
 A good rule of thumb is to always check that the camera shutter speed is faster than the time it takes for a point on the ground to move one unit of GSD.
-The GSD (in metres) can be calculated according to [](gsd_equation), and then used in the calculation below:
+The GSD (in metres) can be calculated according to Equation [](gsd_equation), and then used in the calculation below:
 
 ```{math}
 :label: max_shutter_speed
@@ -176,10 +176,8 @@ The GSD (in metres) can be calculated according to [](gsd_equation), and then us
 ```
 Herein $SS_{max}$ corresponds to the maximum shutter speed in seconds, and $V$ corresponds to the speed of the drone in m/s.
 
-The following tables provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface:
+The following table provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface for a DJI Mavic 2 Pro drone:
 
-`````{tab-set}
-````{tab-item} DJI Mavic 2 Pro
 ```{code-cell} ipython3
 :tags: [remove-input]
 from gsd_calculations import calculate_speed_versus_gsd
@@ -187,19 +185,6 @@ from gsd_calculations import calculate_speed_versus_gsd
 calculate_speed_versus_gsd("mavic2pro")
 
 ```
-````
-
-````{tab-item} DJI Mavic 3 Hasselblad sensor
-```{code-cell} ipython3
-:tags: [remove-input]
-from gsd_calculations import calculate_speed_versus_gsd
-
-calculate_speed_versus_gsd("mavic3hasselblad")
-
-```
-````
-
-`````
 
 
 ## UAV controller layout
