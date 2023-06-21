@@ -168,7 +168,7 @@ In drone mapping this typically occurs when flying at high speed and while takin
 Motion blur is one of the main reasons behind low-quality mapping products and suboptimal textures.
 It is also one of the easiest to mitigate:
 A good rule of thumb is to always check that the camera shutter speed is faster than the time it takes for a point on the ground to move one unit of GSD.
-The GSD (in metres) can be calculated according to [](gsd_equation), and then used in the calculation below:
+The GSD (in metres) can be calculated according to Equation [](gsd_equation), and then used in the calculation below:
 
 ```{math}
 :label: max_shutter_speed
