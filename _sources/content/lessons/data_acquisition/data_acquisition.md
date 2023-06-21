@@ -178,6 +178,8 @@ Herein $SS_{max}$ corresponds to the maximum shutter speed in seconds, and $V$ c
 
 The following tables provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface:
 
+`````{tab-set}
+````{tab-item} DJI Mavic 2 Pro
 ```{code-cell} ipython3
 :tags: [remove-input]
 from gsd_calculations import calculate_speed_versus_gsd
@@ -185,6 +187,19 @@ from gsd_calculations import calculate_speed_versus_gsd
 calculate_speed_versus_gsd("mavic2pro")
 
 ```
+````
+
+````{tab-item} DJI Mavic 3 Hasselblad sensor
+```{code-cell} ipython3
+:tags: [remove-input]
+from gsd_calculations import calculate_speed_versus_gsd
+
+calculate_speed_versus_gsd("mavic3hasselblad")
+
+```
+````
+
+`````
 
 
 ## UAV controller layout
