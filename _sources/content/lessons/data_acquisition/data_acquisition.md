@@ -1,3 +1,17 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.12
+    jupytext_version: 1.7.1
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+
 # Survey plan and Data acquisition
 The initial phase of UAV-based photogrammetry is data acquisition, which involves capturing aerial photographs with a specific objective and subject. To gather high-quality data, it is crucial to adhere to best practices when taking photos for photogrammetry.
 
@@ -77,8 +91,17 @@ The next step is to design the survey, which can be done either in the field or 
 Pilot and visual observer discussing and adjusting the flight plan in the field.
 ```
 
+(gsd_section)=
 ### Digital outcrop resolution
 The resolution of the virtual outcrop is dependent on the camera's sensor resolution and the proximity of the photographs to the cliff. 
+The maximum resolution of the data that can be acquired, is typically referred to as the ground-sampling-distance (GSD), and can be calculated as follows:
+
+```{math}
+:label: gsd_equation
+    GSD = \frac{Alt \times S_{h/w}}{f \times im_{h/w}}
+```
+
+in which $Alt$ equals the altitude in metres, S_{h/w} either sensor width or height in millimetre, $f$ the focal length in millimetre, and $im_{h/w}$ the value corresponding to the height of the image in pixels.
 
 For instance, DJI Mavic Series or DJI Phantom Series cameras have a 94 degree lens equivalent to 20mm on a standard SLR. Therefore, the height of the image in landscape format is roughly equal to the distance of the camera from the cliffs. 
 
@@ -108,10 +131,11 @@ If you're wondering which image file format to use, we suggest choosing JPG. In 
 
 For your first models, we suggest sticking with JPG format.
 
+(shutter_section)=
 ### Shutter speed and camera aperture
 When taking photographs, it is important to balance the aperture and shutter speed. The aperture controls the depth of field, while the shutter speed prevents blurry images.
 
-For uniform lighting and non-backlit subjects, auto exposure will suffice. However, for better modeling, a small aperture with a high F-number and depth of field is recommended. If the subject is well-lit, choose Aperture Priority and select F/11 or higher. This will reduce the shutter speed, but a fast shutter speed of 1/250 or faster is necessary to compensate for the movement of the UAV.
+For uniform lighting and non-backlit subjects, auto exposure will suffice. However, for better modelling, a small aperture with a high F-number and depth of field is recommended. If the subject is well-lit, choose Aperture Priority and select F/11 or higher. This will reduce the shutter speed, but a fast shutter speed of 1/250 or faster is necessary to compensate for the movement of the UAV.
 
 To determine the appropriate shutter speed for your selected aperture, use spot metering by pointing the camera at the darkest part of the subject. Adjust the ISO to compensate, but keep it as low as possible to minimize sensor noise. Using DJI Phantom Series and DJI Mavic Series cameras, an ISO of up to 800 or even 1600 is still acceptable.
 
@@ -132,6 +156,36 @@ At the beginning of this session, it was emphasized that finding a balance betwe
 
 ### Focus
 We recommend using the camera's auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the _Focus / Shutter_ button on the upper-right of the DJI smart controller's top.
+
+
+### Motion blur
+
+Closely related to many of the parameters described above is the motion blur phenomenon.
+This effect occurs when a picture is taken with an exposure time that is longer than it takes for the camera to move past the object.
+In other words, motion blur occurs when the speed of movement is high in comparison with the [shutter speed](shutter_section) and the [GSD](gsd_section).
+In drone mapping this typically occurs when flying at high speed and while taking images in suboptimal light conditions (i.e., darkness) or at low altitudes (i.e., close-up).
+
+Motion blur is one of the main reasons behind low-quality mapping products and suboptimal textures.
+It is also one of the easiest to mitigate:
+A good rule of thumb is to always check that the camera shutter speed is faster than the time it takes for a point on the ground to move one unit of GSD.
+The GSD (in metres) can be calculated according to [](gsd_equation), and then used in the calculation below:
+
+```{math}
+:label: max_shutter_speed
+    SS_{max} = \frac{GSD}{V}
+```
+Herein $SS_{max}$ corresponds to the maximum shutter speed in seconds, and $V$ corresponds to the speed of the drone in m/s.
+
+The following tables provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface:
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from gsd_calculations import calculate_speed_versus_gsd
+
+calculate_speed_versus_gsd("mavic2pro")
+
+```
+
 
 ## UAV controller layout
 When you operate DJI UAVs with the smart controller and pre-set options, you can use the buttons and dials on the top to control the camera. On the left side, you'll find the video _Record/stop_ button, and below it is the _Gimbal control dial_, which you can rotate to adjust the camera's vertical angle. On the right side, there's the  _Focus / Shutter_ button, which we previously advised you to half-click to focus before each photo.
