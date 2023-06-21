@@ -48,7 +48,9 @@ Pilots operating UAVs for commercial use should secure a commercial UAV license 
 
 ```{admonition} Pre-flight template
 :class: tip
-If you use a pre-flight template, make sure to state: Pilot name, Registration number, Date of flight, Location, Drone model, Drone ID number, Flight purpose, Additional authorisations (if required)
+If you use a pre-flight template, make sure to state: Pilot name, Registration number, Date of flight, Location, Drone model, Drone ID number, Flight purpose, Additional authorisations (if required).
+
+[Example of pre-flight check list](https://unisvalbard.github.io/Geo-MOD/content/lessons/data_acquisition_exercise/data_acquisition.html#pre-flight-check-list).
 ```
 
 ### 3. Know and comply with specific UAV operation laws in the area you are flying
@@ -83,7 +85,7 @@ To keep your drone connected, navigate correctly, and behave properly, it's cruc
 
 ```{admonition} Internet connection
 :class: note
-It is very important to check the UAV firmware in a place with Internet connection to be able to download and istall the proper software upgrades. Not checking this in advance could result on not being able to take-off in the field and cancelling the whole UAV data acquisition campaign.
+It is very important to check the UAV firmware in a place with Internet connection to be able to download and install the proper software upgrades. Not checking this in advance could result on not being able to take-off in the field and cancelling the whole UAV data acquisition campaign.
 ```
 
 #### 5.2. Calibration
