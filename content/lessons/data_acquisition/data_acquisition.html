@@ -604,25 +604,107 @@ The GSD (in metres) can be calculated according to Equation <a class="reference 
 <p>The following table provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface for a DJI Mavic 2 Pro drone:</p>
 <div class="cell tag_remove-input docutils container">
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">gsd_calculations</span> <span class="kn">import</span> <span class="n">calculate_speed_versus_gsd</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">calculate_speed_versus_gsd</span><span class="p">(</span><span class="s2">&quot;mavic2pro&quot;</span><span class="p">)</span>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
-<span class="n">File</span> <span class="o">~/</span><span class="n">work</span><span class="o">/</span><span class="n">Geo</span><span class="o">-</span><span class="n">UAV</span><span class="o">/</span><span class="n">Geo</span><span class="o">-</span><span class="n">UAV</span><span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">lessons</span><span class="o">/</span><span class="n">data_acquisition</span><span class="o">/</span><span class="n">gsd_calculations</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">1</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="k">def</span> <span class="nf">gsd_calculator</span><span class="p">(</span><span class="n">alt</span><span class="p">,</span> <span class="n">drone</span><span class="p">):</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="n">drone_data</span> <span class="o">=</span> <span class="p">{</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span>         <span class="s2">&quot;mavic2pro&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mf">9.6</span><span class="p">,</span> <span class="mf">10.35</span><span class="p">,</span><span class="mi">3648</span><span class="p">],</span>
-<span class="g g-Whitespace">      </span><span class="mi">6</span>         <span class="s2">&quot;mavic3hasselblad&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">13</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span><span class="mi">3956</span><span class="p">],</span>
-<span class="g g-Whitespace">      </span><span class="mi">7</span>         <span class="s2">&quot;mavicair2s&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mf">8.82</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span><span class="mi">3648</span><span class="p">],</span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span>         <span class="p">}</span>
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
 
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;pandas&#39;
-</pre></div>
-</div>
-</div>
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1 m/s</th>
+      <th>2 m/s</th>
+      <th>3 m/s</th>
+      <th>4 m/s</th>
+      <th>5 m/s</th>
+      <th>10 m/s</th>
+      <th>15 m/s</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>15 m</th>
+      <td>1/262</td>
+      <td>1/524</td>
+      <td>1/786</td>
+      <td>1/1048</td>
+      <td>1/1311</td>
+      <td>1/2622</td>
+      <td>1/3932</td>
+    </tr>
+    <tr>
+      <th>30 m</th>
+      <td>1/131</td>
+      <td>1/262</td>
+      <td>1/393</td>
+      <td>1/524</td>
+      <td>1/655</td>
+      <td>1/1311</td>
+      <td>1/1966</td>
+    </tr>
+    <tr>
+      <th>45 m</th>
+      <td>1/87</td>
+      <td>1/174</td>
+      <td>1/262</td>
+      <td>1/349</td>
+      <td>1/436</td>
+      <td>1/873</td>
+      <td>1/1311</td>
+    </tr>
+    <tr>
+      <th>60 m</th>
+      <td>1/65</td>
+      <td>1/131</td>
+      <td>1/196</td>
+      <td>1/262</td>
+      <td>1/327</td>
+      <td>1/655</td>
+      <td>1/983</td>
+    </tr>
+    <tr>
+      <th>90 m</th>
+      <td>1/43</td>
+      <td>1/87</td>
+      <td>1/131</td>
+      <td>1/174</td>
+      <td>1/218</td>
+      <td>1/436</td>
+      <td>1/655</td>
+    </tr>
+    <tr>
+      <th>120 m</th>
+      <td>1/32</td>
+      <td>1/65</td>
+      <td>1/98</td>
+      <td>1/131</td>
+      <td>1/163</td>
+      <td>1/327</td>
+      <td>1/491</td>
+    </tr>
+    <tr>
+      <th>150 m</th>
+      <td>1/26</td>
+      <td>1/52</td>
+      <td>1/78</td>
+      <td>1/104</td>
+      <td>1/131</td>
+      <td>1/262</td>
+      <td>1/393</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
 </div>
 </div>
 </div>
