@@ -1,40 +1,40 @@
 Traceback (most recent call last):
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\site-packages\jupyter_cache\executors\utils.py", line 58, in single_nb_execution
+  File "/usr/share/miniconda/envs/test/lib/python3.9/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
     executenb(
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\site-packages\nbclient\client.py", line 1305, in execute
+  File "/usr/share/miniconda/envs/test/lib/python3.9/site-packages/nbclient/client.py", line 1305, in execute
     return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\site-packages\jupyter_core\utils\__init__.py", line 166, in wrapped
+  File "/usr/share/miniconda/envs/test/lib/python3.9/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
     return loop.run_until_complete(inner)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\asyncio\base_events.py", line 653, in run_until_complete
+  File "/usr/share/miniconda/envs/test/lib/python3.9/asyncio/base_events.py", line 647, in run_until_complete
     return future.result()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\site-packages\nbclient\client.py", line 705, in async_execute
+  File "/usr/share/miniconda/envs/test/lib/python3.9/site-packages/nbclient/client.py", line 705, in async_execute
     await self.async_execute_cell(
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\site-packages\nbclient\client.py", line 1058, in async_execute_cell
+  File "/usr/share/miniconda/envs/test/lib/python3.9/site-packages/nbclient/client.py", line 1058, in async_execute_cell
     await self._check_raise_for_error(cell, cell_index, exec_reply)
-  File "C:\Users\Peter\.conda\envs\geomod\Lib\site-packages\nbclient\client.py", line 914, in _check_raise_for_error
+  File "/usr/share/miniconda/envs/test/lib/python3.9/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-import sys
-sys.path.insert(0, '../../scripts/')
 from gsd_calculations import calculate_speed_versus_gsd
 
-df = calculate_speed_versus_gsd("mavic2pro")
-df
+calculate_speed_versus_gsd("mavic2pro")
 ------------------
 
 
-[1;31m---------------------------------------------------------------------------[0m
-[1;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-Cell [1;32mIn[1], line 3[0m
-[0;32m      1[0m [38;5;28;01mimport[39;00m [38;5;21;01msys[39;00m
-[0;32m      2[0m sys[38;5;241m.[39mpath[38;5;241m.[39minsert([38;5;241m0[39m, [38;5;124m'[39m[38;5;124m../../scripts/[39m[38;5;124m'[39m)
-[1;32m----> 3[0m [38;5;28;01mfrom[39;00m [38;5;21;01mgsd_calculations[39;00m [38;5;28;01mimport[39;00m calculate_speed_versus_gsd
-[0;32m      5[0m df [38;5;241m=[39m calculate_speed_versus_gsd([38;5;124m"[39m[38;5;124mmavic2pro[39m[38;5;124m"[39m)
-[0;32m      6[0m df
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[1], line 1[0m
+[0;32m----> 1[0m [38;5;28;01mfrom[39;00m [38;5;21;01mgsd_calculations[39;00m [38;5;28;01mimport[39;00m calculate_speed_versus_gsd
+[1;32m      3[0m calculate_speed_versus_gsd([38;5;124m"[39m[38;5;124mmavic2pro[39m[38;5;124m"[39m)
 
-[1;31mModuleNotFoundError[0m: No module named 'gsd_calculations'
+File [0;32m~/work/Geo-UAV/Geo-UAV/content/lessons/data_acquisition/gsd_calculations.py:1[0m
+[0;32m----> 1[0m [38;5;28;01mimport[39;00m [38;5;21;01mpandas[39;00m [38;5;28;01mas[39;00m [38;5;21;01mpd[39;00m
+[1;32m      3[0m [38;5;28;01mdef[39;00m [38;5;21mgsd_calculator[39m(alt, drone):
+[1;32m      4[0m     drone_data [38;5;241m=[39m {
+[1;32m      5[0m         [38;5;124m"[39m[38;5;124mmavic2pro[39m[38;5;124m"[39m: [[38;5;241m9.6[39m, [38;5;241m10.35[39m,[38;5;241m3648[39m],
+[1;32m      6[0m         [38;5;124m"[39m[38;5;124mmavic3hasselblad[39m[38;5;124m"[39m: [[38;5;241m13[39m, [38;5;241m12[39m,[38;5;241m3956[39m],
+[1;32m      7[0m         [38;5;124m"[39m[38;5;124mmavicair2s[39m[38;5;124m"[39m: [[38;5;241m8.82[39m, [38;5;241m12[39m,[38;5;241m3648[39m],
+[1;32m      8[0m         }
+
+[0;31mModuleNotFoundError[0m: No module named 'pandas'
 
