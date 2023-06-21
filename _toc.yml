@@ -14,8 +14,9 @@ parts:
   chapters:
   - file: content/lessons/regulations/regulations.md
     sections:
-    - file: content/lessons/sora/sora.md
     - file: content/lessons/environment/longyearbyen.md
+  - file: content/lessons/regulations/notam.md
+  - file: content/lessons/sora/sora.md
   - file: content/lessons/regulations/operator_registration.md
 
 - caption: SESSION 2

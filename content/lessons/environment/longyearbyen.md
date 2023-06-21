@@ -17,6 +17,12 @@ Around Longyearbyen it is not permitted to fly drones closer than 5 km to the ai
 Map around Longyearbyen where flying drones is prohibited. You can open the map following this [link](https://api.avinor.no/karttjenester/dronerestriksjoner/lufthavn.html?iata=LYR).
 ```
 
+```{admonition} Avinor online map
+:class: seealso
+
+<iframe id="glu" width="100%" src=https://avinor.maps.arcgis.com/apps/webappviewer/index.html?id=180ddf6f3d1545f8b0a297df59895e3b&amp;extent=15.3864,78.2339,15.5592,78.2583 frameborder="0" scrolling="no" style="height: 500px;"></iframe>
+```
+
 ## Ny-Alesund
 Flying drones is prohibited in Ny-Alesund and the entire Kongsfjorden due to the flying ban of five kilometers around Ny-Alesund airport and the 20 km radio silence zone around the city. The Norwegian Communications Authority is responsible for managing frequency resources in Norway.
 
