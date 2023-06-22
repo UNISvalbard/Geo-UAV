@@ -33,6 +33,8 @@ When storing the batteries keep them charged at 50-75% of their capacity. This w
 
 ```{figure} assets/liposafe.jpg
 :name: liposafe
+:class: m-auto
+:width: 400px
 To safely store and transport batteries, you can use Lipo-Safe bags, which are made with fire-retardant fiberglass lining to protect against explosions.
 ```
 ````
