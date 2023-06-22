@@ -101,7 +101,7 @@ The maximum resolution of the data that can be acquired, is typically referred t
     GSD = \frac{Alt \times S_{h/w}}{f \times im_{h/w}}
 ```
 
-in which $Alt$ equals the altitude in metres, S_{h/w} either sensor width or height in millimetre, $f$ the focal length in millimetre, and $im_{h/w}$ the value corresponding to the height of the image in pixels.
+in which $Alt$ equals the altitude in metres, $S_{h/w}$ either sensor width or height in millimetre, $f$ the focal length in millimetre, and $im_{h/w}$ the value corresponding to the height of the image in pixels.
 
 For instance, DJI Mavic Series or DJI Phantom Series cameras have a 94 degree lens equivalent to 20mm on a standard SLR. Therefore, the height of the image in landscape format is roughly equal to the distance of the camera from the cliffs. 
 
@@ -129,7 +129,10 @@ With the DJI UAVs you have the possibility to switch the image file format to ei
 
 If you're wondering which image file format to use, we suggest choosing JPG. In most cases, it's best to go with JPG since RAW files are much larger and require processing before they can be used, which can be a problem when dealing with hundreds or even thousands of images. Unless you're dealing with challenging or fluctuating lighting conditions, shooting in RAW isn't necessary. However, if you do encounter such situations, RAW images will give you more flexibility to adjust exposure stops later on.
 
+```{admonition} Tip
+:class: tip
 For your first models, we suggest sticking with JPG format.
+```
 
 (shutter_section)=
 ### Shutter speed and camera aperture
@@ -146,8 +149,8 @@ For consistent photo quality, it's important to manually set the White Balance (
 The frequency of the camera timelapse depends on the data being collected and the speed at which the UAV is flying. 
 
 - Three seconds works well for detailed outcrops flown in Tripod Mode (max speed of 1 m/s).
-- Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s)
-- Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s)
+- Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s).
+- Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s).
 
 ```{admonition} Do not overtake images
 :class: tip
@@ -179,28 +182,12 @@ Herein $SS_{max}$ corresponds to the maximum shutter speed in seconds, and $V$ c
 The following table provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface for a DJI Mavic 2 Pro drone:
 
 ```{code-cell} ipython3
-:tags: [remove-input, remove-output]
+:tags: [remove-input]
 from gsd_calculations import calculate_speed_versus_gsd
-from myst_nb import glue
 
-glue("mavic2pro",calculate_speed_versus_gsd("mavic2pro"))
-glue("mavic3hasselblad",calculate_speed_versus_gsd("mavic3hasselblad"))
+calculate_speed_versus_gsd("mavic2pro")
 
 ```
-
-````{tab-set}
-```{tab-item} Mavic 2 Pro
-
-{glue:}`mavic2pro`
-
-```
-
-```{tab-item} Mavic 3 Hasselblad sensor
-
-{glue:}`mavic3hasselblad`
-
-```
-````
 
 
 ## UAV controller layout
