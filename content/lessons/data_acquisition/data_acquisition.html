@@ -541,7 +541,7 @@ Note that battery life can be affected by factors such as ambient temperature, t
 The maximum resolution of the data that can be acquired, is typically referred to as the ground-sampling-distance (GSD), and can be calculated as follows:</p>
 <div class="math notranslate nohighlight" id="equation-gsd-equation">
 <span class="eqno">(1)<a class="headerlink" href="#equation-gsd-equation" title="Permalink to this equation">#</a></span>\[    GSD = \frac{Alt \times S_{h/w}}{f \times im_{h/w}}\]</div>
-<p>in which <span class="math notranslate nohighlight">\(Alt\)</span> equals the altitude in metres, <span class="math notranslate nohighlight">\(S_{h/w}\)</span> either sensor width or height in millimetre, <span class="math notranslate nohighlight">\(f\)</span> the focal length in millimetre, and <span class="math notranslate nohighlight">\(im_{h/w}\)</span> the value corresponding to the height of the image in pixels.</p>
+<p>in which <span class="math notranslate nohighlight">\(Alt\)</span> equals the altitude in metres, S_{h/w} either sensor width or height in millimetre, <span class="math notranslate nohighlight">\(f\)</span> the focal length in millimetre, and <span class="math notranslate nohighlight">\(im_{h/w}\)</span> the value corresponding to the height of the image in pixels.</p>
 <p>For instance, DJI Mavic Series or DJI Phantom Series cameras have a 94 degree lens equivalent to 20mm on a standard SLR. Therefore, the height of the image in landscape format is roughly equal to the distance of the camera from the cliffs.</p>
 <p>This means that as a rule of thumb, if you want to obtain a resolution of less than 1 cm per pixel, photographs should be taken at a distance of approximately 30 meters from the outcrop.</p>
 <div class="tip admonition">
@@ -564,10 +564,7 @@ The maximum resolution of the data that can be acquired, is typically referred t
 <h3>Image format<a class="headerlink" href="#image-format" title="Permalink to this headline">#</a></h3>
 <p>With the DJI UAVs you have the possibility to switch the image file format to either RAW or JPG.</p>
 <p>If you’re wondering which image file format to use, we suggest choosing JPG. In most cases, it’s best to go with JPG since RAW files are much larger and require processing before they can be used, which can be a problem when dealing with hundreds or even thousands of images. Unless you’re dealing with challenging or fluctuating lighting conditions, shooting in RAW isn’t necessary. However, if you do encounter such situations, RAW images will give you more flexibility to adjust exposure stops later on.</p>
-<div class="tip admonition">
-<p class="admonition-title">Tip</p>
 <p>For your first models, we suggest sticking with JPG format.</p>
-</div>
 </section>
 <section id="shutter-speed-and-camera-aperture">
 <span id="shutter-section"></span><h3>Shutter speed and camera aperture<a class="headerlink" href="#shutter-speed-and-camera-aperture" title="Permalink to this headline">#</a></h3>
@@ -584,8 +581,8 @@ The maximum resolution of the data that can be acquired, is typically referred t
 <p>The frequency of the camera timelapse depends on the data being collected and the speed at which the UAV is flying.</p>
 <ul class="simple">
 <li><p>Three seconds works well for detailed outcrops flown in Tripod Mode (max speed of 1 m/s).</p></li>
-<li><p>Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s).</p></li>
-<li><p>Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s).</p></li>
+<li><p>Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s)</p></li>
+<li><p>Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s)</p></li>
 </ul>
 <div class="tip admonition">
 <p class="admonition-title">Do not overtake images</p>
@@ -610,9 +607,11 @@ The GSD (in metres) can be calculated according to Equation <a class="reference 
 <span class="eqno">(2)<a class="headerlink" href="#equation-max-shutter-speed" title="Permalink to this equation">#</a></span>\[    SS_{max} = \frac{GSD}{V}\]</div>
 <p>Herein <span class="math notranslate nohighlight">\(SS_{max}\)</span> corresponds to the maximum shutter speed in seconds, and <span class="math notranslate nohighlight">\(V\)</span> corresponds to the speed of the drone in m/s.</p>
 <p>The following table provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface for a DJI Mavic 2 Pro drone:</p>
-<div class="cell tag_remove-input docutils container">
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Mavic 2 Pro</label><div class="sd-tab-content docutils">
+<p><span class="output text_html"><div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -712,7 +711,113 @@ The GSD (in metres) can be calculated according to Equation <a class="reference 
     </tr>
   </tbody>
 </table>
-</div></div></div>
+</div></span></p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
+<p><span class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>1 m/s</th>
+      <th>2 m/s</th>
+      <th>3 m/s</th>
+      <th>4 m/s</th>
+      <th>5 m/s</th>
+      <th>10 m/s</th>
+      <th>15 m/s</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>15 m</th>
+      <td>1/243</td>
+      <td>1/486</td>
+      <td>1/730</td>
+      <td>1/973</td>
+      <td>1/1217</td>
+      <td>1/2434</td>
+      <td>1/3651</td>
+    </tr>
+    <tr>
+      <th>30 m</th>
+      <td>1/121</td>
+      <td>1/243</td>
+      <td>1/365</td>
+      <td>1/486</td>
+      <td>1/608</td>
+      <td>1/1217</td>
+      <td>1/1825</td>
+    </tr>
+    <tr>
+      <th>45 m</th>
+      <td>1/81</td>
+      <td>1/162</td>
+      <td>1/243</td>
+      <td>1/324</td>
+      <td>1/405</td>
+      <td>1/811</td>
+      <td>1/1217</td>
+    </tr>
+    <tr>
+      <th>60 m</th>
+      <td>1/60</td>
+      <td>1/121</td>
+      <td>1/182</td>
+      <td>1/243</td>
+      <td>1/304</td>
+      <td>1/608</td>
+      <td>1/912</td>
+    </tr>
+    <tr>
+      <th>90 m</th>
+      <td>1/40</td>
+      <td>1/81</td>
+      <td>1/121</td>
+      <td>1/162</td>
+      <td>1/202</td>
+      <td>1/405</td>
+      <td>1/608</td>
+    </tr>
+    <tr>
+      <th>120 m</th>
+      <td>1/30</td>
+      <td>1/60</td>
+      <td>1/91</td>
+      <td>1/121</td>
+      <td>1/152</td>
+      <td>1/304</td>
+      <td>1/456</td>
+    </tr>
+    <tr>
+      <th>150 m</th>
+      <td>1/24</td>
+      <td>1/48</td>
+      <td>1/73</td>
+      <td>1/97</td>
+      <td>1/121</td>
+      <td>1/243</td>
+      <td>1/365</td>
+    </tr>
+  </tbody>
+</table>
+</div></span></p>
+</div>
 </div>
 </section>
 </section>
