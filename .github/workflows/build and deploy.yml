@@ -30,6 +30,7 @@ jobs:
         shell: bash -l {0}
         run: |
           conda install jupyter-book -c conda-forge
+          conda install pandas -c conda-forge
           jupyter book build .
           
       - name: GitHub Pages action
