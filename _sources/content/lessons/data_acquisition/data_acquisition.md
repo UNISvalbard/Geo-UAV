@@ -148,9 +148,9 @@ For consistent photo quality, it's important to manually set the White Balance (
 ### Timelapse
 The frequency of the camera timelapse depends on the data being collected and the speed at which the UAV is flying. 
 
-- Three seconds works well for detailed outcrops flown in Tripod Mode (max speed of 1 m/s).
-- Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s).
-- Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s).
+- Three seconds works well for detailed outcrops flown in Tripod Mode (max speed of 1 m/s)
+- Five seconds works well when acquiring general images of the outcrop (recommended speed 3-4 m/s)
+- Seven seconds is enough to acquire overview images of large outcrops such as mountainsides (the UAV speed can be up to 10 m/s)
 
 ```{admonition} Do not overtake images
 :class: tip
@@ -182,12 +182,28 @@ Herein $SS_{max}$ corresponds to the maximum shutter speed in seconds, and $V$ c
 The following table provide input on the maximum shutter speed in seconds at a given velocity and altitude above the surface for a DJI Mavic 2 Pro drone:
 
 ```{code-cell} ipython3
-:tags: [remove-input]
+:tags: [remove-input, remove-output]
 from gsd_calculations import calculate_speed_versus_gsd
+from myst_nb import glue
 
-calculate_speed_versus_gsd("mavic2pro")
+glue("mavic2pro",calculate_speed_versus_gsd("mavic2pro"))
+glue("mavic3hasselblad",calculate_speed_versus_gsd("mavic3hasselblad"))
 
 ```
+
+````{tab-set}
+```{tab-item} Mavic 2 Pro
+
+{glue:}`mavic2pro`
+
+```
+
+```{tab-item} Mavic 3 Hasselblad sensor
+
+{glue:}`mavic3hasselblad`
+
+```
+````
 
 
 ## UAV controller layout

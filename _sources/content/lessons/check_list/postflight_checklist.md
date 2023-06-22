@@ -28,4 +28,14 @@ Place the drone back into the storage bag or safety case.
 
 When storing the batteries keep them charged at 50-75% of their capacity. This will reduce the damage and will increase their working life and performance.
 
+````{admonition} Safe battery storage
+:class: note
+
+```{figure} assets/liposafe.jpg
+:name: liposafe
+:class: m-auto
+:width: 400px
+To safely store and transport batteries, you can use Lipo-Safe bags, which are made with fire-retardant fiberglass lining to protect against explosions.
+```
+````
 
