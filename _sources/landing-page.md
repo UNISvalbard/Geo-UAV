@@ -34,6 +34,16 @@ Geo-UAV course is split in several sessions, consisting of interactive lectures 
 - [Survey plan and Data acquisition](https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html)
 - [Questionnaire](https://unisvalbard.github.io/Geo-UAV/content/survey.html)
 
+### Learning outcomes
+
+After taking the Geo-UAV course, the participant has demonstrated comprehensive knowledge and understanding of UAV-based data acquisition principles.
+These include:
+
+- ✔️ Planning, preparation and execution for data acquisition missions
+- ✔️ UAV flight operations and safety protocols
+- ✔️ Adherence to safety guidelines and regulatory requirements
+- ✔️ Data acquisition techniques and flight patterns
+- ✔️ UAV multirotor flying experience
 
 ### Project status
 Geo-UAV is still in development, with additional tutorials and how-tos added continously to keep the work up-to-date with recent developments and evolving best practices.
