@@ -8,7 +8,7 @@ To fly UAV in Europe, you must be a registered pilot. Registering as a drone pil
 
 ````{admonition} CCA Norway
 :class: note
-To register as a UAS operator in Norway click [here](https://luftfartstilsynet.no/en/drones/registration/).
+To register as a UAS operator in Norway, visit [https://flydrone.no/register](https://flydrone.no/register).
 
 ```{figure} assets/cca_norway.png
 :name: cca_norway
