@@ -22,3 +22,4 @@ It's important for UAV operators to regularly check NOTAMs before each flight to
 You will find the latest notifications by region in [NOTAM Info](https://notaminfo.com/).
 
 <iframe src="https://notaminfo.com/norwaymap" width="100%" height="600px"></iframe>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_NO" xml:lang="en">
