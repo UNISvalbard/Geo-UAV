@@ -2,24 +2,24 @@
 
 ```{admonition} Warning!
 :class: warning
-Flying drones is strictly prohibited within a distance **5 km** of an airport. 
-```
-
-```{figure} assets/airport.jpg
-:name: airport
-
-UAV next to a plane. [Image source](https://m.thepeninsulaqatar.com/get/maximage/20190619_1560957684-227088.jpg?1635250003).
+Flying drones is strictly prohibited within a distance **5 km** of an airport.
 ```
 
 To get an overview of airports in Norway, you can visit [Avinor's website](https://avinor.no/en/corporate/at-the-airport/droner/choose-airport). 
 
-If you need to fly your drone within 5 km of an airport, you must obtain clearance from the control tower. 
+If you need to fly your drone within 5 km of an airport, you must obtain clearance from the **control tower**. 
 
 In Norway, most locations are operated by Avinor, which uses the [Ninox Drone app](https://operatorportal.ninoxdrone.no/).
 
 ```{admonition} Aerodromes
 :class: note
 Note that this zone does not apply to areas around aerodromes. As a UAV pilot, you are responsible for avoiding collisions. It is recommended that you make an agreement with the aerodrome prior to flying.
+```
+
+```{figure} assets/airport.jpg
+:name: airport
+
+UAV next to a plane. [Image source](https://m.thepeninsulaqatar.com/get/maximage/20190619_1560957684-227088.jpg?1635250003).
 ```
 
 ## Ninox Drone App
