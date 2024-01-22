@@ -110,7 +110,7 @@ When you open your aperture (i.e., lower number, see ({numref}`aperture-explaine
 ```{figure} ./assets/aperture-field.png
 :name: aperture-explained
 
-The impact of changing the aperture on depth of field and focus. Image modified from {citet}`UnderstandingApertureDepth2017`.
+The impact of changing the aperture on depth of field and focus. Image modified from {cite}`UnderstandingApertureDepth2017`.
 ```
 
 (shutter_speed)=
@@ -121,7 +121,7 @@ The amount of time is typically listed in seconds, and each step on the shutter 
 All light captured by the sensor over the amount of time ("acquisition time") is averaged to give rise to a captured image.
 Shutter speeds that result in longer acquisition times, thus allow for more light to hit the sensor, and thus result in brighter images. 
 Secondly, capturing movements within the acquisition time will result in [motion blur](motion_blur).
-Some additional examples of how to deal with shutter speed are found in e.g. {citet}`ShutterSpeed2017`.
+Some additional examples of how to deal with shutter speed are found in e.g. {cite}`ShutterSpeed2017`.
 
 #### ISO
 
@@ -136,7 +136,7 @@ It is thus always advised to keep the ISO as low as possible.
 ```{figure} ./assets/exposure-triangle.png
 :name: exposure-triangle
 
-The exposure triangle. Image from {citet}`ExposureTriangle2017`.
+The exposure triangle. Image from {cite}`ExposureTriangle2017`.
 ```
 
 Exposure and capturing images with the right settings thus comes down to an interplay between the ISO, shutter speed and aperture values {cite}`ExposureTriangle2017`.
