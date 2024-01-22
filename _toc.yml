@@ -14,6 +14,7 @@ parts:
   chapters:
   - file: content/lessons/regulations/regulations.md
     sections:
+    - file: content/lessons/regulations/airports.md
     - file: content/lessons/environment/longyearbyen.md
   - file: content/lessons/regulations/notam.md
   - file: content/lessons/sora/sora.md
