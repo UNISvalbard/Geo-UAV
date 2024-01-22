@@ -92,7 +92,7 @@ Pilot and visual observer discussing and adjusting the flight plan in the field.
 ```
 
 (exposure_triangle)=
-### The Exposure triangle
+### Capturing usable images: the Exposure triangle
 
 The aperture, shutter speed and ISO are recurring parameters of importance and key to data acquisition in the field and in the lab.
 In particular, they work together to create an exposure and affect your captured image in different ways.
