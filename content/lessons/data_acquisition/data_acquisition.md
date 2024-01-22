@@ -91,6 +91,58 @@ The next step is to design the survey, which can be done either in the field or 
 Pilot and visual observer discussing and adjusting the flight plan in the field.
 ```
 
+(exposure_triangle)=
+### Capturing usable images: the Exposure triangle
+
+The aperture, shutter speed and ISO are recurring parameters of importance and key to data acquisition in the field and in the lab.
+In particular, they work together to create an exposure and affect your captured image in different ways.
+This can be visualised through use of the exposure triangle {cite}`ExposureTriangle2017`.
+
+#### Aperture
+
+Aperture affect how much light passes through the lens, and, with it, the depth of field of the image {cite}`UnderstandingApertureDepth2017`.
+Aperture is typically measured in f-stops, with smaller numbers meaning more light and larger numbers less light that hits the sensor.
+When you open your aperture (i.e., lower number, see ({numref}`aperture-explained`)):
+
+- more light hits the sensor
+- depth of field decreases.
+
+```{figure} ./assets/aperture-field.png
+:name: aperture-explained
+
+The impact of changing the aperture on depth of field and focus. Image modified from {cite}`UnderstandingApertureDepth2017`.
+```
+
+(shutter_speed)=
+#### Shutter speed
+
+Your camera's shutter governs the duration that light passes through and is captured by your camera's sensor.
+The amount of time is typically listed in seconds, and each step on the shutter speed scale will give you half or twice the amount of light.
+All light captured by the sensor over the amount of time ("acquisition time") is averaged to give rise to a captured image.
+Shutter speeds that result in longer acquisition times, thus allow for more light to hit the sensor, and thus result in brighter images. 
+Secondly, capturing movements within the acquisition time will result in [motion blur](motion_blur).
+Some additional examples of how to deal with shutter speed are found in e.g. {cite}`ShutterSpeed2017`.
+
+#### ISO
+
+The ISO number describes how much the processor in your camera amplifies the light collected by the sensor.
+It is in a sense an indicator for how much the image is altered to produce a correctly exposed image.
+As with shutter speed and aperture, each step on the ISO scale doubles or halves the camera's sensitivity.
+However, as it increases the camera's sensitivity, it also introduces noise!
+It is thus always advised to keep the ISO as low as possible.
+
+#### Working the triangle: The Rule of Equivalent Exposures
+
+```{figure} ./assets/exposure-triangle.png
+:name: exposure-triangle
+
+The exposure triangle. Image from {cite}`ExposureTriangle2017`.
+```
+
+Exposure and capturing images with the right settings thus comes down to an interplay between the ISO, shutter speed and aperture values {cite}`ExposureTriangle2017`.
+Each click or stop-change in either of them halves or doubles the amount of light that reaches the sensor.
+Thus, if one action cuts the light by half, then you must double it in another to retain the same level of brightness in your captured images.
+
 (gsd_section)=
 ### Digital outcrop resolution
 The resolution of the virtual outcrop is dependent on the camera's sensor resolution and the proximity of the photographs to the cliff. 
@@ -136,7 +188,7 @@ For your first models, we suggest sticking with JPG format.
 
 (shutter_section)=
 ### Shutter speed and camera aperture
-When taking photographs, it is important to balance the aperture and shutter speed. The aperture controls the depth of field, while the shutter speed prevents blurry images.
+When taking photographs, it is important to balance the aperture and shutter speed. The aperture controls the depth of field, while the shutter speed helps prevent blurry images.
 
 For uniform lighting and non-backlit subjects, auto exposure will suffice. However, for better modelling, a small aperture with a high F-number and depth of field is recommended. If the subject is well-lit, choose Aperture Priority and select F/11 or higher. This will reduce the shutter speed, but a fast shutter speed of 1/250 or faster is necessary to compensate for the movement of the UAV.
 
@@ -160,12 +212,12 @@ At the beginning of this session, it was emphasized that finding a balance betwe
 ### Focus
 We recommend using the camera's auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the _Focus / Shutter_ button on the upper-right of the DJI smart controller's top.
 
-
-### Motion blur
+(motion_blur)=
+### Motion blur and shutter speed
 
 Closely related to many of the parameters described above is the motion blur phenomenon.
 This effect occurs when a picture is taken with an exposure time that is longer than it takes for the camera to move past the object.
-In other words, motion blur occurs when the speed of movement is high in comparison with the [shutter speed](shutter_section) and the [GSD](gsd_section).
+In other words, motion blur occurs when the speed of movement is high in comparison with the [shutter speed](shutter_speed) and the [GSD](gsd_section).
 In drone mapping this typically occurs when flying at high speed and while taking images in suboptimal light conditions (i.e., darkness) or at low altitudes (i.e., close-up).
 
 Motion blur is one of the main reasons behind low-quality mapping products and suboptimal textures.
@@ -204,7 +256,6 @@ glue("mavic3hasselblad",calculate_speed_versus_gsd("mavic3hasselblad"))
 
 ```
 ````
-
 
 ## UAV controller layout
 When you operate DJI UAVs with the smart controller and pre-set options, you can use the buttons and dials on the top to control the camera. On the left side, you'll find the video _Record/stop_ button, and below it is the _Gimbal control dial_, which you can rotate to adjust the camera's vertical angle. On the right side, there's the  _Focus / Shutter_ button, which we previously advised you to half-click to focus before each photo.
