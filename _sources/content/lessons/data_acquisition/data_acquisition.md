@@ -133,7 +133,7 @@ It is thus always advised to keep the ISO as low as possible.
 
 #### Working the triangle: The Rule of Equivalent Exposures
 
-```{figure} ./assets/aperture-field.png
+```{figure} ./assets/exposure-triangle.png
 :name: exposure-triangle
 
 The exposure triangle. Image from {citet}`ExposureTriangle2017`.
