@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Survey plan and Data acquisition &#8212; Geo-UAV</title>
   
@@ -19,15 +19,15 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
     <script src="../../../_static/copybutton.js"></script>
@@ -69,7 +71,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="Environment awareness, risk and safety" href="../environment/environment.html" />
     <link rel="prev" title="DJI flight simulator" href="../flight_simulator/flight_simulator.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -77,7 +79,15 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -118,11 +128,14 @@ const thebe_selector_output = ".output, .cell_output"
   </div>
 
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -137,9 +150,11 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="../../../landing-page.html">
+  
   
   
   
@@ -149,8 +164,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Geo-UAV - Home"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Geo-UAV - Home"/>`);</script>
   
   
 </a></div>
@@ -176,6 +191,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../regulations/regulations.html">UAV flight regulations</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../regulations/airports.html">Flying next to airports</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../environment/longyearbyen.html">Flying drones on Svalbard</a></li>
 </ul>
 </li>
@@ -379,20 +395,22 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -466,10 +484,10 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="survey-plan-and-data-acquisition">
-<h1>Survey plan and Data acquisition<a class="headerlink" href="#survey-plan-and-data-acquisition" title="Permalink to this headline">#</a></h1>
+<h1>Survey plan and Data acquisition<a class="headerlink" href="#survey-plan-and-data-acquisition" title="Permalink to this heading">#</a></h1>
 <p>The initial phase of UAV-based photogrammetry is data acquisition, which involves capturing aerial photographs with a specific objective and subject. To gather high-quality data, it is crucial to adhere to best practices when taking photos for photogrammetry.</p>
 <p>When acquiring data in the field, it is important to consider the requirements for acquisition. Like any project, there’s a connection between time, quality, and costs. Time refers to the available period for data collection, cost represents the necessary resources, and quality represents the resolution and fit-to-purpose that we want for our DEM or 3D model.</p>
 <p>Let’s exemplify it. If you want a very high-resolution model of an outcrop, you will have to spend significant time acquiring good-quality data, and you will need many resources such as a high-quality camera and UAV, batteries for your UAV and controller, images in your memory card, etc. Suppose you have very little time to properly acquire data. In that case, the quality of the model will be very poor unless you use extremely expensive resources such as multiple multirotors flying simultaneously or predefined flights with a vertical take-off and landing (VTOL) UAV containing a very high-resolution camera. If you are limited by the resources, let’s say, by only having one battery for your UAV, the time you will be able to spend acquiring data will be low, and you will either not cover the entire area that you want or collect general images ending up having a low-resolution model.</p>
@@ -477,7 +495,7 @@ document.write(`
 <figure class="align-default" id="triangle">
 <img alt="../../../_images/triangle.png" src="../../../_images/triangle.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 41 </span><span class="caption-text">The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  <a class="reference external" href="https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png">Image source</a>.</span><a class="headerlink" href="#triangle" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 43 </span><span class="caption-text">The principle of the triangle suggests that of the three points, you can only have two at a time, not three.  <a class="reference external" href="https://www.kinetechcloud.com/hubfs/Project-Management-Triangle-1.png">Image source</a>.</span><a class="headerlink" href="#triangle" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>The data acquisition stage also contains processes during which we collect additional data, for example, <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html">Ground Control Points (GCPs)</a>.</p>
@@ -486,7 +504,7 @@ document.write(`
 <p>In order to collect virtual outcrop data, it’s important to have experience in operating a UAV, or in other words, that you know how to fly. Don’t rely on the availability of automated mapping software to do this for you.</p>
 </div>
 <section id="types-of-uav-for-photogrammetry">
-<h2>Types of UAV for photogrammetry<a class="headerlink" href="#types-of-uav-for-photogrammetry" title="Permalink to this headline">#</a></h2>
+<h2>Types of UAV for photogrammetry<a class="headerlink" href="#types-of-uav-for-photogrammetry" title="Permalink to this heading">#</a></h2>
 <div class="tip admonition">
 <p class="admonition-title">Data source</p>
 <p>Most of the pieces of information in this section have been published by <span id="id1">Konert and Dunin [<a class="reference internal" href="../bibliography.html#id4" title="Anna Konert and Tadeusz Dunin. A harmonized european drone market?–new eu rules on unmanned aircraft systems. Adv Sci Technol Eng Syst J, 5:93–99, 2020.">2020</a>]</span>.</p>
@@ -506,25 +524,25 @@ document.write(`
 <li><p>The camera should be linked to the navigation system so that the UAV’s position is recorded when each photo is taken.</p></li>
 </ol>
 <section id="limitations-of-uav-systems">
-<h3>Limitations of UAV systems<a class="headerlink" href="#limitations-of-uav-systems" title="Permalink to this headline">#</a></h3>
+<h3>Limitations of UAV systems<a class="headerlink" href="#limitations-of-uav-systems" title="Permalink to this heading">#</a></h3>
 <section id="battery-life">
-<h4>Battery life<a class="headerlink" href="#battery-life" title="Permalink to this headline">#</a></h4>
+<h4>Battery life<a class="headerlink" href="#battery-life" title="Permalink to this heading">#</a></h4>
 <p>One major issue with UAVs is their short battery life. Consumer-grade drones with multiple rotors can only fly for around 20-40 minutes. However, using fixed-wing airframes can increase flight time.
 Note that battery life can be affected by factors such as ambient temperature, the weight of the drone, wind speed, and take-off altitude.</p>
 </section>
 <section id="miniaturisation-and-optimisation">
-<h4>Miniaturisation and optimisation<a class="headerlink" href="#miniaturisation-and-optimisation" title="Permalink to this headline">#</a></h4>
+<h4>Miniaturisation and optimisation<a class="headerlink" href="#miniaturisation-and-optimisation" title="Permalink to this heading">#</a></h4>
 <p>UAVs have to meet specific weight and size requirements. This means that components such as cameras, GPS, and IMU modules must be miniaturized, potentially leading to less precise or suboptimal data.</p>
 </section>
 <section id="accuracy">
-<h4>Accuracy<a class="headerlink" href="#accuracy" title="Permalink to this headline">#</a></h4>
+<h4>Accuracy<a class="headerlink" href="#accuracy" title="Permalink to this heading">#</a></h4>
 <p>Most UAVs currently available to consumers have GNSS navigation modules that can determine their position with an accuracy of about a meter. Drones with centimeter-accuracy receivers are much more expensive, costing roughly 5-6 times as much.</p>
 <p>An alternative is the use of <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/gcps.html">GCPs</a> measured in the field, which can supplement or replace exterior orientation measurements. However, this method requires time-consuming field measurements that must be done with great care to ensure the highest possible accuracy in determining the position of the points.</p>
 </section>
 </section>
 </section>
 <section id="choice-of-outcrop">
-<h2>Choice of outcrop<a class="headerlink" href="#choice-of-outcrop" title="Permalink to this headline">#</a></h2>
+<h2>Choice of outcrop<a class="headerlink" href="#choice-of-outcrop" title="Permalink to this heading">#</a></h2>
 <p>To be a valuable resource for studying, an ideal outcrop should be geologically interesting. Virtual outcrops can be quite vast and include overhangs and narrow canyons. When flying a UAV in these environments, it is essential to be extremely careful not to crash your UAV against the cliffs. Larger outcrops are typically flown in segments and pieced together, either when the models are built or can be collected as separate models and combined later <span id="id2">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>.</p>
 <p>For those who are new to acquisition campaigns, it is recommended to start with a small and compact outcrop for the first flights and gradually work up to more challenging locations. A reasonable size to begin with is around 200-300 meters long and up to 30 meters high. This way, you can always fly within line of sight and never exceed 120 meters in height.</p>
 <div class="warning admonition">
@@ -533,25 +551,25 @@ Note that battery life can be affected by factors such as ambient temperature, t
 </div>
 </section>
 <section id="survey-design">
-<h2>Survey design<a class="headerlink" href="#survey-design" title="Permalink to this headline">#</a></h2>
+<h2>Survey design<a class="headerlink" href="#survey-design" title="Permalink to this heading">#</a></h2>
 <p>If you are using your drone for a specific purpose, such as collecting a virtual outcrop model, having a flight plan for your UAV is important to achieve your goal. This will help you control various factors, ensure that it is legally and safely feasible (revise <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html">SESSION 1 - UAV flight regulations</a> and <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html">SESSION 2  - UAV pre-flight check list</a>), safeguard your equipment, and achieve your mission objective.</p>
 <p>The next step is to design the survey, which can be done either in the field or in the lab.  It’s best to consult with your visual observer beforehand to agree on the flight plan. The size of the area covered and the expected resolution of the virtual outcrop will depend on the data being collected.</p>
 <figure class="align-default" id="observer1">
 <img alt="../../../_images/observer1.jpg" src="../../../_images/observer1.jpg" />
 <figcaption>
-<p><span class="caption-number">Fig. 42 </span><span class="caption-text">Pilot and visual observer discussing and adjusting the flight plan in the field.</span><a class="headerlink" href="#observer1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 44 </span><span class="caption-text">Pilot and visual observer discussing and adjusting the flight plan in the field.</span><a class="headerlink" href="#observer1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <section id="capturing-usable-images-the-exposure-triangle">
-<span id="exposure-triangle"></span><h3>Capturing usable images: the Exposure triangle<a class="headerlink" href="#capturing-usable-images-the-exposure-triangle" title="Permalink to this headline">#</a></h3>
+<span id="exposure-triangle"></span><h3>Capturing usable images: the Exposure triangle<a class="headerlink" href="#capturing-usable-images-the-exposure-triangle" title="Permalink to this heading">#</a></h3>
 <p>The aperture, shutter speed and ISO are recurring parameters of importance and key to data acquisition in the field and in the lab.
 In particular, they work together to create an exposure and affect your captured image in different ways.
 This can be visualised through use of the exposure triangle <span id="id3">[<a class="reference internal" href="../bibliography.html#id5" title="The Exposure Triangle. February 2017."><em>The Exposure Triangle</em>, 2017</a>]</span>.</p>
 <section id="aperture">
-<h4>Aperture<a class="headerlink" href="#aperture" title="Permalink to this headline">#</a></h4>
+<h4>Aperture<a class="headerlink" href="#aperture" title="Permalink to this heading">#</a></h4>
 <p>Aperture affect how much light passes through the lens, and, with it, the depth of field of the image <span id="id4">[<a class="reference internal" href="../bibliography.html#id6" title="Understanding Aperture and Depth of Field. February 2017."><em>Understanding Aperture and Depth of Field</em>, 2017</a>]</span>.
 Aperture is typically measured in f-stops, with smaller numbers meaning more light and larger numbers less light that hits the sensor.
-When you open your aperture (i.e., lower number, see (<a class="reference internal" href="#aperture-explained"><span class="std std-numref">Fig. 43</span></a>)):</p>
+When you open your aperture (i.e., lower number, see (<a class="reference internal" href="#aperture-explained"><span class="std std-numref">Fig. 45</span></a>)):</p>
 <ul class="simple">
 <li><p>more light hits the sensor</p></li>
 <li><p>depth of field decreases.</p></li>
@@ -559,12 +577,12 @@ When you open your aperture (i.e., lower number, see (<a class="reference intern
 <figure class="align-default" id="aperture-explained">
 <img alt="../../../_images/aperture-field.png" src="../../../_images/aperture-field.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 43 </span><span class="caption-text">The impact of changing the aperture on depth of field and focus. Image modified from <span id="id5">[<a class="reference internal" href="../bibliography.html#id6" title="Understanding Aperture and Depth of Field. February 2017."><em>Understanding Aperture and Depth of Field</em>, 2017</a>]</span>.</span><a class="headerlink" href="#aperture-explained" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 45 </span><span class="caption-text">The impact of changing the aperture on depth of field and focus. Image modified from <span id="id5">[<a class="reference internal" href="../bibliography.html#id6" title="Understanding Aperture and Depth of Field. February 2017."><em>Understanding Aperture and Depth of Field</em>, 2017</a>]</span>.</span><a class="headerlink" href="#aperture-explained" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="shutter-speed">
-<span id="id6"></span><h4>Shutter speed<a class="headerlink" href="#shutter-speed" title="Permalink to this headline">#</a></h4>
+<span id="id6"></span><h4>Shutter speed<a class="headerlink" href="#shutter-speed" title="Permalink to this heading">#</a></h4>
 <p>Your camera’s shutter governs the duration that light passes through and is captured by your camera’s sensor.
 The amount of time is typically listed in seconds, and each step on the shutter speed scale will give you half or twice the amount of light.
 All light captured by the sensor over the amount of time (“acquisition time”) is averaged to give rise to a captured image.
@@ -573,7 +591,7 @@ Secondly, capturing movements within the acquisition time will result in <a clas
 Some additional examples of how to deal with shutter speed are found in e.g. <span id="id7">[<a class="reference internal" href="../bibliography.html#id7" title="Shutter Speed. February 2017."><em>Shutter Speed</em>, 2017</a>]</span>.</p>
 </section>
 <section id="iso">
-<h4>ISO<a class="headerlink" href="#iso" title="Permalink to this headline">#</a></h4>
+<h4>ISO<a class="headerlink" href="#iso" title="Permalink to this heading">#</a></h4>
 <p>The ISO number describes how much the processor in your camera amplifies the light collected by the sensor.
 It is in a sense an indicator for how much the image is altered to produce a correctly exposed image.
 As with shutter speed and aperture, each step on the ISO scale doubles or halves the camera’s sensitivity.
@@ -581,11 +599,11 @@ However, as it increases the camera’s sensitivity, it also introduces noise!
 It is thus always advised to keep the ISO as low as possible.</p>
 </section>
 <section id="working-the-triangle-the-rule-of-equivalent-exposures">
-<h4>Working the triangle: The Rule of Equivalent Exposures<a class="headerlink" href="#working-the-triangle-the-rule-of-equivalent-exposures" title="Permalink to this headline">#</a></h4>
+<h4>Working the triangle: The Rule of Equivalent Exposures<a class="headerlink" href="#working-the-triangle-the-rule-of-equivalent-exposures" title="Permalink to this heading">#</a></h4>
 <figure class="align-default" id="id9">
 <img alt="../../../_images/exposure-triangle.png" src="../../../_images/exposure-triangle.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 44 </span><span class="caption-text">The exposure triangle. Image from <span id="id8">[<a class="reference internal" href="../bibliography.html#id5" title="The Exposure Triangle. February 2017."><em>The Exposure Triangle</em>, 2017</a>]</span>.</span><a class="headerlink" href="#id9" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 46 </span><span class="caption-text">The exposure triangle. Image from <span id="id8">[<a class="reference internal" href="../bibliography.html#id5" title="The Exposure Triangle. February 2017."><em>The Exposure Triangle</em>, 2017</a>]</span>.</span><a class="headerlink" href="#id9" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Exposure and capturing images with the right settings thus comes down to an interplay between the ISO, shutter speed and aperture values <span id="id10">[<a class="reference internal" href="../bibliography.html#id5" title="The Exposure Triangle. February 2017."><em>The Exposure Triangle</em>, 2017</a>]</span>.
@@ -594,7 +612,7 @@ Thus, if one action cuts the light by half, then you must double it in another t
 </section>
 </section>
 <section id="digital-outcrop-resolution">
-<span id="gsd-section"></span><h3>Digital outcrop resolution<a class="headerlink" href="#digital-outcrop-resolution" title="Permalink to this headline">#</a></h3>
+<span id="gsd-section"></span><h3>Digital outcrop resolution<a class="headerlink" href="#digital-outcrop-resolution" title="Permalink to this heading">#</a></h3>
 <p>The resolution of the virtual outcrop is dependent on the camera’s sensor resolution and the proximity of the photographs to the cliff.
 The maximum resolution of the data that can be acquired, is typically referred to as the ground-sampling-distance (GSD), and can be calculated as follows:</p>
 <div class="math notranslate nohighlight" id="equation-gsd-equation">
@@ -608,7 +626,7 @@ The maximum resolution of the data that can be acquired, is typically referred t
 </div>
 </section>
 <section id="light-and-shadows">
-<h3>Light and shadows<a class="headerlink" href="#light-and-shadows" title="Permalink to this headline">#</a></h3>
+<h3>Light and shadows<a class="headerlink" href="#light-and-shadows" title="Permalink to this heading">#</a></h3>
 <p>When planning your UAV acquisition survey, it is crucial to consider outcrop orientation and lighting. Bad light on your pictures will require strong post-processing and likely result in a bad model.</p>
 <p>Smooth outcrops in direct sunlight will produce excellent results, but rough outcrops and harsh lighting can create shadows in the model.</p>
 <p>To get the best surveying results, it’s recommended to do so on a bright, overcast day with even lighting. This helps to minimize shadows and provide ample light for your outcrop. Contrary to popular belief, a sunny day with clear blue skies is not ideal for surveying. The strong sunlight can create excessive shadows, which may cause issues with camera exposure and focus. This can lead to issues like flare and details being obscured by shadow, especially when the sun is directly behind or above the cliffs.</p>
@@ -616,10 +634,10 @@ The maximum resolution of the data that can be acquired, is typically referred t
 </section>
 </section>
 <section id="camera-set-up-and-calibration">
-<h2>Camera set-up and calibration<a class="headerlink" href="#camera-set-up-and-calibration" title="Permalink to this headline">#</a></h2>
+<h2>Camera set-up and calibration<a class="headerlink" href="#camera-set-up-and-calibration" title="Permalink to this heading">#</a></h2>
 <p>Proper camera setup is crucial in creating a high-quality 3D model. Before every flight, make sure to adjust the camera settings according to the light conditions to ensure optimal data collection.</p>
 <section id="image-format">
-<h3>Image format<a class="headerlink" href="#image-format" title="Permalink to this headline">#</a></h3>
+<h3>Image format<a class="headerlink" href="#image-format" title="Permalink to this heading">#</a></h3>
 <p>With the DJI UAVs you have the possibility to switch the image file format to either RAW or JPG.</p>
 <p>If you’re wondering which image file format to use, we suggest choosing JPG. In most cases, it’s best to go with JPG since RAW files are much larger and require processing before they can be used, which can be a problem when dealing with hundreds or even thousands of images. Unless you’re dealing with challenging or fluctuating lighting conditions, shooting in RAW isn’t necessary. However, if you do encounter such situations, RAW images will give you more flexibility to adjust exposure stops later on.</p>
 <div class="tip admonition">
@@ -628,17 +646,17 @@ The maximum resolution of the data that can be acquired, is typically referred t
 </div>
 </section>
 <section id="shutter-speed-and-camera-aperture">
-<span id="shutter-section"></span><h3>Shutter speed and camera aperture<a class="headerlink" href="#shutter-speed-and-camera-aperture" title="Permalink to this headline">#</a></h3>
+<span id="shutter-section"></span><h3>Shutter speed and camera aperture<a class="headerlink" href="#shutter-speed-and-camera-aperture" title="Permalink to this heading">#</a></h3>
 <p>When taking photographs, it is important to balance the aperture and shutter speed. The aperture controls the depth of field, while the shutter speed helps prevent blurry images.</p>
 <p>For uniform lighting and non-backlit subjects, auto exposure will suffice. However, for better modelling, a small aperture with a high F-number and depth of field is recommended. If the subject is well-lit, choose Aperture Priority and select F/11 or higher. This will reduce the shutter speed, but a fast shutter speed of 1/250 or faster is necessary to compensate for the movement of the UAV.</p>
 <p>To determine the appropriate shutter speed for your selected aperture, use spot metering by pointing the camera at the darkest part of the subject. Adjust the ISO to compensate, but keep it as low as possible to minimize sensor noise. Using DJI Phantom Series and DJI Mavic Series cameras, an ISO of up to 800 or even 1600 is still acceptable.</p>
 </section>
 <section id="white-balance">
-<h3>White balance<a class="headerlink" href="#white-balance" title="Permalink to this headline">#</a></h3>
+<h3>White balance<a class="headerlink" href="#white-balance" title="Permalink to this heading">#</a></h3>
 <p>For consistent photo quality, it’s important to manually set the White Balance (WB) to either sunny or cloudy depending on the lighting conditions, instead of leaving it on auto. This will prevent color variations in your survey photos.</p>
 </section>
 <section id="timelapse">
-<h3>Timelapse<a class="headerlink" href="#timelapse" title="Permalink to this headline">#</a></h3>
+<h3>Timelapse<a class="headerlink" href="#timelapse" title="Permalink to this heading">#</a></h3>
 <p>The frequency of the camera timelapse depends on the data being collected and the speed at which the UAV is flying.</p>
 <ul class="simple">
 <li><p>Three seconds works well for detailed outcrops flown in Tripod Mode (max speed of 1 m/s)</p></li>
@@ -651,11 +669,11 @@ The maximum resolution of the data that can be acquired, is typically referred t
 </div>
 </section>
 <section id="focus">
-<h3>Focus<a class="headerlink" href="#focus" title="Permalink to this headline">#</a></h3>
+<h3>Focus<a class="headerlink" href="#focus" title="Permalink to this heading">#</a></h3>
 <p>We recommend using the camera’s auto-focus feature when taking pictures to make data collection easier. However, using the timelapse option with auto-focus does not guarantee that the camera will stay focused for every photo. You will need to adjust it manually for each shot by half-clicking the <em>Focus / Shutter</em> button on the upper-right of the DJI smart controller’s top.</p>
 </section>
 <section id="motion-blur-and-shutter-speed">
-<span id="motion-blur"></span><h3>Motion blur and shutter speed<a class="headerlink" href="#motion-blur-and-shutter-speed" title="Permalink to this headline">#</a></h3>
+<span id="motion-blur"></span><h3>Motion blur and shutter speed<a class="headerlink" href="#motion-blur-and-shutter-speed" title="Permalink to this heading">#</a></h3>
 <p>Closely related to many of the parameters described above is the motion blur phenomenon.
 This effect occurs when a picture is taken with an exposure time that is longer than it takes for the camera to move past the object.
 In other words, motion blur occurs when the speed of movement is high in comparison with the <a class="reference internal" href="#shutter-speed"><span class="std std-ref">shutter speed</span></a> and the <a class="reference internal" href="#gsd-section"><span class="std std-ref">GSD</span></a>.
@@ -883,24 +901,24 @@ Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
 </section>
 </section>
 <section id="uav-controller-layout">
-<h2>UAV controller layout<a class="headerlink" href="#uav-controller-layout" title="Permalink to this headline">#</a></h2>
+<h2>UAV controller layout<a class="headerlink" href="#uav-controller-layout" title="Permalink to this heading">#</a></h2>
 <p>When you operate DJI UAVs with the smart controller and pre-set options, you can use the buttons and dials on the top to control the camera. On the left side, you’ll find the video <em>Record/stop</em> button, and below it is the <em>Gimbal control dial</em>, which you can rotate to adjust the camera’s vertical angle. On the right side, there’s the  <em>Focus / Shutter</em> button, which we previously advised you to half-click to focus before each photo.</p>
 <figure class="align-default" id="controller-layout">
 <img alt="../../../_images/controller-layout.png" src="../../../_images/controller-layout.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 45 </span><span class="caption-text">DJI smart controller top layout. <a class="reference external" href="https://flyingcdn-fb1c04ff.b-cdn.net/wp-content/uploads/2020/12/bottom-connectors.jpg?width=800">Image source</a>.</span><a class="headerlink" href="#controller-layout" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 47 </span><span class="caption-text">DJI smart controller top layout. <a class="reference external" href="https://flyingcdn-fb1c04ff.b-cdn.net/wp-content/uploads/2020/12/bottom-connectors.jpg?width=800">Image source</a>.</span><a class="headerlink" href="#controller-layout" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 <section id="flight-pattern">
-<h2>Flight pattern<a class="headerlink" href="#flight-pattern" title="Permalink to this headline">#</a></h2>
+<h2>Flight pattern<a class="headerlink" href="#flight-pattern" title="Permalink to this heading">#</a></h2>
 <section id="vertical-outcrops">
-<h3>Vertical outcrops<a class="headerlink" href="#vertical-outcrops" title="Permalink to this headline">#</a></h3>
+<h3>Vertical outcrops<a class="headerlink" href="#vertical-outcrops" title="Permalink to this heading">#</a></h3>
 <p>To get the best data from a flight, making at least two (ideally three) passes along each section of the outcrop is recommended. The UAV should be flown sideways, facing directly at the cliff. As you fly, ensure that there’s at least a 70% overlap between adjacent photos. If the outcrop is curved or concave, adjust your flight path accordingly to capture all angles. You can take as many photos as needed, and sort them later during processing. The first pass should be low, with the camera pointing horizontally and tilted at a 10-degree angle. The second pass should be done from a higher altitude and with the camera tilted at a 30-40 degree angle. Finally, the third pass should be done from an even higher altitude, with the camera tilted at an 80-degree angle. Collecting overview photos taken from further back can be useful as a reference in the model-building process <span id="id11">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>.</p>
 <figure class="align-default" id="howelletal1">
 <img alt="../../../_images/howelletal1.png" src="../../../_images/howelletal1.png" />
 <figcaption>
-<p><span class="caption-number">Fig. 46 </span><span class="caption-text">Figure published by <span id="id12">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>. Fly at least two transects to ensure complete coverage of the cliff section.</span><a class="headerlink" href="#howelletal1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 48 </span><span class="caption-text">Figure published by <span id="id12">Howell <em>et al.</em> [<a class="reference internal" href="../bibliography.html#id2" title="John Howell, Magda Chmielewska, Conor Lewis, Simon Buckley, Nicole Naumann, and Jessica Pugsley. Acquisition of data for building photogrammetric virtual outcrop models for the geosciences using remotely piloted vehicles (rpvs). EarthArXiv, 2021.">2021</a>]</span>. Fly at least two transects to ensure complete coverage of the cliff section.</span><a class="headerlink" href="#howelletal1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>For larger outcrops or lower-resolution models, two flight passes might be enough. In this case, the UAV should be flown further away from the outcrop to fit the entire height in each photo. The first pass should be done with the camera facing downward at a 5-15 degree angle, and the second pass should be done with the camera tilted up at a 20-40 degree angle and the UAV flying higher.</p>
@@ -912,12 +930,12 @@ Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
 </div>
 </section>
 <section id="horizontal-outcrops">
-<h3>Horizontal outcrops<a class="headerlink" href="#horizontal-outcrops" title="Permalink to this headline">#</a></h3>
+<h3>Horizontal outcrops<a class="headerlink" href="#horizontal-outcrops" title="Permalink to this heading">#</a></h3>
 <p>To map planar surfaces like wave-cut platforms, you don’t need to make three passes. Instead, you can fly a grid with the camera facing downwards. This can be easily done with a mission planning app. Alternatively, you can use the map function and fly around the perimeter of the area you want to record. Then, move in from one of the sides until you achieve a view with a 70% overlap. Fly a straight line, move sideways by the same amount, and repeat until the box is filled. If there are any vertical ledges or shelves in the view, flying some passes looking at 40 degrees will improve the model.</p>
 </section>
 </section>
 <section id="contingency-plans">
-<h2>Contingency plans<a class="headerlink" href="#contingency-plans" title="Permalink to this headline">#</a></h2>
+<h2>Contingency plans<a class="headerlink" href="#contingency-plans" title="Permalink to this heading">#</a></h2>
 <p>It is wise to have contingency plans in place in the event your UAV loses connection or low battery levels.</p>
 <p>While DJI UAVs typically provide alerts for battery connectivity issues, malfunctions, and remote controller disconnection, the response time may sometimes be brief. In the event of any flight problems, the top priority should always be to quickly and safely land the UAV in a secure location.</p>
 <p><em>Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!</em></p>
@@ -937,7 +955,7 @@ Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
         },
         kernelOptions: {
             name: "python3",
-            path: "./content\lessons\data_acquisition"
+            path: "./content/lessons/data_acquisition"
         },
         predefinedOutput: true
     }
@@ -949,11 +967,10 @@ Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../flight_simulator/flight_simulator.html"
@@ -973,10 +990,7 @@ Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -984,6 +998,7 @@ Mavic 3 Hasselblad sensor</label><div class="sd-tab-content docutils">
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -1050,6 +1065,7 @@ By Nil Rodes, Peter Betlem, Sara M. Cohen
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2023 (CC-BY-NC except where otherwise stated).
@@ -1076,8 +1092,8 @@ By Nil Rodes, Peter Betlem, Sara M. Cohen
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
 
   <footer class="bd-footer">
   </footer>
