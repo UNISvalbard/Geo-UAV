@@ -20,7 +20,7 @@ Map around Longyearbyen where flying drones is prohibited. You can open the map 
 ```{admonition} Avinor online map
 :class: seealso
 
-<iframe id="glu" width="100%" src=https://avinor.maps.arcgis.com/apps/webappviewer/index.html?id=180ddf6f3d1545f8b0a297df59895e3b&amp;extent=15.3864,78.2339,15.5592,78.2583 frameborder="0" scrolling="no" style="height: 500px;"></iframe>
+<iframe src="https://api.avinor.no/karttjenester/dronerestriksjoner/lufthavn.html?iata=LYR" width="100%" height="600" frameborder="0" scrolling="auto"></iframe>
 ```
 
 ## Ny-Alesund
