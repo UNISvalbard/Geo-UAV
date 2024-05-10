@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" data-content_root="../../../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>How to fly a multirotor UAV &#8212; Geo-UAV</title>
   
@@ -19,55 +18,53 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
-    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
-    <script src="../../../_static/jquery.js"></script>
-    <script src="../../../_static/underscore.js"></script>
-    <script src="../../../_static/doctools.js"></script>
-    <script src="../../../_static/clipboard.min.js"></script>
-    <script src="../../../_static/copybutton.js"></script>
-    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../../_static/togglebutton.js"></script>
+    <script src="../../../_static/togglebutton.js?v=4a39c7ea"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../../../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script src="../../../_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/lessons/howto_fly/howto_fly';</script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="DJI flight simulator" href="../flight_simulator/flight_simulator.html" />
     <link rel="prev" title="UAV post-flight check list" href="../check_list/postflight_checklist.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -75,7 +72,15 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -116,11 +121,14 @@ const thebe_selector_output = ".output, .cell_output"
   </div>
 
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -135,9 +143,11 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="../../../landing-page.html">
+  
   
   
   
@@ -147,12 +157,23 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Geo-UAV - Home"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Geo-UAV - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
@@ -374,20 +395,22 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -443,10 +466,10 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="how-to-fly-a-multirotor-uav">
-<h1>How to fly a multirotor UAV<a class="headerlink" href="#how-to-fly-a-multirotor-uav" title="Permalink to this headline">#</a></h1>
+<h1>How to fly a multirotor UAV<a class="headerlink" href="#how-to-fly-a-multirotor-uav" title="Link to this heading">#</a></h1>
 <p>Flying a multirotor UAV for the first time can be challenging for anyone. There is a learning curve to it. The goal of this section is to help you fly your UAV safely and efficiently during your acquisition campaign.
 When creating your flight plan, you will need to decide if you want to fly manually or plan an automatic flight.</p>
 <div class="warning admonition">
@@ -458,7 +481,7 @@ When creating your flight plan, you will need to decide if you want to fly manua
 </ol>
 </div>
 <section id="manual">
-<h2>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">#</a></h2>
+<h2>Manual<a class="headerlink" href="#manual" title="Link to this heading">#</a></h2>
 <p>As we discussed, manual flight is the preferred method in Svalbard.</p>
 <p>When operating the UAV, it is advised to keep your focus on the controller screen. Initially, you may be inclined to look at the UAV in flight. However, please note that the controls will be reversed depending on whether the drone is facing towards you or away from you. To avoid confusion, utilizing a First Person View (FPV) allows for better visualization of the UAV’s movements, rather than its orientation towards you, resulting in a smoother flight.</p>
 <div class="note admonition">
@@ -467,7 +490,7 @@ When creating your flight plan, you will need to decide if you want to fly manua
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vq2FL5vFQPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <section id="uav-controls">
-<h3>UAV controls<a class="headerlink" href="#uav-controls" title="Permalink to this headline">#</a></h3>
+<h3>UAV controls<a class="headerlink" href="#uav-controls" title="Link to this heading">#</a></h3>
 <p>As you continue to fly for a few hours, you will become more familiar with how the controls work together to provide a complete flying experience. When you first begin, it’s best to gently push the sticks to create small movements. As you become more confident, you can increase the intensity of your movements for sharper turns and maneuvers.</p>
 <p>There are four main drone controls:</p>
 <ul class="simple">
@@ -477,30 +500,30 @@ When creating your flight plan, you will need to decide if you want to fly manua
 <li><p><strong>Throttle</strong>: Throttle gives the propellers on your drone enough power to get airborne. When flying, you will have the throttle engaged constantly. To engage the throttle, push the left stick forward. To disengage, pull it backwards.</p></li>
 </ul>
 <section id="power-your-uav">
-<h4>Power your UAV<a class="headerlink" href="#power-your-uav" title="Permalink to this headline">#</a></h4>
+<h4>Power your UAV<a class="headerlink" href="#power-your-uav" title="Link to this heading">#</a></h4>
 <p>To power on your DJI UAV, you’ll need to press the battery on/off button twice. Press it quickly first, then hold it down for a longer period. You’ll hear a “click” sound as the UAV engines are armed and the lights around the button will indicate your battery level.</p>
 <figure class="align-default" id="turnon">
 <img alt="../../../_images/turnon.gif" src="../../../_images/turnon.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 26 </span><span class="caption-text">Press and hold the power button on a DJI Mavic 2 Pro to power on the UAV.</span><a class="headerlink" href="#turnon" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 26 </span><span class="caption-text">Press and hold the power button on a DJI Mavic 2 Pro to power on the UAV.</span><a class="headerlink" href="#turnon" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>To power on the Smart Controller, it is the same steps as with the UAV.</p>
 <figure class="align-default" id="turnon-controller">
 <img alt="../../../_images/turnon-controller.gif" src="../../../_images/turnon-controller.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Press and hold the power button on the DJI Smart Controller to power it on/off.</span><a class="headerlink" href="#turnon-controller" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Press and hold the power button on the DJI Smart Controller to power it on/off.</span><a class="headerlink" href="#turnon-controller" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 </section>
 <section id="position-of-the-antennas">
-<h3>Position of the antennas<a class="headerlink" href="#position-of-the-antennas" title="Permalink to this headline">#</a></h3>
+<h3>Position of the antennas<a class="headerlink" href="#position-of-the-antennas" title="Link to this heading">#</a></h3>
 <p>For optimal signal reception, ensure that the remote controller’s antennas are directed towards the UAV.
 In case of weak reception, try rotating the antennas 90 degrees.</p>
 </section>
 <section id="how-to-take-off">
-<h3>How to take-off<a class="headerlink" href="#how-to-take-off" title="Permalink to this headline">#</a></h3>
+<h3>How to take-off<a class="headerlink" href="#how-to-take-off" title="Link to this heading">#</a></h3>
 <p>To launch your UAV, the only control you need to use is the throttle. We suggest gradually pushing up the throttle stick (left joystic) multiple times until you feel at ease with its sensitivity. When you are comfortable, you can increase the throttle to lift the multirotor off the ground.</p>
 <div class="note admonition">
 <p class="admonition-title">Flying DJI UAV multirotor</p>
@@ -509,13 +532,13 @@ In case of weak reception, try rotating the antennas 90 degrees.</p>
 <figure class="align-default" id="takeoff">
 <img alt="../../../_images/takeoff.gif" src="../../../_images/takeoff.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Pull both joysticks towards the center and then push the left stick.</span><a class="headerlink" href="#takeoff" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Pull both joysticks towards the center and then push the left stick.</span><a class="headerlink" href="#takeoff" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="how-to-land-your-uav">
-<h3>How to land your UAV<a class="headerlink" href="#how-to-land-your-uav" title="Permalink to this headline">#</a></h3>
+<h3>How to land your UAV<a class="headerlink" href="#how-to-land-your-uav" title="Link to this heading">#</a></h3>
 <p>To land the UAV you need to cut back throttle slowly. It is important that you practice and get comfortable landing gently to avoid damage to the UAV.</p>
 <div class="note admonition">
 <p class="admonition-title">Flying DJI UAV multirotor</p>
@@ -525,14 +548,14 @@ In case of weak reception, try rotating the antennas 90 degrees.</p>
 <figure class="align-default" id="land-ground">
 <img alt="../../../_images/land-ground.gif" src="../../../_images/land-ground.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 29 </span><span class="caption-text">To land move the left throttle stick downward for about 3 seconds.</span><a class="headerlink" href="#land-ground" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">To land move the left throttle stick downward for about 3 seconds.</span><a class="headerlink" href="#land-ground" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>If the terrain is uneven or is tilted, it is advisable to land the UAV on the co-pilot’s hand.</p>
 <figure class="align-default" id="land-hand">
 <img alt="../../../_images/land-hand.gif" src="../../../_images/land-hand.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 30 </span><span class="caption-text">To land on the hand, also the left throttle stick downward for about 3 seconds. Do not move the hand.</span><a class="headerlink" href="#land-hand" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 30 </span><span class="caption-text">To land on the hand, also the left throttle stick downward for about 3 seconds. Do not move the hand.</span><a class="headerlink" href="#land-hand" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="warning admonition">
@@ -540,7 +563,7 @@ In case of weak reception, try rotating the antennas 90 degrees.</p>
 <p>In order to avoid any potential injuries, it is important that you are very careful when dealing with the UAV’s blades. We highly recommend that you approach the UAV from below and securely grip the center body with your fingers.</p>
 </div>
 <section id="return-to-home-rth">
-<h4>Return to home (RTH)<a class="headerlink" href="#return-to-home-rth" title="Permalink to this headline">#</a></h4>
+<h4>Return to home (RTH)<a class="headerlink" href="#return-to-home-rth" title="Link to this heading">#</a></h4>
 <p>The DJI Return to Home feature ensures the safe landing of your drone by bringing it back to either a pre-selected home point or a safe landing spot. In the event of a communication loss between the controller and the drone, the feature will automatically activate, causing the UAV to fly up to a predetermined height before returning to the home point. To avoid any obstacles on the way home, it’s crucial to set the height high enough. It’s recommended to set the height each time instead of setting it to a very high number and forgetting about it, as running out of battery on the way home could cause a forced landing.</p>
 <div class="warning admonition">
 <p class="admonition-title">User recommendations</p>
@@ -549,10 +572,10 @@ In case of weak reception, try rotating the antennas 90 degrees.</p>
 </section>
 </section>
 <section id="move-left-right-and-forward-backward">
-<h3>Move left/right and forward/backward<a class="headerlink" href="#move-left-right-and-forward-backward" title="Permalink to this headline">#</a></h3>
+<h3>Move left/right and forward/backward<a class="headerlink" href="#move-left-right-and-forward-backward" title="Link to this heading">#</a></h3>
 <p>To fly a UAV left, right, forwards, and backwards, you will need to hold the throttle at a steady rate (do not touch it when using DJI UAVs) to keep it airborne. You will then use the right stick to maneuver the drone in the direction you want it to go.</p>
 <section id="left-right">
-<h4>Left/right<a class="headerlink" href="#left-right" title="Permalink to this headline">#</a></h4>
+<h4>Left/right<a class="headerlink" href="#left-right" title="Link to this heading">#</a></h4>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -563,7 +586,7 @@ Left</div>
 <figure class="align-default" id="move-left">
 <img alt="../../../_images/move-left.gif" src="../../../_images/move-left.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Move the joystick to the left.</span><a class="headerlink" href="#move-left" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Move the joystick to the left.</span><a class="headerlink" href="#move-left" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -577,7 +600,7 @@ Right</div>
 <figure class="align-default" id="move-right">
 <img alt="../../../_images/move-right.gif" src="../../../_images/move-right.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Move the joystick to the right.</span><a class="headerlink" href="#move-right" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Move the joystick to the right.</span><a class="headerlink" href="#move-right" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -587,7 +610,7 @@ Right</div>
 </div>
 </section>
 <section id="forward-backward">
-<h4>Forward/backward<a class="headerlink" href="#forward-backward" title="Permalink to this headline">#</a></h4>
+<h4>Forward/backward<a class="headerlink" href="#forward-backward" title="Link to this heading">#</a></h4>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-g-2 sd-g-xs-2 sd-g-sm-2 sd-g-md-2 sd-g-lg-2 docutils">
 <div class="sd-col sd-d-flex-row docutils">
@@ -598,7 +621,7 @@ Forward</div>
 <figure class="align-default" id="move-forward">
 <img alt="../../../_images/move-forward.gif" src="../../../_images/move-forward.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Push the joystick forward.</span><a class="headerlink" href="#move-forward" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 33 </span><span class="caption-text">Push the joystick forward.</span><a class="headerlink" href="#move-forward" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -612,7 +635,7 @@ Backward</div>
 <figure class="align-default" id="move-back">
 <img alt="../../../_images/move-back.gif" src="../../../_images/move-back.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Pull the joystick backwards (towards you).</span><a class="headerlink" href="#move-back" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 34 </span><span class="caption-text">Pull the joystick backwards (towards you).</span><a class="headerlink" href="#move-back" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </div>
@@ -623,18 +646,18 @@ Backward</div>
 </section>
 </section>
 <section id="how-to-rotate-the-uav">
-<h3>How to rotate the UAV<a class="headerlink" href="#how-to-rotate-the-uav" title="Permalink to this headline">#</a></h3>
+<h3>How to rotate the UAV<a class="headerlink" href="#how-to-rotate-the-uav" title="Link to this heading">#</a></h3>
 <p>To rotate the UAV you will need to move the throttle stick right to move clockwise and left to move anti-clockwise. You can rotate the UAV 360 degrees.</p>
 <figure class="align-default" id="rotate-right">
 <img alt="../../../_images/rotate-right.gif" src="../../../_images/rotate-right.gif" />
 <figcaption>
-<p><span class="caption-number">Fig. 35 </span><span class="caption-text">Move the throttle stick to the right or left to rotate the UAV.</span><a class="headerlink" href="#rotate-right" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 35 </span><span class="caption-text">Move the throttle stick to the right or left to rotate the UAV.</span><a class="headerlink" href="#rotate-right" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
 </section>
 <section id="automatic">
-<h2>Automatic<a class="headerlink" href="#automatic" title="Permalink to this headline">#</a></h2>
+<h2>Automatic<a class="headerlink" href="#automatic" title="Link to this heading">#</a></h2>
 <div class="warning admonition">
 <p class="admonition-title">Under construction!</p>
 <p>The Geo-UAV module of on how automatically fly a multirotor UAV is still under construction.</p>
@@ -660,7 +683,7 @@ Backward</div>
         },
         kernelOptions: {
             name: "python3",
-            path: "./content\lessons\howto_fly"
+            path: "./content/lessons/howto_fly"
         },
         predefinedOutput: true
     }
@@ -672,11 +695,10 @@ Backward</div>
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../check_list/postflight_checklist.html"
@@ -696,10 +718,7 @@ Backward</div>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -707,6 +726,7 @@ Backward</div>
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -755,6 +775,7 @@ By Nil Rodes, Peter Betlem, Sara M. Cohen
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2023 (CC-BY-NC except where otherwise stated).
@@ -781,8 +802,8 @@ By Nil Rodes, Peter Betlem, Sara M. Cohen
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
 
   <footer class="bd-footer">
   </footer>
