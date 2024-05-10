@@ -80,7 +80,7 @@ The developement of Geo-AUV is funded by [iEarth](https://www.iearth.no/), a Nor
 ````{grid-item}
 :columns: 4
 
-```{image} https://svalbox.no/_static/logo.svg
+```{image} ./content/assets/Svalbox-logo.png
 :class: m-auto
 :width: 50px
 :target: https://svalbox.no
