@@ -42,10 +42,6 @@ parts:
   chapters:
   - file: content/lessons/bibliography.md
 
-- caption: QUESTIONNAIRE
-  chapters:
-  - file: content/survey.md
-
 - caption: External Links
   chapters:
   - url: https://unisvalbard.github.io/ebooks/

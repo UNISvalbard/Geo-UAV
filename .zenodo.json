@@ -1,0 +1,34 @@
+{
+    "title": "Geo-UAV: Teaching geoscientific drone-based data acquisition",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "creators": [
+        {
+            "name": "Rodes, Nil",
+            "affiliation": "The University Centre in Svalbard",
+            "orcid": "0000-0002-6168-2936"
+        },
+        {
+            "affiliation": "The University Centre in Svalbard",
+            "name": "Betlem, Peter",
+            "orcid": "0000-0002-6017-9415"
+        },
+        {
+            "name": "Cohen, Sara Mollie",
+            "affiliation": "The University Centre in Svalbard"
+        }
+        ],
+    "access_right": "open",
+    "license": "CC-BY-NC-4.0",
+    "related_identifiers": [
+        {
+            "relation": "isSourceOf", 
+            "identifier":"https://unisvalbard.github.io/Geo-UAV/"
+        }, 
+        {
+            "relation": "isSupplementedBy", 
+            "identifier":"https://github.com/UNISvalbard/Geo-UAV"
+        }
+    ],
+    "language": "eng"
+}
