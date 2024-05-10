@@ -1,4 +1,7 @@
 # Geo-UAV
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> [![Build and Deploy](https://github.com/UNISvalbard/Geo-UAV/actions/workflows/build%20and%20deploy.yml/badge.svg)](https://github.com/UNISvalbard/Geo-UAV/actions/workflows/build%20and%20deploy.yml) [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11173398.svg)](https://doi.org/10.5281/zenodo.11173398)
+
 [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
 
 Unmanned Aerial Vehicles, also known as UAVs, are being used extensively for recreational, commercial, academic, and government purposes. They are particularly useful in geosciences to survey large areas accurately and efficiently. This course offers guidelines on how to acquire scientifically publishable data using UAVs in a safe and legal manner.
