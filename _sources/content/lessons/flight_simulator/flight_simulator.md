@@ -1,3 +1,4 @@
+(dji-fly-simulator)=
 # DJI flight simulator
 
 Improve your piloting skills without risking damage to your expensive UAV. DJI offers an open flight simulator for practice. This simulator provides a realistic flying experience that accurately models the performance of each UAV model in various flight conditions, including wind and weather changes.

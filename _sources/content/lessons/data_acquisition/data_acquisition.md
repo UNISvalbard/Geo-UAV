@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-
+(survey-plan-and-data-acquisition)=
 # Survey plan and Data acquisition
 The initial phase of UAV-based photogrammetry is data acquisition, which involves capturing aerial photographs with a specific objective and subject. To gather high-quality data, it is crucial to adhere to best practices when taking photos for photogrammetry.
 

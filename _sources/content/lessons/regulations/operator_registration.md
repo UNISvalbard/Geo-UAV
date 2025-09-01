@@ -1,3 +1,4 @@
+(register-as-uas-operator)=
 # Register as a UAS operator
 
 ##  UAV Flying license in Europe
