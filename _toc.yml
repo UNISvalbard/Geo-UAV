@@ -5,6 +5,7 @@ parts:
 - caption: INTRODUCTION
   chapters:
   - file: content/lessons/intro/intro.md
+  - file: content/lessons/intro/quick-list.md
   - file: content/lessons/uav_types/definitions.md
   - file: content/lessons/uav_types/uav_types.md
     sections:

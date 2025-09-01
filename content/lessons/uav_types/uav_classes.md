@@ -9,6 +9,11 @@ The classification is divided into seven classes, labeled **C0 to C6**, which pr
 Seven classes of EASA's class identification labels.
 ```
 
+```{figure} https://www.easa.europa.eu/sites/default/files/inline-images/Drones_poster4_EN_v4TN.png
+:name: EASA_open_classes
+What type of drone can I fly? From EASA.
+```
+
 ## [Class 0 with camera](https://www.easa.europa.eu/en/downloads/120845/en)
 `````{grid}
 ````{grid-item}

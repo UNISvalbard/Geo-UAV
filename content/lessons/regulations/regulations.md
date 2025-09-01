@@ -1,3 +1,4 @@
+(uav-flight-regulations)=
 # UAV flight regulations
 
 The flying regulations in the European Union are established by EASA ([European Union Aviation Safety Agency](https://www.easa.europa.eu/en)). The main goal of EASA is to establish uniform safety standards for civil aviation operations across all Member States. They achieve this by creating common rules that apply to all states. To standardize regulations for Unmanned Aircraft Systems (UAS), they have developed [EU Regulations 2019/947 and 2019/945](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulations-eu).
