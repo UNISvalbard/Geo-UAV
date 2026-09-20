@@ -42,3 +42,5 @@ bibtex_bibfiles: "bibliography.bib"
 sphinx:
   config:
     bibtex_reference_style: author_year
+    html_extra_path:
+      - extra

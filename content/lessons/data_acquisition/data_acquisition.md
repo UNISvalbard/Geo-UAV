@@ -13,6 +13,11 @@ kernelspec:
 
 (survey-plan-and-data-acquisition)=
 # Survey plan and Data acquisition
+
+## Lecture
+
+<iframe src="../../../slides/ppt/survey-plan.html" title="Geo-UAV survey plan and data acquisition lecture" width=100% height=450em></iframe>
+
 The initial phase of UAV-based photogrammetry is data acquisition, which involves capturing aerial photographs with a specific objective and subject. To gather high-quality data, it is crucial to adhere to best practices when taking photos for photogrammetry.
 
 When acquiring data in the field, it is important to consider the requirements for acquisition. Like any project, there's a connection between time, quality, and costs. Time refers to the available period for data collection, cost represents the necessary resources, and quality represents the resolution and fit-to-purpose that we want for our DEM or 3D model.
